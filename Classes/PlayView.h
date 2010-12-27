@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "UIPlayPauseButton.h"
+#import "UIPlayPauseStateCallback.h"
 
-@interface PlayView : UIView {
+@interface PlayView : UIView <UIPlayPauseStateCallback> {
 	UILabel* label;
 	UIPlayPauseButton* playPauseButton;
 	UIButton* nextButton;

@@ -7,10 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "UIPlayPauseStateCallback.h"
 
 @interface PlayerManager : NSObject {
-
+	bool _playing;
 }
++ (PlayerManager *)sharedPlayerManager;
+
+- (void)pb_togglePlayPause:(id <UIPlayPauseStateCallback>)callthis;
+- (void)pb_next;
+- (void)pb_prev;
 
 @end

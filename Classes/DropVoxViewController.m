@@ -6,22 +6,14 @@
 //  Copyright __MyCompanyName__ 2010. All rights reserved.
 //
 
+#import "PlayerManager.h"
 #import "DropVoxViewController.h"
 #import "PlayView.h"
 
 @implementation DropVoxViewController
 
-
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
+#pragma mark -
+#pragma mark Initialization
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
@@ -41,6 +33,33 @@
 }
 
 
+#pragma mark -
+#pragma mark Click Handling
+
+
+-(void)playPauseButtonClicked:(id)sender {
+	NSLog(@"playPause button clicked");
+	[[PlayerManager sharedPlayerManager] pb_togglePlayPause:self.view];
+//	if ([button isActive]) {
+//		[button makeInactive];
+//	} else {
+//		[button makeActive];
+//	}	
+}
+-(void)prevButtonClicked:(id)sender {
+	NSLog(@"prevButtonClicked");
+	UIButton *button = (UIButton *)sender;
+	[[PlayerManager sharedPlayerManager] pb_prev];
+}
+-(void)nextButtonClicked:(id)sender {
+	NSLog(@"nextButtonClicked");
+	UIButton *button = (UIButton *)sender;
+	[[PlayerManager sharedPlayerManager] pb_next];
+}
+
+
+#pragma mark -
+#pragma mark Built-ins
 
 
 // Override to allow orientations other than the default portrait orientation.

@@ -22,6 +22,15 @@
 		DA67305F12C833C900643330 /* btn_play.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305B12C833C900643330 /* btn_play.png */; };
 		DA6730B412C83D1700643330 /* UIPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6730B312C83D1700643330 /* UIPlayPauseButton.m */; };
 		DAED8CB012C84F8E004DDD2F /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAED8CAF12C84F8E004DDD2F /* PlayerManager.m */; };
+		DAF54EC412C8758900BD2060 /* btn_back_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EBD12C8758900BD2060 /* btn_back_pressed.png */; };
+		DAF54EC512C8758900BD2060 /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EBE12C8758900BD2060 /* btn_back.png */; };
+		DAF54EC612C8758900BD2060 /* btn_forward_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EBF12C8758900BD2060 /* btn_forward_pressed.png */; };
+		DAF54EC712C8758900BD2060 /* btn_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EC012C8758900BD2060 /* btn_forward.png */; };
+		DAF54EC812C8758900BD2060 /* icon_checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EC112C8758900BD2060 /* icon_checkmark.png */; };
+		DAF54EC912C8758900BD2060 /* icon_nowplaying.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EC212C8758900BD2060 /* icon_nowplaying.png */; };
+		DAF54EF712C8780D00BD2060 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EF512C8780D00BD2060 /* background.png */; };
+		DAF54EF812C8780D00BD2060 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EF612C8780D00BD2060 /* background@2x.png */; };
+		DAF54F6512C886AA00BD2060 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF54F6412C886AA00BD2060 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +57,16 @@
 		DA6730B312C83D1700643330 /* UIPlayPauseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlayPauseButton.m; sourceTree = "<group>"; };
 		DAED8CAE12C84F8E004DDD2F /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
 		DAED8CAF12C84F8E004DDD2F /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
+		DAF54EBD12C8758900BD2060 /* btn_back_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_back_pressed.png; path = resources/btn_back_pressed.png; sourceTree = "<group>"; };
+		DAF54EBE12C8758900BD2060 /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_back.png; path = resources/btn_back.png; sourceTree = "<group>"; };
+		DAF54EBF12C8758900BD2060 /* btn_forward_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_forward_pressed.png; path = resources/btn_forward_pressed.png; sourceTree = "<group>"; };
+		DAF54EC012C8758900BD2060 /* btn_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_forward.png; path = resources/btn_forward.png; sourceTree = "<group>"; };
+		DAF54EC112C8758900BD2060 /* icon_checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_checkmark.png; path = resources/icon_checkmark.png; sourceTree = "<group>"; };
+		DAF54EC212C8758900BD2060 /* icon_nowplaying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_nowplaying.png; path = resources/icon_nowplaying.png; sourceTree = "<group>"; };
+		DAF54EF512C8780D00BD2060 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = resources/background.png; sourceTree = "<group>"; };
+		DAF54EF612C8780D00BD2060 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "resources/background@2x.png"; sourceTree = "<group>"; };
+		DAF54F1412C8822300BD2060 /* UIPlayPauseStateCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlayPauseStateCallback.h; sourceTree = "<group>"; };
+		DAF54F6412C886AA00BD2060 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				DAF54F6512C886AA00BD2060 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +95,7 @@
 				1D3623250D0F684500981E51 /* DropVoxAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* DropVoxViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* DropVoxViewController.m */,
+				DAF54F1412C8822300BD2060 /* UIPlayPauseStateCallback.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -112,6 +133,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DAF54EF512C8780D00BD2060 /* background.png */,
+				DAF54EF612C8780D00BD2060 /* background@2x.png */,
+				DAF54EBD12C8758900BD2060 /* btn_back_pressed.png */,
+				DAF54EBE12C8758900BD2060 /* btn_back.png */,
+				DAF54EBF12C8758900BD2060 /* btn_forward_pressed.png */,
+				DAF54EC012C8758900BD2060 /* btn_forward.png */,
+				DAF54EC112C8758900BD2060 /* icon_checkmark.png */,
+				DAF54EC212C8758900BD2060 /* icon_nowplaying.png */,
 				DA67305812C833C900643330 /* btn_pause_pressed.png */,
 				DA67305912C833C900643330 /* btn_pause.png */,
 				DA67305A12C833C900643330 /* btn_play_pressed.png */,
@@ -129,6 +158,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				DAF54F6412C886AA00BD2060 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,6 +220,14 @@
 				DA67305D12C833C900643330 /* btn_pause.png in Resources */,
 				DA67305E12C833C900643330 /* btn_play_pressed.png in Resources */,
 				DA67305F12C833C900643330 /* btn_play.png in Resources */,
+				DAF54EC412C8758900BD2060 /* btn_back_pressed.png in Resources */,
+				DAF54EC512C8758900BD2060 /* btn_back.png in Resources */,
+				DAF54EC612C8758900BD2060 /* btn_forward_pressed.png in Resources */,
+				DAF54EC712C8758900BD2060 /* btn_forward.png in Resources */,
+				DAF54EC812C8758900BD2060 /* icon_checkmark.png in Resources */,
+				DAF54EC912C8758900BD2060 /* icon_nowplaying.png in Resources */,
+				DAF54EF712C8780D00BD2060 /* background.png in Resources */,
+				DAF54EF812C8780D00BD2060 /* background@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
