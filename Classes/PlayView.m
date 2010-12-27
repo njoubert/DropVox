@@ -16,28 +16,26 @@
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
 
-		self.backgroundColor = [UIColor darkGrayColor];
-		
-		label = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 30.0f)];
-		label.text = @"Hello World";
-		label.center = self.center;
-		label.backgroundColor = [UIColor clearColor];
-		label.textAlignment = UITextAlignmentCenter;
-		[self addSubview:label];
-		
+		self.backgroundColor = [UIColor blackColor];
+				
 		UIImage* btn_play =			[UIImage imageNamed:@"btn_play.png"];
 		UIImage* btn_play_pressed = [UIImage imageNamed:@"btn_play_pressed.png"];
 		UIImage* btn_pause =		[UIImage imageNamed:@"btn_pause.png"];
 		UIImage* btn_pause_pressed = [UIImage imageNamed:@"btn_pause_pressed.png"];		
 		
 		playPauseButton = [[UIPlayPauseButton alloc] 
-						   initWithFrame:CGRectMake(0.0f, 0.0f, 120.0f, 120.0f) 
+						   initWithFrame:CGRectMake(120.0f, 40.0f, 80.0f, 80.0f) 
 						   playButton:btn_play 
 						   playButtonPressed:btn_play_pressed 
 						   pauseButton:btn_pause 
 						   pauseButtonPressed:btn_pause_pressed];
 		[playPauseButton addTarget:self action:@selector(playPauseButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
 		[self addSubview:playPauseButton];
+		
+		[btn_play release];
+		[btn_play_pressed release];
+		[btn_pause release];
+		[btn_pause_pressed release];
 		  
 	}
     return self;	

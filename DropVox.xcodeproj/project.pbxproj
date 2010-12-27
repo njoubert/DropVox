@@ -21,6 +21,7 @@
 		DA67305E12C833C900643330 /* btn_play_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305A12C833C900643330 /* btn_play_pressed.png */; };
 		DA67305F12C833C900643330 /* btn_play.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305B12C833C900643330 /* btn_play.png */; };
 		DA6730B412C83D1700643330 /* UIPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6730B312C83D1700643330 /* UIPlayPauseButton.m */; };
+		DAED8CB012C84F8E004DDD2F /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAED8CAF12C84F8E004DDD2F /* PlayerManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +44,10 @@
 		DA67305912C833C900643330 /* btn_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pause.png; path = resources/btn_pause.png; sourceTree = "<group>"; };
 		DA67305A12C833C900643330 /* btn_play_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_play_pressed.png; path = resources/btn_play_pressed.png; sourceTree = "<group>"; };
 		DA67305B12C833C900643330 /* btn_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_play.png; path = resources/btn_play.png; sourceTree = "<group>"; };
-		DA6730B212C83D1700643330 /* UIPlayPauseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPlayPauseButton.h; path = ../UIPlayPauseButton.h; sourceTree = "<group>"; };
-		DA6730B312C83D1700643330 /* UIPlayPauseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPlayPauseButton.m; path = ../UIPlayPauseButton.m; sourceTree = "<group>"; };
+		DA6730B212C83D1700643330 /* UIPlayPauseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlayPauseButton.h; sourceTree = "<group>"; };
+		DA6730B312C83D1700643330 /* UIPlayPauseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlayPauseButton.m; sourceTree = "<group>"; };
+		DAED8CAE12C84F8E004DDD2F /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerManager.h; sourceTree = "<group>"; };
+		DAED8CAF12C84F8E004DDD2F /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DAED8CAD12C84F4F004DDD2F /* Model */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -127,6 +131,15 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAED8CAD12C84F4F004DDD2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAED8CAE12C84F8E004DDD2F /* PlayerManager.h */,
+				DAED8CAF12C84F8E004DDD2F /* PlayerManager.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +205,7 @@
 				28D7ACF80DDB3853001CB0EB /* DropVoxViewController.m in Sources */,
 				DA1AB1F012C818E50052792F /* PlayView.m in Sources */,
 				DA6730B412C83D1700643330 /* UIPlayPauseButton.m in Sources */,
+				DAED8CB012C84F8E004DDD2F /* PlayerManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
