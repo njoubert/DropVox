@@ -321,7 +321,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>PlayViewController.m</string>
+								<string>PlayerManager.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,11 +329,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>PlayViewController.m</string>
+										<string>PlayerManager.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DA5487E512C947E50010A352</string>
+										<string>DA5487F012C948720010A352</string>
 										<key>history</key>
 										<array>
 											<string>DA1AB19912C75AC90052792F</string>
@@ -350,10 +350,10 @@
 											<string>DA5487CF12C946D60010A352</string>
 											<string>DA5487D012C946D60010A352</string>
 											<string>DA5487E012C947E50010A352</string>
-											<string>DA5487E112C947E50010A352</string>
-											<string>DA5487E212C947E50010A352</string>
 											<string>DA5487E312C947E50010A352</string>
-											<string>DA5487E412C947E50010A352</string>
+											<string>DA5487E712C9483A0010A352</string>
+											<string>DA5487E812C9483A0010A352</string>
+											<string>DA5487E212C947E50010A352</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -551,13 +551,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DA5487E612C947E50010A352</string>
+		<string>DA5487F112C948720010A352</string>
 		<string>DA54873F12C9324E0010A352</string>
 		<string>DA54873912C932440010A352</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>DA1AB18A12C759DA0052792F</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>DA1AB18A12C759DA0052792F</string>
 		<string>/projects/DropVox/DropVox.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -591,7 +591,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {500, 218}}</string>
 								<key>RubberWindowFrame</key>
-								<string>766 94 500 500 0 0 1280 778 </string>
+								<string>2768 42 500 500 1280 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -617,7 +617,7 @@
 								<key>Frame</key>
 								<string>{{0, 223}, {500, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>766 94 500 500 0 0 1280 778 </string>
+								<string>2768 42 500 500 1280 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -649,7 +649,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>766 94 500 500 0 0 1280 778 </string>
+			<string>2768 42 500 500 1280 0 1920 1200 </string>
 			<key>WindowToolGUID</key>
 			<string>DA1AB18A12C759DA0052792F</string>
 			<key>WindowToolIsVisible</key>

@@ -24,7 +24,7 @@
 
 
 - (void)registerPlayerStateCallback:(id <PlayerStateCallbackProtocol>)callthis {
-	[_callbacks addObject:callthis];
+	[_callbacks addObject:[callthis retain]];
 }
 
 - (void)notifyCallbacks {
@@ -50,6 +50,11 @@
 }
 - (void)pb_prev {
 	NSLog(@"pb_prev");
+}
+
+- (void)dealloc {
+	[_callbacks release];
+	[super dealloc];
 }
 
 @end
