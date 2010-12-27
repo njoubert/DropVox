@@ -62,10 +62,10 @@
 		[self addSubview:nextButton];
 		
 		
-		[btn_play release];
-		[btn_play_pressed release];
-		[btn_pause release];
-		[btn_pause_pressed release];
+//		[btn_play release];
+//		[btn_play_pressed release];
+//		[btn_pause release];
+//		[btn_pause_pressed release];
 		  
 	}
     return self;	
@@ -92,6 +92,7 @@
 
 
 - (void)dealloc {
+	NSLog(@"PlayView dealloc\n");
     [super dealloc];
 }
 

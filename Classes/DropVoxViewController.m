@@ -18,9 +18,8 @@
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
 	printf("DropBoxViewController.loadView called\n");
-	UIView *contentView = [[PlayView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-	self.view = contentView;
-	[contentView release];
+	_playView = [[PlayView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+	self.view = _playView;
 }
 
 
@@ -38,22 +37,12 @@
 
 
 -(void)playPauseButtonClicked:(id)sender {
-	NSLog(@"playPause button clicked");
-	[[PlayerManager sharedPlayerManager] pb_togglePlayPause:self.view];
-//	if ([button isActive]) {
-//		[button makeInactive];
-//	} else {
-//		[button makeActive];
-//	}	
+	[[PlayerManager sharedPlayerManager] pb_togglePlayPause:_playView];
 }
 -(void)prevButtonClicked:(id)sender {
-	NSLog(@"prevButtonClicked");
-	UIButton *button = (UIButton *)sender;
 	[[PlayerManager sharedPlayerManager] pb_prev];
 }
 -(void)nextButtonClicked:(id)sender {
-	NSLog(@"nextButtonClicked");
-	UIButton *button = (UIButton *)sender;
 	[[PlayerManager sharedPlayerManager] pb_next];
 }
 
@@ -77,12 +66,14 @@
 }
 
 - (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
+	NSLog(@"DVViewController didunload\n");
+	_playView = nil;
 }
 
 
 - (void)dealloc {
+	NSLog(@"DVViewController dealloc\n");
+	[_playView release];
     [super dealloc];
 }
 

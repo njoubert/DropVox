@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AVFoundation/AVAudioPlayer.h>
+
+
 #import "UIPlayPauseStateCallback.h"
 
 @interface PlayerManager : NSObject {

@@ -23,10 +23,10 @@
 		
 }
 - (void)pb_next {
-	
+	NSLog(@"pb_next");
 }
 - (void)pb_prev {
-	
+	NSLog(@"pb_prev");
 }
 
 - (PlayerManager*) init {

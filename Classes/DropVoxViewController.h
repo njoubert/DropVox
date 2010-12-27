@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayView.h"
 
 @interface DropVoxViewController : UIViewController {
-
+	PlayView* _playView;
 }
 
 @end
