@@ -156,6 +156,20 @@
 			DA6730CC12C840ED00643330 /* PBXTextBookmark */ = DA6730CC12C840ED00643330 /* PBXTextBookmark */;
 			DA6730CD12C840ED00643330 /* PBXTextBookmark */ = DA6730CD12C840ED00643330 /* PBXTextBookmark */;
 			DA6730CE12C8410500643330 /* PBXTextBookmark */ = DA6730CE12C8410500643330 /* PBXTextBookmark */;
+			DA6730CF12C8424C00643330 /* PBXTextBookmark */ = DA6730CF12C8424C00643330 /* PBXTextBookmark */;
+			DA6730D012C8424C00643330 /* PBXTextBookmark */ = DA6730D012C8424C00643330 /* PBXTextBookmark */;
+			DA6730D112C8424C00643330 /* PBXTextBookmark */ = DA6730D112C8424C00643330 /* PBXTextBookmark */;
+			DA6730D212C8424C00643330 /* PBXTextBookmark */ = DA6730D212C8424C00643330 /* PBXTextBookmark */;
+			DA6730D512C8437600643330 /* PBXTextBookmark */ = DA6730D512C8437600643330 /* PBXTextBookmark */;
+			DA6730D612C8437600643330 /* PBXTextBookmark */ = DA6730D612C8437600643330 /* PBXTextBookmark */;
+			DA6730D712C8437600643330 /* PBXTextBookmark */ = DA6730D712C8437600643330 /* PBXTextBookmark */;
+			DA6730D812C8437600643330 /* PBXTextBookmark */ = DA6730D812C8437600643330 /* PBXTextBookmark */;
+			DA6730D912C8437600643330 /* PBXTextBookmark */ = DA6730D912C8437600643330 /* PBXTextBookmark */;
+			DA6730DC12C843CF00643330 /* PBXTextBookmark */ = DA6730DC12C843CF00643330 /* PBXTextBookmark */;
+			DA6730DD12C843CF00643330 /* PBXTextBookmark */ = DA6730DD12C843CF00643330 /* PBXTextBookmark */;
+			DA6730DE12C843CF00643330 /* PBXTextBookmark */ = DA6730DE12C843CF00643330 /* PBXTextBookmark */;
+			DA6730DF12C843CF00643330 /* PBXTextBookmark */ = DA6730DF12C843CF00643330 /* PBXTextBookmark */;
+			DA6730E012C843CF00643330 /* PBXTextBookmark */ = DA6730E012C843CF00643330 /* PBXTextBookmark */;
 		};
 		sourceControlManager = DA1AB19312C759DA0052792F /* Source Control */;
 		userBuildSettings = {
@@ -256,16 +270,16 @@
 	};
 	DA1AB1EE12C818E50052792F /* PlayView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1102, 793}}";
-			sepNavSelRange = "{253, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 816}}";
+			sepNavSelRange = "{242, 17}";
 			sepNavVisRange = "{0, 334}";
 		};
 	};
 	DA1AB1EF12C818E50052792F /* PlayView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1102, 897}}";
-			sepNavSelRange = "{1159, 0}";
-			sepNavVisRange = "{0, 1864}";
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 988}}";
+			sepNavSelRange = "{1939, 0}";
+			sepNavVisRange = "{138, 1869}";
 		};
 	};
 	DA1AB1F112C819470052792F /* PBXTextBookmark */ = {
@@ -413,7 +427,7 @@
 		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
 		name = "PlayView.m: 46";
 		rLen = 0;
-		rLoc = 1843;
+		rLoc = 1946;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 0;
@@ -663,7 +677,7 @@
 		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
 		name = "PlayView.m: 47";
 		rLen = 0;
-		rLoc = 1663;
+		rLoc = 1681;
 		rType = 0;
 		vrLen = 1533;
 		vrLoc = 0;
@@ -922,7 +936,7 @@
 		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
 		name = "PlayView.m: 80";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1988;
 		rType = 0;
 		vrLen = 1906;
 		vrLoc = 1008;
@@ -932,7 +946,7 @@
 		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
 		name = "PlayView.m: 87";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1988;
 		rType = 0;
 		vrLen = 2070;
 		vrLoc = 863;
@@ -962,7 +976,7 @@
 		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
 		name = "PlayView.m: 65";
 		rLen = 0;
-		rLoc = 1827;
+		rLoc = 1845;
 		rType = 0;
 		vrLen = 1940;
 		vrLoc = 279;
@@ -982,7 +996,7 @@
 		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
 		name = "PlayView.m: 69";
 		rLen = 0;
-		rLoc = 1837;
+		rLoc = 1855;
 		rType = 0;
 		vrLen = 2098;
 		vrLoc = 242;
@@ -990,15 +1004,15 @@
 	DA6730B212C83D1700643330 /* UIPlayPauseButton.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1349, 816}}";
-			sepNavSelRange = "{298, 0}";
-			sepNavVisRange = "{0, 563}";
+			sepNavSelRange = "{578, 8}";
+			sepNavVisRange = "{0, 593}";
 		};
 	};
 	DA6730B312C83D1700643330 /* UIPlayPauseButton.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1370, 816}}";
-			sepNavSelRange = "{1007, 0}";
-			sepNavVisRange = "{0, 1278}";
+			sepNavSelRange = "{1216, 0}";
+			sepNavVisRange = "{0, 1460}";
 		};
 	};
 	DA6730C712C840ED00643330 /* PBXTextBookmark */ = {
@@ -1046,7 +1060,7 @@
 		fRef = DA6730B312C83D1700643330 /* UIPlayPauseButton.m */;
 		name = "UIPlayPauseButton.m: 33";
 		rLen = 0;
-		rLoc = 1007;
+		rLoc = 747;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 0;
@@ -1080,5 +1094,145 @@
 		rType = 0;
 		vrLen = 1864;
 		vrLoc = 0;
+	};
+	DA6730CF12C8424C00643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
+		name = "PlayView.m: 38";
+		rLen = 0;
+		rLoc = 1159;
+		rType = 0;
+		vrLen = 1864;
+		vrLoc = 0;
+	};
+	DA6730D012C8424C00643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B312C83D1700643330 /* UIPlayPauseButton.m */;
+		name = "UIPlayPauseButton.m: 14";
+		rLen = 0;
+		rLoc = 214;
+		rType = 0;
+		vrLen = 1178;
+		vrLoc = 0;
+	};
+	DA6730D112C8424C00643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B212C83D1700643330 /* UIPlayPauseButton.h */;
+		name = "UIPlayPauseButton.h: 16";
+		rLen = 0;
+		rLoc = 298;
+		rType = 0;
+		vrLen = 563;
+		vrLoc = 0;
+	};
+	DA6730D212C8424C00643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B212C83D1700643330 /* UIPlayPauseButton.h */;
+		name = "UIPlayPauseButton.h: 19";
+		rLen = 0;
+		rLoc = 336;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 0;
+	};
+	DA6730D512C8437600643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA1AB1EE12C818E50052792F /* PlayView.h */;
+		name = "PlayView.h: 14";
+		rLen = 0;
+		rLoc = 253;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	DA6730D612C8437600643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
+		name = "PlayView.m: 39";
+		rLen = 123;
+		rLoc = 1198;
+		rType = 0;
+		vrLen = 1842;
+		vrLoc = 0;
+	};
+	DA6730D712C8437600643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B312C83D1700643330 /* UIPlayPauseButton.m */;
+		name = "UIPlayPauseButton.m: 29";
+		rLen = 380;
+		rLoc = 794;
+		rType = 0;
+		vrLen = 1422;
+		vrLoc = 0;
+	};
+	DA6730D812C8437600643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B212C83D1700643330 /* UIPlayPauseButton.h */;
+		name = "UIPlayPauseButton.h: 17";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 0;
+	};
+	DA6730D912C8437600643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B212C83D1700643330 /* UIPlayPauseButton.h */;
+		name = "UIPlayPauseButton.h: 22";
+		rLen = 0;
+		rLoc = 587;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 0;
+	};
+	DA6730DC12C843CF00643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B312C83D1700643330 /* UIPlayPauseButton.m */;
+		name = "UIPlayPauseButton.m: 43";
+		rLen = 0;
+		rLoc = 1216;
+		rType = 0;
+		vrLen = 1460;
+		vrLoc = 0;
+	};
+	DA6730DD12C843CF00643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B212C83D1700643330 /* UIPlayPauseButton.h */;
+		name = "UIPlayPauseButton.h: 24";
+		rLen = 8;
+		rLoc = 578;
+		rType = 0;
+		vrLen = 593;
+		vrLoc = 0;
+	};
+	DA6730DE12C843CF00643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA1AB1EE12C818E50052792F /* PlayView.h */;
+		name = "PlayView.h: 14";
+		rLen = 17;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 334;
+		vrLoc = 0;
+	};
+	DA6730DF12C843CF00643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
+		name = "PlayView.m: 31";
+		rLen = 0;
+		rLoc = 871;
+		rType = 0;
+		vrLen = 1852;
+		vrLoc = 75;
+	};
+	DA6730E012C843CF00643330 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
+		name = "PlayView.m: 63";
+		rLen = 0;
+		rLoc = 1939;
+		rType = 0;
+		vrLen = 1869;
+		vrLoc = 138;
 	};
 }

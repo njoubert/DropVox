@@ -52,12 +52,16 @@
 */
 
 -(void)playPauseButtonClicked:(id)sender {
-	UIButton *button = (UIButton *)sender;
+	UIPlayPauseButton *button = (UIPlayPauseButton *)sender;
 	NSString *text = button.currentTitle;
 	NSString *string = [[NSString alloc] initWithFormat:@"Button %@ pressed.", text];
 	
 	NSLog(@"button clicked. button title:%@", text);
-	
+	if ([button isActive]) {
+		[button makeInactive];
+	} else {
+		[button makeActive];
+	}
 	
 	label.text = string;
 	[string release];
