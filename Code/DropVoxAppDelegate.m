@@ -7,24 +7,29 @@
 //
 
 #import "DropVoxAppDelegate.h"
-#import "DropVoxViewController.h"
+
+#import "PlayViewController.h"
+#import "PlayerManager.h"
+
 
 @implementation DropVoxAppDelegate
 
 @synthesize window;
-@synthesize viewController;
-
+@synthesize playViewController;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    printf("Initializing DropVoxAppDelegate...\n");
-    window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	viewController = [[DropVoxViewController alloc] init];
-    [window addSubview:viewController.view];
+	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+	playerManager = [[PlayerManager alloc] init];
+	
+	playViewController = [[PlayViewController alloc] init];
+	[playViewController setPlayerManager:playerManager]; //dependency injection
+    
+	[window addSubview:playViewController.view];
     [window makeKeyAndVisible];
-	printf("done\n");
     return YES;
 }
 
@@ -85,7 +90,7 @@
 
 
 - (void)dealloc {
-    [viewController release];
+    [playViewController release];
     [window release];
     [super dealloc];
 }

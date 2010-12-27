@@ -9,11 +9,12 @@
 #import "PlayView.h"
 #import <UIKit/UIImage.h>
 #import <UIKit/UIImageView.h>
+#import "UIPlayPauseButton.h"
 
 @implementation PlayView
 
 
-- (id)initWithFrame:(CGRect)frame {
+- (id)initWithFrame:(CGRect)frame andController:(PlayViewController*)pvController {
     if ((self = [super initWithFrame:frame])) {
 
 		self.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"background.png"]];
@@ -36,7 +37,7 @@
 						   playButtonPressed:btn_play_pressed 
 						   pauseButton:btn_pause 
 						   pauseButtonPressed:btn_pause_pressed];
-		[playPauseButton addTarget:[[[UIApplication sharedApplication] delegate] viewController] 
+		[playPauseButton addTarget:pvController
 							action:@selector(playPauseButtonClicked:) 
 							forControlEvents:UIControlEventTouchUpInside];
 		[self addSubview:playPauseButton];
@@ -46,7 +47,7 @@
 					  initWithFrame:CGRectMake(35.0f, 50.0f, 60.0f, 60.0f)];		
 		[prevButton setBackgroundImage:btn_prev forState:UIControlStateNormal];
 		[prevButton setBackgroundImage:btn_prev_p forState:UIControlStateHighlighted];
-		[prevButton addTarget:[[[UIApplication sharedApplication] delegate] viewController] 
+		[prevButton addTarget:pvController
 					   action:@selector(prevButtonClicked:) 
 			 forControlEvents:UIControlEventTouchUpInside];		
 		[self addSubview:prevButton];
@@ -56,23 +57,17 @@
 					  initWithFrame:CGRectMake(225.0f, 50.0f, 60.0f, 60.0f)];
 		[nextButton setBackgroundImage:btn_next forState:UIControlStateNormal];
 		[nextButton setBackgroundImage:btn_next_p forState:UIControlStateHighlighted];		
-		[nextButton addTarget:[[[UIApplication sharedApplication] delegate] viewController] 
+		[nextButton addTarget:pvController
 							action:@selector(nextButtonClicked:) 
 							forControlEvents:UIControlEventTouchUpInside];		
 		[self addSubview:nextButton];
-		
-		
-//		[btn_play release];
-//		[btn_play_pressed release];
-//		[btn_pause release];
-//		[btn_pause_pressed release];
 		  
 	}
     return self;	
 }
 
 #pragma mark -
-#pragma mark UIPlayPauseStateCallback implementations
+#pragma mark PlayPauseStateCallbackProtocol implementations
 -(void) setPlaying {
 	[playPauseButton makeActive];	
 }

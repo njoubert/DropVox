@@ -8,15 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@class DropVoxViewController;
+@class PlayViewController;
+@class PlayerManager;
 
 @interface DropVoxAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    DropVoxViewController *viewController;
+    PlayViewController *playViewController;
+	PlayerManager *playerManager;
 }
 
 @property (nonatomic, retain) UIWindow *window;
-@property (nonatomic, retain) DropVoxViewController *viewController;
+@property (nonatomic, retain) PlayViewController *playViewController;
 
 @end
 

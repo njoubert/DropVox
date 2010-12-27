@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PlayView.h"
 
-@interface DropVoxViewController : UIViewController {
+@class PlayView;
+@class PlayerManager;
+
+@interface PlayViewController : UIViewController {
 	PlayView* _playView;
+	PlayerManager* playerManager;
 }
-
+@property (retain) PlayerManager* playerManager;
 @end
 

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@protocol UIPlayPauseStateCallback
+@protocol PlayPauseStateCallbackProtocol
 -(void) setPlaying;
 -(void) setPaused;
 @end

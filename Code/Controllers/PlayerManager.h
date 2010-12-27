@@ -11,14 +11,14 @@
 #import <AVFoundation/AVAudioPlayer.h>
 
 
-#import "UIPlayPauseStateCallback.h"
+#import "PlayPauseStateCallbackProtocol.h"
 
 @interface PlayerManager : NSObject {
 	bool _playing;
 }
-+ (PlayerManager *)sharedPlayerManager;
+//+ (PlayerManager *)sharedPlayerManager;
 
-- (void)pb_togglePlayPause:(id <UIPlayPauseStateCallback>)callthis;
+- (void)pb_togglePlayPause:(id <PlayPauseStateCallbackProtocol>)callthis;
 - (void)pb_next;
 - (void)pb_prev;
 
