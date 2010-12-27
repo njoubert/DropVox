@@ -17,8 +17,9 @@
 	PlayerManager *playerManager;
 }
 
-@property (nonatomic, retain) UIWindow *window;
-@property (nonatomic, retain) PlayViewController *playViewController;
+@property (readonly) UIWindow *window;
+@property (readonly) PlayViewController *playViewController;
+@property (readonly) PlayerManager *playerManager;
 
 @end
 

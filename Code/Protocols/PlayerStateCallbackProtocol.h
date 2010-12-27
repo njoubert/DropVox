@@ -7,12 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-typedef enum {
-	psPaused,
-	psBusy,
-	psPlaying
-} PlayerState;
+#import "GlobalTypes.h"
 
 @protocol PlayerStateCallbackProtocol
 -(void) playerStateChanged:(PlayerState)newState;

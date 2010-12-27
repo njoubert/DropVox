@@ -16,6 +16,7 @@
 
 @synthesize window;
 @synthesize playViewController;
+@synthesize playerManager;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -25,8 +26,7 @@
 
 	playerManager = [[PlayerManager alloc] init];
 	
-	playViewController = [[PlayViewController alloc] init];
-	[playViewController setPlayerManager:playerManager]; //dependency injection
+	playViewController = [[PlayViewController alloc] initWithPlayerManager:playerManager]; //dependency injection
     
 	[window addSubview:playViewController.view];
     [window makeKeyAndVisible];

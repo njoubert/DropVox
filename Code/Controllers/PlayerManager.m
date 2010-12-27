@@ -7,19 +7,43 @@
 //
 
 #import "PlayerManager.h"
+#import <AVFoundation/AVFoundation.h>
+#import <AVFoundation/AVAudioPlayer.h>
 
 
 @implementation PlayerManager
 
-
-- (void)pb_togglePlayPause:(id <PlayerStateCallbackProtocol>)callthis {
-	NSLog(@"pb_togglePlayPause");
-	_playing = !_playing;
-	if (_playing) {
-		[callthis playerStateChanged:psPlaying];
-	} else {
-		[callthis playerStateChanged:psPaused];
+- (PlayerManager*) init {
+	self = [super init];
+	if (self) {
+		_state = psPaused;		
+		_callbacks = [[NSMutableArray alloc] init];
 	}
+	return self;
+}
+
+
+- (void)registerPlayerStateCallback:(id <PlayerStateCallbackProtocol>)callthis {
+	[_callbacks addObject:callthis];
+}
+
+- (void)notifyCallbacks {
+	NSEnumerator * e = [_callbacks objectEnumerator];
+	id <PlayerStateCallbackProtocol> callback;
+	while (callback = [e nextObject]) {
+		[callback playerStateChanged:_state];
+	}
+
+}
+
+- (void)pb_togglePlayPause {
+	NSLog(@"pb_togglePlayPause");
+	if (_state != psPlaying) {
+		_state = psPlaying;
+	} else {
+		_state = psPaused;
+	}
+	[self notifyCallbacks];
 }
 - (void)pb_next {
 	NSLog(@"pb_next");
@@ -27,52 +51,5 @@
 - (void)pb_prev {
 	NSLog(@"pb_prev");
 }
-
-- (PlayerManager*) init {
-	self = [super init];
-	if (self) {
-		_playing = false;		
-		
-	}
-	return self;
-}
-
-//#pragma mark -
-//#pragma mark Singleton Implementation
-//
-//static PlayerManager *sharedPlayerManager = nil;
-//+ (PlayerManager *)sharedPlayerManager {
-//	@synchronized(self) {
-//		if (sharedPlayerManager == nil) {
-//			sharedPlayerManager = [[self alloc] init];
-//		}
-//	}
-//	return sharedPlayerManager;
-//}
-//
-//+(id)allocWithZone:(NSZone *)zone {
-//	@synchronized(self) {
-//		if (sharedPlayerManager == nil) {
-//			sharedPlayerManager = [super allocWithZone:zone];
-//			return sharedPlayerManager;
-//		}
-//	}
-//	return nil;
-//}
-//
-//- (id)copyWithZone:(NSZone *)zone {
-//	return self;
-//}
-//
-//- (NSUInteger)retainCount {
-//	return NSUIntegerMax;
-//}
-//
-//- (void)release {
-//}
-//
-//-(id)autorelease {
-//	return self;
-//}
 
 @end

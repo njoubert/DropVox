@@ -13,8 +13,8 @@
 
 @interface PlayViewController : UIViewController {
 	PlayView* _playView;
-	PlayerManager* playerManager;
+	PlayerManager* _playerManager;
 }
-@property (retain) PlayerManager* playerManager;
+-(PlayViewController*) initWithPlayerManager:(PlayerManager*)pm;
 @end
 

@@ -7,18 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AVFoundation/AVFoundation.h>
-#import <AVFoundation/AVAudioPlayer.h>
 
-
+#import "GlobalTypes.h"
 #import "PlayerStateCallbackProtocol.h"
 
 @interface PlayerManager : NSObject {
-	bool _playing;
+	PlayerState _state;
+	NSMutableArray *_callbacks;
 }
-//+ (PlayerManager *)sharedPlayerManager;
-
-- (void)pb_togglePlayPause:(id <PlayerStateCallbackProtocol>)callthis;
+- (void)registerPlayerStateCallback:(id <PlayerStateCallbackProtocol>)callthis;
+- (void)pb_togglePlayPause;
 - (void)pb_next;
 - (void)pb_prev;
 

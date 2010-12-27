@@ -14,40 +14,40 @@
 
 @implementation PlayViewController
 
-@synthesize playerManager;
-
 #pragma mark -
 #pragma mark Initialization
 
+- (PlayViewController*) initWithPlayerManager:(PlayerManager*)pm {
+	self = [super init];
+	if (self) {
+		_playerManager = [pm retain];
+	}
+	return self;
+}
+
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-	printf("PlayViewController.loadView called\n");
+	NSLog(@"PlayViewController.loadView called\n");
 	_playView = [[PlayView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame] andController:self];
 	self.view = _playView;
+	
+	//register callbacks
+	[_playerManager registerPlayerStateCallback:_playView];
+
 }
-
-
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-	printf("PlayViewController.viewDidLoad called\n");
-    [super viewDidLoad];
-}
-
 
 #pragma mark -
 #pragma mark Click Handling
 
 
 -(void)playPauseButtonClicked:(id)sender {
-	[playerManager pb_togglePlayPause:_playView];
+	[_playerManager pb_togglePlayPause];
 }
 -(void)prevButtonClicked:(id)sender {
-	[playerManager pb_prev];
+	[_playerManager pb_prev];
 }
 -(void)nextButtonClicked:(id)sender {
-	[playerManager pb_next];
+	[_playerManager pb_next];
 }
 
 
@@ -70,7 +70,7 @@
 }
 
 - (void)dealloc {
-	[playerManager release];
+	[_playerManager release];
 	[_playView release];
     [super dealloc];
 }
