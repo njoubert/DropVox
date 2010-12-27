@@ -1,5 +1,33 @@
 DropVox
+==================
+DropBox Music Player for iPhone
 
-cloning Vox with a DropBox backend for the iPhone
+Created by Niels & Pierre-Henri Joubert
 
-Created by Niels Joubert
+
+
+==============
+Back-End organization:
+
+After considering options for how to handle back-end interaction from front-end:
+1 - stick things into appDelegate (already a singleton)
+2 - create singleton "manager" objects
+3 - dependency injection by passing pointer to "manager" down
+, I went with 2.
+
+After considering how to have front-end respond to changes in back-end:
+1 - stick update functions into appDelegate
+2 - pass object conforming to callback protocol from front to back-end
+3 - create intermediate object responsible for updating front-end, pass to back-end
+, I went with 2.
+
+
+
+In general:
+View sets up the UI,
+View's UI callbacks is received by ViewController,
+ViewController calls Managers, passing something as callback (view, or controller),
+Manager does something, runs callback.
+
+This way, the back-end managers (data management) is completely separate from front-end.
+Front-end is tied to each-other since View uses appDelegate to find ViewController. 
