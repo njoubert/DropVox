@@ -49,6 +49,11 @@
 }
 */
 - (void)dealloc {
+	[_btn_play release];
+	[_btn_play_pressed release];
+	[_btn_pause release];
+	[_btn_pause_pressed release];
+	
     [super dealloc];
 }
 

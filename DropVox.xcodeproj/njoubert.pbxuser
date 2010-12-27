@@ -29,9 +29,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* DropVoxViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1102, 1079}}";
-			sepNavSelRange = "{1587, 0}";
-			sepNavVisRange = "{563, 1370}";
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 1053}}";
+			sepNavSelRange = "{1077, 0}";
+			sepNavVisRange = "{316, 1531}";
 			sepNavWindowFrame = "{{1318, 294}, {906, 880}}";
 		};
 	};
@@ -193,6 +193,11 @@
 			DAF54FE612C891A400BD2060 /* PBXTextBookmark */ = DAF54FE612C891A400BD2060 /* PBXTextBookmark */;
 			DAF54FEB12C891C300BD2060 /* PBXTextBookmark */ = DAF54FEB12C891C300BD2060 /* PBXTextBookmark */;
 			DAF54FEF12C8923A00BD2060 /* PBXTextBookmark */ = DAF54FEF12C8923A00BD2060 /* PBXTextBookmark */;
+			DAF54FF512C8934200BD2060 /* PBXTextBookmark */ = DAF54FF512C8934200BD2060 /* PBXTextBookmark */;
+			DAF54FF612C8934200BD2060 /* PBXTextBookmark */ = DAF54FF612C8934200BD2060 /* PBXTextBookmark */;
+			DAF54FF712C8934200BD2060 /* PBXTextBookmark */ = DAF54FF712C8934200BD2060 /* PBXTextBookmark */;
+			DAF54FF812C8934200BD2060 /* PBXTextBookmark */ = DAF54FF812C8934200BD2060 /* PBXTextBookmark */;
+			DAF54FF912C8934200BD2060 /* PBXTextBookmark */ = DAF54FF912C8934200BD2060 /* PBXTextBookmark */;
 		};
 		sourceControlManager = DA1AB19312C759DA0052792F /* Source Control */;
 		userBuildSettings = {
@@ -290,9 +295,9 @@
 	};
 	DA1AB1EF12C818E50052792F /* PlayView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {775, 1326}}";
-			sepNavSelRange = "{1263, 0}";
-			sepNavVisRange = "{996, 463}";
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 1170}}";
+			sepNavSelRange = "{498, 0}";
+			sepNavVisRange = "{159, 2438}";
 		};
 	};
 	DA67306012C833EB00643330 /* PBXBookmark */ = {
@@ -323,9 +328,9 @@
 	};
 	DA6730B312C83D1700643330 /* UIPlayPauseButton.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1370, 798}}";
-			sepNavSelRange = "{482, 6}";
-			sepNavVisRange = "{0, 1459}";
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 819}}";
+			sepNavSelRange = "{1502, 0}";
+			sepNavVisRange = "{0, 1567}";
 		};
 	};
 	DAE203A612C873DD0067F152 /* PBXTextBookmark */ = {
@@ -1498,6 +1503,56 @@
 		rLoc = 482;
 		rType = 0;
 		vrLen = 1459;
+		vrLoc = 0;
+	};
+	DAF54FF512C8934200BD2060 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA1AB1EE12C818E50052792F /* PlayView.h */;
+		name = "PlayView.h: 16";
+		rLen = 10;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 398;
+		vrLoc = 0;
+	};
+	DAF54FF612C8934200BD2060 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DropVoxViewController.m */;
+		name = "DropVoxViewController.m: 45";
+		rLen = 0;
+		rLoc = 1077;
+		rType = 0;
+		vrLen = 1531;
+		vrLoc = 316;
+	};
+	DAF54FF712C8934200BD2060 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA1AB1EF12C818E50052792F /* PlayView.m */;
+		name = "PlayView.m: 21";
+		rLen = 0;
+		rLoc = 498;
+		rType = 0;
+		vrLen = 2438;
+		vrLoc = 159;
+	};
+	DAF54FF812C8934200BD2060 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B312C83D1700643330 /* UIPlayPauseButton.m */;
+		name = "UIPlayPauseButton.m: 17";
+		rLen = 6;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 0;
+	};
+	DAF54FF912C8934200BD2060 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA6730B312C83D1700643330 /* UIPlayPauseButton.m */;
+		name = "UIPlayPauseButton.m: 54";
+		rLen = 0;
+		rLoc = 1502;
+		rType = 0;
+		vrLen = 1567;
 		vrLoc = 0;
 	};
 }
