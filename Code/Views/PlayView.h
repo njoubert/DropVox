@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PlayPauseStateCallbackProtocol.h"
+#import "PlayerStateCallbackProtocol.h"
 
 @class PlayViewController;
 @class UIPlayPauseButton;
 
-@interface PlayView : UIView <PlayPauseStateCallbackProtocol> {
+@interface PlayView : UIView <PlayerStateCallbackProtocol> {
 	UILabel* label;
 	UIPlayPauseButton* playPauseButton;
 	UIButton* nextButton;

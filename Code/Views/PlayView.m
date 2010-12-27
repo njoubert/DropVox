@@ -67,12 +67,9 @@
 }
 
 #pragma mark -
-#pragma mark PlayPauseStateCallbackProtocol implementations
--(void) setPlaying {
-	[playPauseButton makeActive];	
-}
--(void) setPaused {
-	[playPauseButton makeInactive];		
+#pragma mark PlayerStateCallbackProtocol implementations
+-(void) playerStateChanged:(PlayerState)newState {
+	[playPauseButton playerStateChanged:newState];
 }
 
 #pragma mark -

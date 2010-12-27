@@ -12,15 +12,14 @@
 @implementation PlayerManager
 
 
-- (void)pb_togglePlayPause:(id <PlayPauseStateCallbackProtocol>)callthis {
+- (void)pb_togglePlayPause:(id <PlayerStateCallbackProtocol>)callthis {
 	NSLog(@"pb_togglePlayPause");
 	_playing = !_playing;
 	if (_playing) {
-		[callthis setPlaying];
+		[callthis playerStateChanged:psPlaying];
 	} else {
-		[callthis setPaused];		
+		[callthis playerStateChanged:psPaused];
 	}
-		
 }
 - (void)pb_next {
 	NSLog(@"pb_next");

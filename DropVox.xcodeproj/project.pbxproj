@@ -53,7 +53,7 @@
 		DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropVoxAppDelegate.h; sourceTree = "<group>"; };
 		DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropVoxAppDelegate.m; sourceTree = "<group>"; };
 		DA9EAC4712C8A8640098EFE5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA9EAC4912C8A8640098EFE5 /* PlayPauseStateCallbackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayPauseStateCallbackProtocol.h; sourceTree = "<group>"; };
+		DA9EAC4912C8A8640098EFE5 /* PlayerStateCallbackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStateCallbackProtocol.h; sourceTree = "<group>"; };
 		DA9EAC4B12C8A8640098EFE5 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
 		DA9EAC4C12C8A8640098EFE5 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		DA9EAC4D12C8A8640098EFE5 /* UIPlayPauseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlayPauseButton.h; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		DA9EAC4812C8A8640098EFE5 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				DA9EAC4912C8A8640098EFE5 /* PlayPauseStateCallbackProtocol.h */,
+				DA9EAC4912C8A8640098EFE5 /* PlayerStateCallbackProtocol.h */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";

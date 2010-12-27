@@ -21,25 +21,38 @@
 		self.showsTouchWhenHighlighted = NO;
 		self.adjustsImageWhenDisabled = NO;
 		self.adjustsImageWhenHighlighted = NO;	
-		[self makeInactive];
+		[self playerStateChanged:psPaused];
     }
     return self;
 }
 
-- (void)makeActive {
-	_active = true;
-	[self setBackgroundImage:_btn_pause forState:UIControlStateNormal];
-	[self setBackgroundImage:_btn_pause_pressed forState:UIControlStateHighlighted];
+
+- (void)playerStateChanged:(PlayerState)newState {
+	if (newState == psPaused) {
+		
+		_state = newState;
+		[self setBackgroundImage:_btn_play forState:UIControlStateNormal];
+		[self setBackgroundImage:_btn_play_pressed forState:UIControlStateHighlighted];
+	
+	} else if (newState == psPlaying) {
+		
+		_state = newState;
+		[self setBackgroundImage:_btn_pause forState:UIControlStateNormal];
+		[self setBackgroundImage:_btn_pause_pressed forState:UIControlStateHighlighted];
+		
+	} else if (newState == psBusy) {
+	
+		_state = newState;
+		[self setBackgroundImage:_btn_play forState:UIControlStateNormal];
+		[self setBackgroundImage:_btn_play_pressed forState:UIControlStateHighlighted];
+	
+	}
+	
 }
-- (void)makeInactive {
-	_active = false;
-	[self setBackgroundImage:_btn_play forState:UIControlStateNormal];
-	[self setBackgroundImage:_btn_play_pressed forState:UIControlStateHighlighted];
+- (PlayerState)getState {
+	return _state;
 }
 
-- (bool)isActive {
-	return _active;
-}
 
 /*
 // Only override drawRect: if you perform custom drawing.
