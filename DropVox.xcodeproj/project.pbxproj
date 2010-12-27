@@ -14,6 +14,13 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* DropVoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DropVoxViewController.m */; };
+		DA1AB1F012C818E50052792F /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1AB1EF12C818E50052792F /* PlayView.m */; };
+		DA67304212C82DD400643330 /* Speaker-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67304112C82DD400643330 /* Speaker-icon.png */; };
+		DA67305C12C833C900643330 /* btn_pause_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305812C833C900643330 /* btn_pause_pressed.png */; };
+		DA67305D12C833C900643330 /* btn_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305912C833C900643330 /* btn_pause.png */; };
+		DA67305E12C833C900643330 /* btn_play_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305A12C833C900643330 /* btn_play_pressed.png */; };
+		DA67305F12C833C900643330 /* btn_play.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305B12C833C900643330 /* btn_play.png */; };
+		DA6730B412C83D1700643330 /* UIPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6730B312C83D1700643330 /* UIPlayPauseButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,15 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* DropVox_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropVox_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DropVox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DropVox-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DA1AB1EE12C818E50052792F /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		DA1AB1EF12C818E50052792F /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
+		DA67304112C82DD400643330 /* Speaker-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speaker-icon.png"; path = "resources/Speaker-icon.png"; sourceTree = "<group>"; };
+		DA67305812C833C900643330 /* btn_pause_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pause_pressed.png; path = resources/btn_pause_pressed.png; sourceTree = "<group>"; };
+		DA67305912C833C900643330 /* btn_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pause.png; path = resources/btn_pause.png; sourceTree = "<group>"; };
+		DA67305A12C833C900643330 /* btn_play_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_play_pressed.png; path = resources/btn_play_pressed.png; sourceTree = "<group>"; };
+		DA67305B12C833C900643330 /* btn_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_play.png; path = resources/btn_play.png; sourceTree = "<group>"; };
+		DA6730B212C83D1700643330 /* UIPlayPauseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIPlayPauseButton.h; path = ../UIPlayPauseButton.h; sourceTree = "<group>"; };
+		DA6730B312C83D1700643330 /* UIPlayPauseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIPlayPauseButton.m; path = ../UIPlayPauseButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +64,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DA6730B212C83D1700643330 /* UIPlayPauseButton.h */,
+				DA6730B312C83D1700643330 /* UIPlayPauseButton.m */,
+				DA1AB1EE12C818E50052792F /* PlayView.h */,
+				DA1AB1EF12C818E50052792F /* PlayView.m */,
 				1D3623240D0F684500981E51 /* DropVoxAppDelegate.h */,
 				1D3623250D0F684500981E51 /* DropVoxAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* DropVoxViewController.h */,
@@ -88,6 +108,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DA67305812C833C900643330 /* btn_pause_pressed.png */,
+				DA67305912C833C900643330 /* btn_pause.png */,
+				DA67305A12C833C900643330 /* btn_play_pressed.png */,
+				DA67305B12C833C900643330 /* btn_play.png */,
+				DA67304112C82DD400643330 /* Speaker-icon.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* DropVox-Info.plist */,
 			);
@@ -147,6 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				DA67304212C82DD400643330 /* Speaker-icon.png in Resources */,
+				DA67305C12C833C900643330 /* btn_pause_pressed.png in Resources */,
+				DA67305D12C833C900643330 /* btn_pause.png in Resources */,
+				DA67305E12C833C900643330 /* btn_play_pressed.png in Resources */,
+				DA67305F12C833C900643330 /* btn_play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +190,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* DropVoxAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* DropVoxViewController.m in Sources */,
+				DA1AB1F012C818E50052792F /* PlayView.m in Sources */,
+				DA6730B412C83D1700643330 /* UIPlayPauseButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

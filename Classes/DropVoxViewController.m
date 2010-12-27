@@ -7,9 +7,9 @@
 //
 
 #import "DropVoxViewController.h"
+#import "PlayView.h"
 
 @implementation DropVoxViewController
-
 
 
 /*
@@ -25,8 +25,10 @@
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-	printf("loadView called\n");
-	
+	printf("DropBoxViewController.loadView called\n");
+	UIView *contentView = [[PlayView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+	self.view = contentView;
+	[contentView release];
 }
 
 
@@ -34,19 +36,19 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-	printf("viewDidLoad called\n");
+	printf("DropBoxViewController.viewDidLoad called\n");
     [super viewDidLoad];
 }
 
 
 
-/*
+
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-*/
+
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
