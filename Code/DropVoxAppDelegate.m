@@ -9,6 +9,7 @@
 #import "DropVoxAppDelegate.h"
 
 #import "PlayViewController.h"
+#import "DropboxLoginViewController.h"
 #import "PlayerManager.h"
 
 
@@ -27,7 +28,7 @@
 	playerManager = [[PlayerManager alloc] init];
 	
 	playViewController = [[PlayViewController alloc] initWithPlayerManager:playerManager]; //dependency injection
-    
+    	
 	[window addSubview:playViewController.view];
     [window makeKeyAndVisible];
     return YES;

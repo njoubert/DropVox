@@ -10,7 +10,7 @@
 #import "PlayerManager.h"
 #import "PlayViewController.h"
 #import "PlayView.h"
-
+#import "DropboxLoginViewController.h"
 
 @implementation PlayViewController
 
@@ -27,12 +27,18 @@
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-	NSLog(@"PlayViewController.loadView called\n");
+	NSLog(@"PlayViewController loadView");
+
 	_playView = [[PlayView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame] andController:self];
 	self.view = _playView;
 	
 	//register callbacks
 	[_playerManager registerPlayerStateCallback:_playView];
+	
+}
+
+- (void) viewDidLoad {
+	NSLog(@"PlayViewController viewDidLoad");
 
 }
 
@@ -42,12 +48,23 @@
 
 -(void)playPauseButtonClicked:(id)sender {
 	[_playerManager pb_togglePlayPause];
+	[self showDropboxLoginController];
 }
 -(void)prevButtonClicked:(id)sender {
 	[_playerManager pb_prev];
 }
 -(void)nextButtonClicked:(id)sender {
 	[_playerManager pb_next];
+}
+
+
+#pragma mark -
+#pragma mark Presenting Subviews
+
+-(void)showDropboxLoginController {	
+	DropboxLoginViewController* c = [[[DropboxLoginViewController alloc] init] autorelease];
+	[self presentModalViewController:c animated:YES];
+	
 }
 
 

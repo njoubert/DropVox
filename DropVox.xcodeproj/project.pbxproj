@@ -11,6 +11,9 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		DA54883412C955C90010A352 /* DropboxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA54883312C955C90010A352 /* DropboxManager.m */; };
+		DA54884212C957660010A352 /* DropboxLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */; };
+		DA5489E612C9EECE0010A352 /* UITableViewTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */; };
 		DA67304212C82DD400643330 /* Speaker-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67304112C82DD400643330 /* Speaker-icon.png */; };
 		DA67305C12C833C900643330 /* btn_pause_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305812C833C900643330 /* btn_pause_pressed.png */; };
 		DA67305D12C833C900643330 /* btn_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305912C833C900643330 /* btn_pause.png */; };
@@ -42,6 +45,12 @@
 		32CA4F630368D1EE00C91783 /* DropVox_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropVox_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DropVox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DropVox-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		DA54877912C934F20010A352 /* GlobalTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTypes.h; sourceTree = "<group>"; };
+		DA54883212C955C90010A352 /* DropboxManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxManager.h; sourceTree = "<group>"; };
+		DA54883312C955C90010A352 /* DropboxManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxManager.m; sourceTree = "<group>"; };
+		DA54884012C957660010A352 /* DropboxLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxLoginViewController.h; sourceTree = "<group>"; };
+		DA54884112C957660010A352 /* DropboxLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxLoginViewController.m; sourceTree = "<group>"; };
+		DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewTextFieldCell.h; sourceTree = "<group>"; };
+		DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewTextFieldCell.m; sourceTree = "<group>"; };
 		DA67304112C82DD400643330 /* Speaker-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speaker-icon.png"; path = "resources/Speaker-icon.png"; sourceTree = "<group>"; };
 		DA67305812C833C900643330 /* btn_pause_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pause_pressed.png; path = resources/btn_pause_pressed.png; sourceTree = "<group>"; };
 		DA67305912C833C900643330 /* btn_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pause.png; path = resources/btn_pause.png; sourceTree = "<group>"; };
@@ -175,6 +184,10 @@
 				DA9EAC4212C8A8640098EFE5 /* PlayerManager.m */,
 				DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */,
 				DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */,
+				DA54883212C955C90010A352 /* DropboxManager.h */,
+				DA54883312C955C90010A352 /* DropboxManager.m */,
+				DA54884012C957660010A352 /* DropboxLoginViewController.h */,
+				DA54884112C957660010A352 /* DropboxLoginViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -194,6 +207,8 @@
 				DA9EAC4C12C8A8640098EFE5 /* PlayView.m */,
 				DA9EAC4D12C8A8640098EFE5 /* UIPlayPauseButton.h */,
 				DA9EAC4E12C8A8640098EFE5 /* UIPlayPauseButton.m */,
+				DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */,
+				DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +285,9 @@
 				DA9EAC5212C8A8640098EFE5 /* main.m in Sources */,
 				DA9EAC5312C8A8640098EFE5 /* PlayView.m in Sources */,
 				DA9EAC5412C8A8640098EFE5 /* UIPlayPauseButton.m in Sources */,
+				DA54883412C955C90010A352 /* DropboxManager.m in Sources */,
+				DA54884212C957660010A352 /* DropboxLoginViewController.m in Sources */,
+				DA5489E612C9EECE0010A352 /* UITableViewTextFieldCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

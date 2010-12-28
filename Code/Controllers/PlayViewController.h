@@ -13,8 +13,10 @@
 
 @interface PlayViewController : UIViewController {
 	PlayView* _playView;
+	
 	PlayerManager* _playerManager;
 }
 -(PlayViewController*) initWithPlayerManager:(PlayerManager*)pm;
+-(void)showDropboxLoginController;
 @end
 
