@@ -11,7 +11,6 @@
 		activeExecutable = DA1AB17112C759C10052792F /* DropVox */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* DropVox */;
 		addToTargets = (
-			1D6058900D05DD3D006BFB54 /* DropVox */,
 		);
 		codeSenseManager = DA1AB19412C759DA0052792F /* Code sense */;
 		executables = (
@@ -303,6 +302,78 @@
 			DA548A0612C9F11F0010A352 /* PBXTextBookmark */ = DA548A0612C9F11F0010A352 /* PBXTextBookmark */;
 			DA548A0A12C9F12E0010A352 /* PBXTextBookmark */ = DA548A0A12C9F12E0010A352 /* PBXTextBookmark */;
 			DA548A1012C9F1640010A352 /* PBXTextBookmark */ = DA548A1012C9F1640010A352 /* PBXTextBookmark */;
+			DA548A1412C9F2040010A352 /* PBXTextBookmark */ = DA548A1412C9F2040010A352 /* PBXTextBookmark */;
+			DA548A1812C9F2390010A352 /* PBXTextBookmark */ = DA548A1812C9F2390010A352 /* PBXTextBookmark */;
+			DA548A1912C9F2390010A352 /* PBXTextBookmark */ = DA548A1912C9F2390010A352 /* PBXTextBookmark */;
+			DA548A1A12C9F2390010A352 /* PBXTextBookmark */ = DA548A1A12C9F2390010A352 /* PBXTextBookmark */;
+			DA548A1E12C9F2550010A352 /* PBXTextBookmark */ = DA548A1E12C9F2550010A352 /* PBXTextBookmark */;
+			DA548A1F12C9F2550010A352 /* PBXTextBookmark */ = DA548A1F12C9F2550010A352 /* PBXTextBookmark */;
+			DA548A2012C9F2550010A352 /* PBXTextBookmark */ = DA548A2012C9F2550010A352 /* PBXTextBookmark */;
+			DA548A2412C9F27E0010A352 /* PBXTextBookmark */ = DA548A2412C9F27E0010A352 /* PBXTextBookmark */;
+			DA548A2812C9F2970010A352 /* PBXTextBookmark */ = DA548A2812C9F2970010A352 /* PBXTextBookmark */;
+			DA548A2912C9F2970010A352 /* PBXTextBookmark */ = DA548A2912C9F2970010A352 /* PBXTextBookmark */;
+			DA548A2A12C9F2970010A352 /* PBXTextBookmark */ = DA548A2A12C9F2970010A352 /* PBXTextBookmark */;
+			DA548A2E12C9F2BC0010A352 /* PBXTextBookmark */ = DA548A2E12C9F2BC0010A352 /* PBXTextBookmark */;
+			DA548A3212C9F3000010A352 /* PBXTextBookmark */ = DA548A3212C9F3000010A352 /* PBXTextBookmark */;
+			DA548A3612C9F3110010A352 /* PBXTextBookmark */ = DA548A3612C9F3110010A352 /* PBXTextBookmark */;
+			DA548A3A12C9F3480010A352 /* PBXTextBookmark */ = DA548A3A12C9F3480010A352 /* PBXTextBookmark */;
+			DA548A3B12C9F3480010A352 /* PBXTextBookmark */ = DA548A3B12C9F3480010A352 /* PBXTextBookmark */;
+			DA548A3C12C9F3480010A352 /* PBXTextBookmark */ = DA548A3C12C9F3480010A352 /* PBXTextBookmark */;
+			DA548A4012C9F35B0010A352 /* PBXTextBookmark */ = DA548A4012C9F35B0010A352 /* PBXTextBookmark */;
+			DA548A4112C9F35B0010A352 /* PBXTextBookmark */ = DA548A4112C9F35B0010A352 /* PBXTextBookmark */;
+			DA548A4212C9F35B0010A352 /* PBXTextBookmark */ = DA548A4212C9F35B0010A352 /* PBXTextBookmark */;
+			DA548A4612C9F36A0010A352 /* PBXTextBookmark */ = DA548A4612C9F36A0010A352 /* PBXTextBookmark */;
+			DA548A4A12C9F3890010A352 /* PBXTextBookmark */ = DA548A4A12C9F3890010A352 /* PBXTextBookmark */;
+			DA548A4E12C9F5150010A352 /* PBXTextBookmark */ = DA548A4E12C9F5150010A352 /* PBXTextBookmark */;
+			DA548A4F12C9F5150010A352 /* PBXTextBookmark */ = DA548A4F12C9F5150010A352 /* PBXTextBookmark */;
+			DA548A5012C9F5150010A352 /* PBXTextBookmark */ = DA548A5012C9F5150010A352 /* PBXTextBookmark */;
+			DA548A5112C9F5150010A352 /* PBXTextBookmark */ = DA548A5112C9F5150010A352 /* PBXTextBookmark */;
+			DA548A5212C9F5150010A352 /* PBXTextBookmark */ = DA548A5212C9F5150010A352 /* PBXTextBookmark */;
+			DA548A5512C9F5210010A352 /* PBXTextBookmark */ = DA548A5512C9F5210010A352 /* PBXTextBookmark */;
+			DA548A5912C9F5640010A352 /* PBXTextBookmark */ = DA548A5912C9F5640010A352 /* PBXTextBookmark */;
+			DA548A5B12C9F5920010A352 /* PBXTextBookmark */ = DA548A5B12C9F5920010A352 /* PBXTextBookmark */;
+			DA548A5C12C9F5920010A352 /* PBXTextBookmark */ = DA548A5C12C9F5920010A352 /* PBXTextBookmark */;
+			DA548A5D12C9F5920010A352 /* PBXTextBookmark */ = DA548A5D12C9F5920010A352 /* PBXTextBookmark */;
+			DA548A5E12C9F5B70010A352 /* PBXTextBookmark */ = DA548A5E12C9F5B70010A352 /* PBXTextBookmark */;
+			DA548A6312C9F5FF0010A352 /* PBXTextBookmark */ = DA548A6312C9F5FF0010A352 /* PBXTextBookmark */;
+			DA548A6D12C9F7490010A352 /* PBXTextBookmark */ = DA548A6D12C9F7490010A352 /* PBXTextBookmark */;
+			DA548A6E12C9F7490010A352 /* PBXTextBookmark */ = DA548A6E12C9F7490010A352 /* PBXTextBookmark */;
+			DA548A6F12C9F7490010A352 /* PBXTextBookmark */ = DA548A6F12C9F7490010A352 /* PBXTextBookmark */;
+			DA548A7012C9F7490010A352 /* PBXTextBookmark */ = DA548A7012C9F7490010A352 /* PBXTextBookmark */;
+			DA548A7112C9F7490010A352 /* PBXTextBookmark */ = DA548A7112C9F7490010A352 /* PBXTextBookmark */;
+			DA548A7A12C9F7CE0010A352 /* PBXTextBookmark */ = DA548A7A12C9F7CE0010A352 /* PBXTextBookmark */;
+			DA548A8112C9F8180010A352 /* PBXTextBookmark */ = DA548A8112C9F8180010A352 /* PBXTextBookmark */;
+			DA548A8812C9F8560010A352 /* PBXTextBookmark */ = DA548A8812C9F8560010A352 /* PBXTextBookmark */;
+			DA548A8A12C9F8C90010A352 /* PBXTextBookmark */ = DA548A8A12C9F8C90010A352 /* PBXTextBookmark */;
+			DA548A8B12C9F8C90010A352 /* PBXTextBookmark */ = DA548A8B12C9F8C90010A352 /* PBXTextBookmark */;
+			DA548A8C12C9F8C90010A352 /* PBXTextBookmark */ = DA548A8C12C9F8C90010A352 /* PBXTextBookmark */;
+			DA548A8D12C9F8C90010A352 /* PBXTextBookmark */ = DA548A8D12C9F8C90010A352 /* PBXTextBookmark */;
+			DA548A9012C9FA080010A352 /* PBXTextBookmark */ = DA548A9012C9FA080010A352 /* PBXTextBookmark */;
+			DA548A9112C9FA080010A352 /* PBXTextBookmark */ = DA548A9112C9FA080010A352 /* PBXTextBookmark */;
+			DA548A9212C9FA080010A352 /* PBXTextBookmark */ = DA548A9212C9FA080010A352 /* PBXTextBookmark */;
+			DA548A9612C9FA3E0010A352 /* PBXTextBookmark */ = DA548A9612C9FA3E0010A352 /* PBXTextBookmark */;
+			DA548A9D12C9FCAF0010A352 /* PBXTextBookmark */ = DA548A9D12C9FCAF0010A352 /* PBXTextBookmark */;
+			DA548A9E12C9FCAF0010A352 /* PBXTextBookmark */ = DA548A9E12C9FCAF0010A352 /* PBXTextBookmark */;
+			DA548A9F12C9FCAF0010A352 /* PBXTextBookmark */ = DA548A9F12C9FCAF0010A352 /* PBXTextBookmark */;
+			DA548AA012C9FCAF0010A352 /* PBXTextBookmark */ = DA548AA012C9FCAF0010A352 /* PBXTextBookmark */;
+			DA548AA112C9FCAF0010A352 /* PBXTextBookmark */ = DA548AA112C9FCAF0010A352 /* PBXTextBookmark */;
+			DA548AAA12C9FD5B0010A352 /* PBXTextBookmark */ = DA548AAA12C9FD5B0010A352 /* PBXTextBookmark */;
+			DA548AAB12C9FD5B0010A352 /* PBXTextBookmark */ = DA548AAB12C9FD5B0010A352 /* PBXTextBookmark */;
+			DA548AAC12C9FD5B0010A352 /* PBXTextBookmark */ = DA548AAC12C9FD5B0010A352 /* PBXTextBookmark */;
+			DA548AAD12C9FD5B0010A352 /* PBXTextBookmark */ = DA548AAD12C9FD5B0010A352 /* PBXTextBookmark */;
+			DA548AB112C9FDAA0010A352 /* PBXTextBookmark */ = DA548AB112C9FDAA0010A352 /* PBXTextBookmark */;
+			DA548AB212C9FDAA0010A352 /* PBXTextBookmark */ = DA548AB212C9FDAA0010A352 /* PBXTextBookmark */;
+			DA548AB312C9FDAA0010A352 /* PBXTextBookmark */ = DA548AB312C9FDAA0010A352 /* PBXTextBookmark */;
+			DA548AB412C9FDAA0010A352 /* PBXTextBookmark */ = DA548AB412C9FDAA0010A352 /* PBXTextBookmark */;
+			DA548AB512C9FDAA0010A352 /* PBXTextBookmark */ = DA548AB512C9FDAA0010A352 /* PBXTextBookmark */;
+			DA548ABC12C9FF470010A352 /* PBXTextBookmark */ = DA548ABC12C9FF470010A352 /* PBXTextBookmark */;
+			DA548ABD12C9FF470010A352 /* PBXTextBookmark */ = DA548ABD12C9FF470010A352 /* PBXTextBookmark */;
+			DA548ABE12C9FF470010A352 /* PBXTextBookmark */ = DA548ABE12C9FF470010A352 /* PBXTextBookmark */;
+			DA548ABF12C9FF470010A352 /* PBXTextBookmark */ = DA548ABF12C9FF470010A352 /* PBXTextBookmark */;
+			DA548AC012C9FF470010A352 /* PBXTextBookmark */ = DA548AC012C9FF470010A352 /* PBXTextBookmark */;
+			DA548AC212C9FF8A0010A352 /* PBXTextBookmark */ = DA548AC212C9FF8A0010A352 /* PBXTextBookmark */;
+			DA548AC312C9FF8A0010A352 /* PBXTextBookmark */ = DA548AC312C9FF8A0010A352 /* PBXTextBookmark */;
+			DA548AC412C9FF8A0010A352 /* PBXTextBookmark */ = DA548AC412C9FF8A0010A352 /* PBXTextBookmark */;
 			DA67306012C833EB00643330 = DA67306012C833EB00643330 /* PBXBookmark */;
 			DA67306412C833EB00643330 = DA67306412C833EB00643330 /* PlistBookmark */;
 			DA67307212C834A700643330 = DA67307212C834A700643330 /* PBXBookmark */;
@@ -1417,15 +1488,15 @@
 	DA54884012C957660010A352 /* DropboxLoginViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1013, 806}}";
-			sepNavSelRange = "{315, 11}";
-			sepNavVisRange = "{0, 348}";
+			sepNavSelRange = "{506, 25}";
+			sepNavVisRange = "{0, 682}";
 		};
 	};
 	DA54884112C957660010A352 /* DropboxLoginViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1013, 2041}}";
-			sepNavSelRange = "{2461, 0}";
-			sepNavVisRange = "{1468, 1915}";
+			sepNavIntBoundsRect = "{{0, 0}, {1314, 2275}}";
+			sepNavSelRange = "{4371, 0}";
+			sepNavVisRange = "{2763, 1932}";
 			sepNavWindowFrame = "{{1318, 294}, {906, 880}}";
 		};
 	};
@@ -1693,7 +1764,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 13";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 300;
 		rType = 0;
 		vrLen = 366;
 		vrLoc = 0;
@@ -1703,7 +1774,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 13";
 		rLen = 0;
-		rLoc = 267;
+		rLoc = 300;
 		rType = 0;
 		vrLen = 366;
 		vrLoc = 0;
@@ -1723,7 +1794,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 68";
 		rLen = 0;
-		rLoc = 3167;
+		rLoc = 3512;
 		rType = 0;
 		vrLen = 1486;
 		vrLoc = 244;
@@ -1779,7 +1850,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 16";
 		rLen = 10;
-		rLoc = 328;
+		rLoc = 361;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 0;
@@ -1899,7 +1970,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 16";
 		rLen = 10;
-		rLoc = 328;
+		rLoc = 361;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 0;
@@ -2040,7 +2111,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 110;
+		rLoc = 120;
 		rType = 1;
 	};
 	DA5488D112C9D1A50010A352 /* PBXTextBookmark */ = {
@@ -2048,7 +2119,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 74";
 		rLen = 0;
-		rLoc = 2980;
+		rLoc = 3325;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 1556;
@@ -2068,7 +2139,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 74";
 		rLen = 0;
-		rLoc = 2980;
+		rLoc = 3325;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 1556;
@@ -2088,7 +2159,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 16";
 		rLen = 10;
-		rLoc = 328;
+		rLoc = 361;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 0;
@@ -2108,7 +2179,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 16";
 		rLen = 10;
-		rLoc = 328;
+		rLoc = 361;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 0;
@@ -2228,7 +2299,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 72";
 		rLen = 0;
-		rLoc = 2939;
+		rLoc = 3284;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 676;
@@ -2238,7 +2309,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 17";
 		rLen = 0;
-		rLoc = 342;
+		rLoc = 675;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 0;
@@ -2268,7 +2339,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 86";
 		rLen = 0;
-		rLoc = 3153;
+		rLoc = 3498;
 		rType = 0;
 		vrLen = 1388;
 		vrLoc = 993;
@@ -2278,7 +2349,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 85";
 		rLen = 0;
-		rLoc = 3153;
+		rLoc = 3498;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 902;
@@ -2288,7 +2359,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 87";
 		rLen = 0;
-		rLoc = 3153;
+		rLoc = 3498;
 		rType = 0;
 		vrLen = 1471;
 		vrLoc = 902;
@@ -2298,7 +2369,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 69";
 		rLen = 0;
-		rLoc = 2909;
+		rLoc = 3254;
 		rType = 0;
 		vrLen = 1515;
 		vrLoc = 993;
@@ -2308,7 +2379,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 99";
 		rLen = 0;
-		rLoc = 3314;
+		rLoc = 3659;
 		rType = 0;
 		vrLen = 1543;
 		vrLoc = 1196;
@@ -2318,7 +2389,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 101";
 		rLen = 0;
-		rLoc = 3356;
+		rLoc = 3701;
 		rType = 0;
 		vrLen = 1537;
 		vrLoc = 1196;
@@ -2328,7 +2399,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 99";
 		rLen = 0;
-		rLoc = 3314;
+		rLoc = 3659;
 		rType = 0;
 		vrLen = 1534;
 		vrLoc = 1198;
@@ -2338,7 +2409,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 74";
 		rLen = 0;
-		rLoc = 2980;
+		rLoc = 3325;
 		rType = 0;
 		vrLen = 492;
 		vrLoc = 1340;
@@ -2348,7 +2419,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 99";
 		rLen = 0;
-		rLoc = 3314;
+		rLoc = 3659;
 		rType = 0;
 		vrLen = 1557;
 		vrLoc = 1175;
@@ -2358,7 +2429,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 96";
 		rLen = 0;
-		rLoc = 3153;
+		rLoc = 3498;
 		rType = 0;
 		vrLen = 1715;
 		vrLoc = 1030;
@@ -2368,7 +2439,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 114";
 		rLen = 0;
-		rLoc = 3679;
+		rLoc = 4024;
 		rType = 0;
 		vrLen = 1909;
 		vrLoc = 1327;
@@ -2378,7 +2449,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 113";
 		rLen = 0;
-		rLoc = 3662;
+		rLoc = 4007;
 		rType = 0;
 		vrLen = 1924;
 		vrLoc = 1339;
@@ -2388,7 +2459,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 14";
 		rLen = 19;
-		rLoc = 268;
+		rLoc = 301;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 0;
@@ -2398,7 +2469,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 113";
 		rLen = 0;
-		rLoc = 3662;
+		rLoc = 4007;
 		rType = 0;
 		vrLen = 1499;
 		vrLoc = 0;
@@ -2408,7 +2479,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 122";
 		rLen = 0;
-		rLoc = 3805;
+		rLoc = 4556;
 		rType = 0;
 		vrLen = 1944;
 		vrLoc = 1547;
@@ -2418,7 +2489,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 118";
 		rLen = 0;
-		rLoc = 3786;
+		rLoc = 4375;
 		rType = 0;
 		vrLen = 1839;
 		vrLoc = 2104;
@@ -2428,7 +2499,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 78";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1819;
 		vrLoc = 1102;
@@ -2438,7 +2509,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 79";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1887;
 		vrLoc = 1126;
@@ -2448,7 +2519,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 79";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 1155;
@@ -2458,7 +2529,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 78";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1907;
 		vrLoc = 1157;
@@ -2468,7 +2539,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 78";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 1196;
@@ -2478,7 +2549,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 85";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1857;
 		vrLoc = 1198;
@@ -2488,7 +2559,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 79";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1950;
 		vrLoc = 1200;
@@ -2498,7 +2569,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 99";
 		rLen = 0;
-		rLoc = 3153;
+		rLoc = 3498;
 		rType = 0;
 		vrLen = 2116;
 		vrLoc = 1339;
@@ -2508,7 +2579,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 102";
 		rLen = 0;
-		rLoc = 3153;
+		rLoc = 3498;
 		rType = 0;
 		vrLen = 2231;
 		vrLoc = 1341;
@@ -2518,7 +2589,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 80";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2169;
 		vrLoc = 1465;
@@ -2594,7 +2665,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 19";
 		rLen = 0;
-		rLoc = 348;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 0;
@@ -2604,7 +2675,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 81";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1499;
 		vrLoc = 0;
@@ -2644,7 +2715,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 19";
 		rLen = 0;
-		rLoc = 348;
+		rLoc = 682;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 0;
@@ -2654,7 +2725,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 15";
 		rLen = 0;
-		rLoc = 326;
+		rLoc = 359;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 0;
@@ -2664,7 +2735,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 15";
 		rLen = 11;
-		rLoc = 315;
+		rLoc = 348;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 0;
@@ -2674,7 +2745,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 82";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2140;
 		vrLoc = 1226;
@@ -2684,7 +2755,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 77";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1525;
 		vrLoc = 0;
@@ -2694,7 +2765,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 75";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1503;
 		vrLoc = 7;
@@ -2704,7 +2775,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 88";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2413;
 		vrLoc = 1165;
@@ -2714,7 +2785,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 110";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2413;
 		vrLoc = 1307;
@@ -2724,7 +2795,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 66";
 		rLen = 0;
-		rLoc = 1548;
+		rLoc = 2504;
 		rType = 0;
 		vrLen = 2253;
 		vrLoc = 1510;
@@ -2733,8 +2804,8 @@
 		isa = PBXTextBookmark;
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 77";
-		rLen = 18;
-		rLoc = 2981;
+		rLen = 17;
+		rLoc = 3327;
 		rType = 0;
 		vrLen = 2303;
 		vrLoc = 1513;
@@ -2744,7 +2815,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 77";
 		rLen = 0;
-		rLoc = 2981;
+		rLoc = 3327;
 		rType = 0;
 		vrLen = 2295;
 		vrLoc = 1513;
@@ -2754,7 +2825,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 84";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2187;
 		vrLoc = 1539;
@@ -2764,7 +2835,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 84";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2084;
 		vrLoc = 1645;
@@ -2774,7 +2845,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 99";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2228;
 		vrLoc = 1779;
@@ -2784,7 +2855,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 95";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2219;
 		vrLoc = 1781;
@@ -2794,7 +2865,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 84";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2150;
 		vrLoc = 1851;
@@ -2804,7 +2875,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 84";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2235;
 		vrLoc = 1888;
@@ -2814,7 +2885,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 84";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2209;
 		vrLoc = 1917;
@@ -2824,23 +2895,23 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 84";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 2288;
 		vrLoc = 1970;
 	};
 	DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1013, 806}}";
-			sepNavSelRange = "{272, 22}";
-			sepNavVisRange = "{0, 315}";
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 783}}";
+			sepNavSelRange = "{463, 23}";
+			sepNavVisRange = "{0, 538}";
 		};
 	};
 	DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1013, 806}}";
-			sepNavSelRange = "{1138, 46}";
-			sepNavVisRange = "{0, 1259}";
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 1001}}";
+			sepNavSelRange = "{1974, 0}";
+			sepNavVisRange = "{375, 1650}";
 		};
 	};
 	DA5489EF12C9EFCD0010A352 /* PBXTextBookmark */ = {
@@ -2878,7 +2949,7 @@
 		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
 		name = "UITableViewTextFieldCell.m: 39";
 		rLen = 46;
-		rLoc = 1138;
+		rLoc = 1604;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 0;
@@ -2888,7 +2959,7 @@
 		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
 		name = "DropboxLoginViewController.h: 15";
 		rLen = 11;
-		rLoc = 315;
+		rLoc = 348;
 		rType = 0;
 		vrLen = 348;
 		vrLoc = 0;
@@ -2898,7 +2969,7 @@
 		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
 		name = "UITableViewTextFieldCell.h: 15";
 		rLen = 22;
-		rLoc = 272;
+		rLoc = 408;
 		rType = 0;
 		vrLen = 315;
 		vrLoc = 0;
@@ -2908,7 +2979,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 82";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1954;
 		vrLoc = 1178;
@@ -2918,7 +2989,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 75";
 		rLen = 0;
-		rLoc = 3063;
+		rLoc = 3408;
 		rType = 0;
 		vrLen = 1956;
 		vrLoc = 1199;
@@ -2928,7 +2999,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 81";
 		rLen = 0;
-		rLoc = 2157;
+		rLoc = 2504;
 		rType = 0;
 		vrLen = 2085;
 		vrLoc = 1262;
@@ -2938,7 +3009,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 85";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2686;
 		rType = 0;
 		vrLen = 2020;
 		vrLoc = 1342;
@@ -2948,7 +3019,7 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 95";
 		rLen = 0;
-		rLoc = 2786;
+		rLoc = 3131;
 		rType = 0;
 		vrLen = 2205;
 		vrLoc = 1435;
@@ -2958,10 +3029,730 @@
 		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
 		name = "DropboxLoginViewController.m: 88";
 		rLen = 0;
-		rLoc = 2461;
+		rLoc = 2866;
 		rType = 0;
 		vrLen = 1915;
 		vrLoc = 1468;
+	};
+	DA548A1412C9F2040010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 139";
+		rLen = 0;
+		rLoc = 4559;
+		rType = 0;
+		vrLen = 1786;
+		vrLoc = 2648;
+	};
+	DA548A1812C9F2390010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 139";
+		rLen = 0;
+		rLoc = 4559;
+		rType = 0;
+		vrLen = 1786;
+		vrLoc = 2648;
+	};
+	DA548A1912C9F2390010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 15";
+		rLen = 22;
+		rLoc = 408;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	DA548A1A12C9F2390010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 35";
+		rLen = 0;
+		rLoc = 1601;
+		rType = 0;
+		vrLen = 1309;
+		vrLoc = 0;
+	};
+	DA548A1E12C9F2550010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 35";
+		rLen = 0;
+		rLoc = 1601;
+		rType = 0;
+		vrLen = 1309;
+		vrLoc = 0;
+	};
+	DA548A1F12C9F2550010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 139";
+		rLen = 0;
+		rLoc = 4559;
+		rType = 0;
+		vrLen = 1802;
+		vrLoc = 2632;
+	};
+	DA548A2012C9F2550010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 132";
+		rLen = 0;
+		rLoc = 4375;
+		rType = 0;
+		vrLen = 1788;
+		vrLoc = 2648;
+	};
+	DA548A2412C9F27E0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 151";
+		rLen = 0;
+		rLoc = 4559;
+		rType = 0;
+		vrLen = 1800;
+		vrLoc = 2648;
+	};
+	DA548A2812C9F2970010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 151";
+		rLen = 0;
+		rLoc = 4559;
+		rType = 0;
+		vrLen = 1816;
+		vrLoc = 2632;
+	};
+	DA548A2912C9F2970010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
+		name = "DropVoxAppDelegate.m: 20";
+		rLen = 0;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 2170;
+		vrLoc = 0;
+	};
+	DA548A2A12C9F2970010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 34";
+		rLen = 0;
+		rLoc = 1480;
+		rType = 0;
+		vrLen = 1303;
+		vrLoc = 0;
+	};
+	DA548A2E12C9F2BC0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 37";
+		rLen = 0;
+		rLoc = 1601;
+		rType = 0;
+		vrLen = 1280;
+		vrLoc = 0;
+	};
+	DA548A3212C9F3000010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 35";
+		rLen = 0;
+		rLoc = 1601;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 0;
+	};
+	DA548A3612C9F3110010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 35";
+		rLen = 0;
+		rLoc = 1601;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 0;
+	};
+	DA548A3A12C9F3480010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 10";
+		rLen = 0;
+		rLoc = 191;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 0;
+	};
+	DA548A3B12C9F3480010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 151";
+		rLen = 0;
+		rLoc = 4559;
+		rType = 0;
+		vrLen = 1816;
+		vrLoc = 2632;
+	};
+	DA548A3C12C9F3480010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 129";
+		rLen = 0;
+		rLoc = 4374;
+		rType = 0;
+		vrLen = 1834;
+		vrLoc = 2648;
+	};
+	DA548A4012C9F35B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 129";
+		rLen = 0;
+		rLoc = 4374;
+		rType = 0;
+		vrLen = 1834;
+		vrLoc = 2648;
+	};
+	DA548A4112C9F35B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 10";
+		rLen = 0;
+		rLoc = 191;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 0;
+	};
+	DA548A4212C9F35B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 40";
+		rLen = 0;
+		rLoc = 1674;
+		rType = 0;
+		vrLen = 1314;
+		vrLoc = 0;
+	};
+	DA548A4612C9F36A0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 23";
+		rLen = 0;
+		rLoc = 1310;
+		rType = 0;
+		vrLen = 1284;
+		vrLoc = 0;
+	};
+	DA548A4A12C9F3890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 22";
+		rLen = 0;
+		rLoc = 759;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 0;
+	};
+	DA548A4E12C9F5150010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 15";
+		rLen = 10;
+		rLoc = 377;
+		rType = 0;
+		vrLen = 430;
+		vrLoc = 0;
+	};
+	DA548A4F12C9F5150010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 70";
+		rLen = 0;
+		rLoc = 2504;
+		rType = 0;
+		vrLen = 2021;
+		vrLoc = 1330;
+	};
+	DA548A5012C9F5150010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
+		name = "DropboxLoginViewController.h: 15";
+		rLen = 11;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 0;
+	};
+	DA548A5112C9F5150010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 15";
+		rLen = 113;
+		rLoc = 259;
+		rType = 0;
+		vrLen = 1439;
+		vrLoc = 0;
+	};
+	DA548A5212C9F5150010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 28";
+		rLen = 0;
+		rLoc = 1085;
+		rType = 0;
+		vrLen = 1586;
+		vrLoc = 0;
+	};
+	DA548A5512C9F5210010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 29";
+		rLen = 0;
+		rLoc = 1121;
+		rType = 0;
+		vrLen = 1620;
+		vrLoc = 0;
+	};
+	DA548A5912C9F5640010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 45";
+		rLen = 0;
+		rLoc = 1601;
+		rType = 0;
+		vrLen = 1625;
+		vrLoc = 0;
+	};
+	DA548A5B12C9F5920010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 17";
+		rLen = 16;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	DA548A5C12C9F5920010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 42";
+		rLen = 0;
+		rLoc = 1488;
+		rType = 0;
+		vrLen = 1625;
+		vrLoc = 0;
+	};
+	DA548A5D12C9F5920010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 53";
+		rLen = 0;
+		rLoc = 1916;
+		rType = 0;
+		vrLen = 1668;
+		vrLoc = 0;
+	};
+	DA548A5E12C9F5B70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 45";
+		rLen = 0;
+		rLoc = 1601;
+		rType = 0;
+		vrLen = 1682;
+		vrLoc = 0;
+	};
+	DA548A6312C9F5FF0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 48";
+		rLen = 0;
+		rLoc = 1579;
+		rType = 0;
+		vrLen = 1742;
+		vrLoc = 3;
+	};
+	DA548A6D12C9F7490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 42";
+		rLen = 0;
+		rLoc = 1455;
+		rType = 0;
+		vrLen = 1669;
+		vrLoc = 3;
+	};
+	DA548A6E12C9F7490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 17";
+		rLen = 16;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	DA548A6F12C9F7490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
+		name = "DropboxLoginViewController.h: 25";
+		rLen = 0;
+		rLoc = 677;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 0;
+	};
+	DA548A7012C9F7490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 139";
+		rLen = 0;
+		rLoc = 4375;
+		rType = 0;
+		vrLen = 1937;
+		vrLoc = 1201;
+	};
+	DA548A7112C9F7490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 116";
+		rLen = 0;
+		rLoc = 3345;
+		rType = 0;
+		vrLen = 1622;
+		vrLoc = 2024;
+	};
+	DA548A7A12C9F7CE0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 148";
+		rLen = 0;
+		rLoc = 4375;
+		rType = 0;
+		vrLen = 1703;
+		vrLoc = 2703;
+	};
+	DA548A8112C9F8180010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 29";
+		rLen = 0;
+		rLoc = 654;
+		rType = 0;
+		vrLen = 1546;
+		vrLoc = 1583;
+	};
+	DA548A8812C9F8560010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 136";
+		rLen = 182;
+		rLoc = 4375;
+		rType = 0;
+		vrLen = 1979;
+		vrLoc = 2341;
+	};
+	DA548A8A12C9F8C90010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 79";
+		rLen = 0;
+		rLoc = 2213;
+		rType = 0;
+		vrLen = 1976;
+		vrLoc = 1201;
+	};
+	DA548A8B12C9F8C90010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 12";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 469;
+		vrLoc = 0;
+	};
+	DA548A8C12C9F8C90010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 42";
+		rLen = 0;
+		rLoc = 1455;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 0;
+	};
+	DA548A8D12C9F8C90010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 42";
+		rLen = 0;
+		rLoc = 1455;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 0;
+	};
+	DA548A9012C9FA080010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 12";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 447;
+		vrLoc = 0;
+	};
+	DA548A9112C9FA080010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 59";
+		rLen = 0;
+		rLoc = 2017;
+		rType = 0;
+		vrLen = 1672;
+		vrLoc = 0;
+	};
+	DA548A9212C9FA080010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 56";
+		rLen = 0;
+		rLoc = 1788;
+		rType = 0;
+		vrLen = 1801;
+		vrLoc = 46;
+	};
+	DA548A9612C9FA3E0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 60";
+		rLen = 0;
+		rLoc = 1788;
+		rType = 0;
+		vrLen = 1792;
+		vrLoc = 91;
+	};
+	DA548A9D12C9FCAF0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4912C8A8640098EFE5 /* PlayerStateCallbackProtocol.h */;
+		name = "PlayerStateCallbackProtocol.h: 11";
+		rLen = 0;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	DA548A9E12C9FCAF0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 79";
+		rLen = 0;
+		rLoc = 2213;
+		rType = 0;
+		vrLen = 1937;
+		vrLoc = 1201;
+	};
+	DA548A9F12C9FCAF0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 15";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 469;
+		vrLoc = 0;
+	};
+	DA548AA012C9FCAF0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 67";
+		rLen = 0;
+		rLoc = 1858;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 375;
+	};
+	DA548AA112C9FCAF0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 57";
+		rLen = 0;
+		rLoc = 1787;
+		rType = 0;
+		vrLen = 1603;
+		vrLoc = 375;
+	};
+	DA548AAA12C9FD5B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 468;
+		vrLoc = 0;
+	};
+	DA548AAB12C9FD5B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 60";
+		rLen = 0;
+		rLoc = 1788;
+		rType = 0;
+		vrLen = 1744;
+		vrLoc = 217;
+	};
+	DA548AAC12C9FD5B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 79";
+		rLen = 0;
+		rLoc = 2213;
+		rType = 0;
+		vrLen = 1937;
+		vrLoc = 1201;
+	};
+	DA548AAD12C9FD5B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 86";
+		rLen = 0;
+		rLoc = 2485;
+		rType = 0;
+		vrLen = 1953;
+		vrLoc = 1160;
+	};
+	DA548AB112C9FDAA0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 61";
+		rLen = 44;
+		rLoc = 1790;
+		rType = 0;
+		vrLen = 1845;
+		vrLoc = 3;
+	};
+	DA548AB212C9FDAA0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 20";
+		rLen = 0;
+		rLoc = 532;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 0;
+	};
+	DA548AB312C9FDAA0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
+		name = "DropboxLoginViewController.h: 25";
+		rLen = 0;
+		rLoc = 677;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 0;
+	};
+	DA548AB412C9FDAA0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 86";
+		rLen = 0;
+		rLoc = 2436;
+		rType = 0;
+		vrLen = 1924;
+		vrLoc = 1129;
+	};
+	DA548AB512C9FDAA0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 86";
+		rLen = 0;
+		rLoc = 2436;
+		rType = 0;
+		vrLen = 1924;
+		vrLoc = 1129;
+	};
+	DA548ABC12C9FF470010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
+		name = "DropboxLoginViewController.h: 14";
+		rLen = 0;
+		rLoc = 269;
+		rType = 0;
+		vrLen = 655;
+		vrLoc = 0;
+	};
+	DA548ABD12C9FF470010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */;
+		name = "UITableViewTextFieldCell.m: 69";
+		rLen = 0;
+		rLoc = 1974;
+		rType = 0;
+		vrLen = 1650;
+		vrLoc = 375;
+	};
+	DA548ABE12C9FF470010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */;
+		name = "UITableViewTextFieldCell.h: 20";
+		rLen = 23;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 0;
+	};
+	DA548ABF12C9FF470010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 139";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 1725;
+		vrLoc = 2795;
+	};
+	DA548AC012C9FF470010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 141";
+		rLen = 0;
+		rLoc = 4136;
+		rType = 0;
+		vrLen = 1937;
+		vrLoc = 3255;
+	};
+	DA548AC212C9FF8A0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884012C957660010A352 /* DropboxLoginViewController.h */;
+		name = "DropboxLoginViewController.h: 24";
+		rLen = 25;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	DA548AC312C9FF8A0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 141";
+		rLen = 0;
+		rLoc = 4136;
+		rType = 0;
+		vrLen = 1821;
+		vrLoc = 2921;
+	};
+	DA548AC412C9FF8A0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */;
+		name = "DropboxLoginViewController.m: 150";
+		rLen = 0;
+		rLoc = 4371;
+		rType = 0;
+		vrLen = 1932;
+		vrLoc = 2763;
 	};
 	DA67306012C833EB00643330 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -3022,7 +3813,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1965, 1222}}";
 			sepNavSelRange = "{366, 0}";
-			sepNavVisRange = "{3, 2165}";
+			sepNavVisRange = "{0, 2170}";
 		};
 	};
 	DA9EAC4712C8A8640098EFE5 /* main.m */ = {
@@ -3034,7 +3825,7 @@
 	};
 	DA9EAC4912C8A8640098EFE5 /* PlayerStateCallbackProtocol.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {918, 831}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 806}}";
 			sepNavSelRange = "{202, 0}";
 			sepNavVisRange = "{0, 296}";
 		};

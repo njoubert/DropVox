@@ -63,19 +63,29 @@
 	return 0;
 }
 
+#define EMAILFIELDID @"InputTableEmailID"
+#define PASSWDFIELDID @"InputTablePasswdID"
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForLoginPass:(NSIndexPath *)indexPath {
-	static NSString *InputTableIdentifier = @"InputTableIdentifier";
 	NSUInteger row = [indexPath row];
 	
-	UITableViewTextFieldCell* cell = [[[UITableViewTextFieldCell alloc] 
-			 initWithStyle:UITableViewCellStyleValue1
-			 reuseIdentifier:InputTableIdentifier] autorelease];
+	UITableViewTextFieldCell* cell;
 	if (row == 0) {
+		cell = [[[UITableViewTextFieldCell alloc] 
+				 initWithStyle:UITableViewCellStyleValue1
+				 reuseIdentifier:EMAILFIELDID
+				 isPassword:NO] autorelease];
 		cell.textLabel.text = @"Email";
-		[cell setTextEntryShadowText:@"example@gmail.com"];					
+		[cell setTextEntryShadowText:@"example@gmail.com"];	
+		[cell setTypingTarget:self action:@selector(typingOccurredAtObject:)];
 	} else if (row == 1) {
+		cell = [[[UITableViewTextFieldCell alloc] 
+				 initWithStyle:UITableViewCellStyleValue1
+				 reuseIdentifier:PASSWDFIELDID
+				 isPassword:YES] autorelease];
 		cell.textLabel.text = @"Password";
 		[cell setTextEntryShadowText:@"Required" ];
+		[cell setTypingTarget:self action:@selector(typingOccurredAtObject:)];
 	}
 	return cell;
 }
@@ -126,27 +136,42 @@
 	if (section == 2) { return @"DropVox only plays the music you have in your Dropbox account. We don't save these credentials, we only use it once to register the app with Dropbox."; }
 	return @"";
 }
-
--(NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	return indexPath;
+		 
+- (void) typingOccurredAtObject:(id)sender {
+	UITableViewTextFieldCell* tc = (UITableViewTextFieldCell*) sender;
+	if (tc.reuseIdentifier == PASSWDFIELDID) {
+		_passwd = [tc getData];
+	}
+	if (tc.reuseIdentifier == EMAILFIELDID) {
+		_email = [tc getData];
+	}
+}
+-(bool)hasEmailAndPasswd {
+	return ([_passwd length] > 0 && [_email length] > 0);
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSUInteger sec = [indexPath section];
-	NSUInteger row = [indexPath row];
+//-(NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//	NSUInteger sec = [indexPath section];
+//	if (sec == 0) return nil;
+//	
+//}
 
-	NSString *message = [[NSString alloc] initWithFormat:@"You selected a row"];
-	UIAlertView *alert = [[UIAlertView alloc]
-						  initWithTitle:@"Row Selected"
-						  message:message
-						  delegate:nil
-						  cancelButtonTitle:@"Yup"
-						  otherButtonTitles:nil];
-	[alert show];
-	
-	[message release];
-	[alert release];
-	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-}
+//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//	NSUInteger sec = [indexPath section];
+//	NSUInteger row = [indexPath row];
+//
+//	NSString *message = [[NSString alloc] initWithFormat:@"You selected a row"];
+//	UIAlertView *alert = [[UIAlertView alloc]
+//						  initWithTitle:@"Row Selected"
+//						  message:message
+//						  delegate:nil
+//						  cancelButtonTitle:@"Yup"
+//						  otherButtonTitles:nil];
+//	[alert show];
+//	
+//	[message release];
+//	[alert release];
+//	//[tableView deselectRowAtIndexPath:indexPath animated:YES];
+//}
 
 @end
