@@ -31,8 +31,8 @@
 	
 	DBSession* dbSession = 
 	[[[DBSession alloc]
-	  initWithConsumerKey:@"<YOUR CONSUMER KEY>"
-	  consumerSecret:@"<YOUR CONSUMER SECRET>"]
+	  initWithConsumerKey:@"emridj0ujv67z9a"
+	  consumerSecret:@"mg7k5lepbcn1j59"]
 	 autorelease];
     [DBSession setSharedSession:dbSession];
 	

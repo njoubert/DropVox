@@ -303,7 +303,7 @@
 							<real>261</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1310 -68 1357 1168 1280 0 1920 1200 </string>
+						<string>1292 -46 1357 1168 1280 0 1920 1200 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -333,7 +333,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DA548B6112CA04270010A352</string>
+										<string>DA548B7412CA05420010A352</string>
 										<key>history</key>
 										<array>
 											<string>DA1AB19912C75AC90052792F</string>
@@ -344,12 +344,9 @@
 											<string>DA54874C12C932D30010A352</string>
 											<string>DA54878312C9352A0010A352</string>
 											<string>DA54883812C9562F0010A352</string>
-											<string>DA54883912C9562F0010A352</string>
 											<string>DA54884D12C958480010A352</string>
 											<string>DA54885F12C97BBA0010A352</string>
 											<string>DA54887A12C982E40010A352</string>
-											<string>DA5488C712C984A10010A352</string>
-											<string>DA5488DA12C9D5250010A352</string>
 											<string>DA5489EF12C9EFCD0010A352</string>
 											<string>DA5489F012C9EFCD0010A352</string>
 											<string>DA5489F112C9EFCD0010A352</string>
@@ -357,9 +354,12 @@
 											<string>DA548ABD12C9FF470010A352</string>
 											<string>DA548ABE12C9FF470010A352</string>
 											<string>DA548AC212C9FF8A0010A352</string>
-											<string>DA548B5E12CA04270010A352</string>
-											<string>DA548B5F12CA04270010A352</string>
-											<string>DA548B6012CA04270010A352</string>
+											<string>DA548B6912CA04BD0010A352</string>
+											<string>DA548B6A12CA04BD0010A352</string>
+											<string>DA548B6B12CA04BD0010A352</string>
+											<string>DA548B7212CA05420010A352</string>
+											<string>DA548B7312CA05420010A352</string>
+											<string>DA548B6812CA04BD0010A352</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -373,7 +373,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1074, 886}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1310 -68 1357 1168 1280 0 1920 1200 </string>
+								<string>1292 -46 1357 1168 1280 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -393,7 +393,7 @@
 								<key>Frame</key>
 								<string>{{0, 891}, {1074, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1310 -68 1357 1168 1280 0 1920 1200 </string>
+								<string>1292 -46 1357 1168 1280 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -557,16 +557,17 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>DA548B7512CA05420010A352</string>
 		<string>DA54873F12C9324E0010A352</string>
 		<string>DA54873912C932440010A352</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>DA1AB18A12C759DA0052792F</string>
 		<string>/projects/DropVox/DropVox.xcodeproj</string>
+		<string>DA1AB18A12C759DA0052792F</string>
 	</array>
 	<key>WindowString</key>
-	<string>1310 -68 1357 1168 1280 0 1920 1200 </string>
+	<string>1292 -46 1357 1168 1280 0 1920 1200 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -582,14 +583,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DropboxLoginViewController.m</string>
+								<string>PlayViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -606,6 +605,8 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

@@ -17,6 +17,6 @@
 	PlayerManager* _playerManager;
 }
 -(PlayViewController*) initWithPlayerManager:(PlayerManager*)pm;
--(void)showDropboxLoginController;
+
 @end
 

@@ -12,6 +12,8 @@
 #import "PlayView.h"
 #import "DropboxLoginViewController.h"
 
+#import "DropboxSDK.h"
+
 @implementation PlayViewController
 
 #pragma mark -
@@ -48,23 +50,14 @@
 
 -(void)playPauseButtonClicked:(id)sender {
 	[_playerManager pb_togglePlayPause];
-	[self showDropboxLoginController];
+	DBLoginController* controller = [[DBLoginController new] autorelease];
+	[controller presentFromController:self];
 }
 -(void)prevButtonClicked:(id)sender {
 	[_playerManager pb_prev];
 }
 -(void)nextButtonClicked:(id)sender {
 	[_playerManager pb_next];
-}
-
-
-#pragma mark -
-#pragma mark Presenting Subviews
-
--(void)showDropboxLoginController {	
-	DropboxLoginViewController* c = [[[DropboxLoginViewController alloc] init] autorelease];
-	[self presentModalViewController:c animated:YES];
-	
 }
 
 
