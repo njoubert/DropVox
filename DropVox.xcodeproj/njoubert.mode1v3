@@ -278,8 +278,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>2</integer>
+									<integer>23</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -304,7 +303,7 @@
 							<real>261</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1298 31 1357 1168 1280 0 1920 1200 </string>
+						<string>1310 -68 1357 1168 1280 0 1920 1200 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -322,7 +321,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DropboxLoginViewController.m</string>
+								<string>DropVoxAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +329,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>DropboxLoginViewController.m</string>
+										<string>DropVoxAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DA548AC412C9FF8A0010A352</string>
+										<string>DA548B6112CA04270010A352</string>
 										<key>history</key>
 										<array>
 											<string>DA1AB19912C75AC90052792F</string>
@@ -349,18 +348,18 @@
 											<string>DA54884D12C958480010A352</string>
 											<string>DA54885F12C97BBA0010A352</string>
 											<string>DA54887A12C982E40010A352</string>
-											<string>DA5488B812C984680010A352</string>
 											<string>DA5488C712C984A10010A352</string>
 											<string>DA5488DA12C9D5250010A352</string>
 											<string>DA5489EF12C9EFCD0010A352</string>
 											<string>DA5489F012C9EFCD0010A352</string>
 											<string>DA5489F112C9EFCD0010A352</string>
-											<string>DA548A2912C9F2970010A352</string>
 											<string>DA548A9D12C9FCAF0010A352</string>
 											<string>DA548ABD12C9FF470010A352</string>
 											<string>DA548ABE12C9FF470010A352</string>
 											<string>DA548AC212C9FF8A0010A352</string>
-											<string>DA548AC312C9FF8A0010A352</string>
+											<string>DA548B5E12CA04270010A352</string>
+											<string>DA548B5F12CA04270010A352</string>
+											<string>DA548B6012CA04270010A352</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -374,7 +373,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1074, 886}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1298 31 1357 1168 1280 0 1920 1200 </string>
+								<string>1310 -68 1357 1168 1280 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -394,7 +393,7 @@
 								<key>Frame</key>
 								<string>{{0, 891}, {1074, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1298 31 1357 1168 1280 0 1920 1200 </string>
+								<string>1310 -68 1357 1168 1280 0 1920 1200 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -567,7 +566,7 @@
 		<string>/projects/DropVox/DropVox.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1298 31 1357 1168 1280 0 1920 1200 </string>
+	<string>1310 -68 1357 1168 1280 0 1920 1200 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

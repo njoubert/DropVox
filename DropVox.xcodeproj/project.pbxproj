@@ -14,6 +14,51 @@
 		DA54883412C955C90010A352 /* DropboxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA54883312C955C90010A352 /* DropboxManager.m */; };
 		DA54884212C957660010A352 /* DropboxLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA54884112C957660010A352 /* DropboxLoginViewController.m */; };
 		DA5489E612C9EECE0010A352 /* UITableViewTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */; };
+		DA548B3012CA03DC0010A352 /* DBAccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548ADB12CA03DB0010A352 /* DBAccountInfo.m */; };
+		DA548B3112CA03DC0010A352 /* DBCreateAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548ADD12CA03DB0010A352 /* DBCreateAccountController.m */; };
+		DA548B3212CA03DC0010A352 /* DBError.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548ADF12CA03DB0010A352 /* DBError.m */; };
+		DA548B3312CA03DC0010A352 /* DBLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AE112CA03DB0010A352 /* DBLoadingView.m */; };
+		DA548B3412CA03DC0010A352 /* DBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AE312CA03DB0010A352 /* DBLoginController.m */; };
+		DA548B3512CA03DC0010A352 /* DBMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AE512CA03DB0010A352 /* DBMetadata.m */; };
+		DA548B3612CA03DC0010A352 /* DBQuota.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AE712CA03DB0010A352 /* DBQuota.m */; };
+		DA548B3712CA03DC0010A352 /* DBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AE912CA03DB0010A352 /* DBRequest.m */; };
+		DA548B3812CA03DC0010A352 /* DBRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AEB12CA03DB0010A352 /* DBRestClient.m */; };
+		DA548B3912CA03DC0010A352 /* DBSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AED12CA03DB0010A352 /* DBSession.m */; };
+		DA548B3A12CA03DC0010A352 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AF212CA03DC0010A352 /* NSObject+SBJSON.m */; };
+		DA548B3B12CA03DC0010A352 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AF412CA03DC0010A352 /* NSString+SBJSON.m */; };
+		DA548B3C12CA03DC0010A352 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AF612CA03DC0010A352 /* SBJSON.m */; };
+		DA548B3D12CA03DC0010A352 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AF812CA03DC0010A352 /* SBJsonBase.m */; };
+		DA548B3E12CA03DC0010A352 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AFA12CA03DC0010A352 /* SBJsonParser.m */; };
+		DA548B3F12CA03DC0010A352 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548AFC12CA03DC0010A352 /* SBJsonWriter.m */; };
+		DA548B4012CA03DC0010A352 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = DA548AFF12CA03DC0010A352 /* Base64Transcoder.c */; };
+		DA548B4112CA03DC0010A352 /* MPOAuthAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B0412CA03DC0010A352 /* MPOAuthAPI.m */; };
+		DA548B4212CA03DC0010A352 /* MPOAuthAPIRequestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B0612CA03DC0010A352 /* MPOAuthAPIRequestLoader.m */; };
+		DA548B4312CA03DC0010A352 /* MPOAuthAuthenticationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B0812CA03DC0010A352 /* MPOAuthAuthenticationMethod.m */; };
+		DA548B4412CA03DC0010A352 /* MPOAuthAuthenticationMethodOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B0A12CA03DC0010A352 /* MPOAuthAuthenticationMethodOAuth.m */; };
+		DA548B4512CA03DC0010A352 /* MPOAuthConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B0C12CA03DC0010A352 /* MPOAuthConnection.m */; };
+		DA548B4612CA03DC0010A352 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B0D12CA03DC0010A352 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m */; };
+		DA548B4712CA03DC0010A352 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B0F12CA03DC0010A352 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */; };
+		DA548B4812CA03DC0010A352 /* MPOAuthCredentialConcreteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B1112CA03DC0010A352 /* MPOAuthCredentialConcreteStore.m */; };
+		DA548B4912CA03DC0010A352 /* MPOAuthSignatureParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B1512CA03DC0010A352 /* MPOAuthSignatureParameter.m */; };
+		DA548B4A12CA03DC0010A352 /* MPOAuthURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B1712CA03DC0010A352 /* MPOAuthURLRequest.m */; };
+		DA548B4B12CA03DC0010A352 /* MPOAuthURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B1912CA03DC0010A352 /* MPOAuthURLResponse.m */; };
+		DA548B4C12CA03DC0010A352 /* MPURLRequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B1B12CA03DC0010A352 /* MPURLRequestParameter.m */; };
+		DA548B4D12CA03DC0010A352 /* NSString+URLEscapingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B1D12CA03DC0010A352 /* NSString+URLEscapingAdditions.m */; };
+		DA548B4E12CA03DC0010A352 /* NSURL+MPURLParameterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B1F12CA03DC0010A352 /* NSURL+MPURLParameterAdditions.m */; };
+		DA548B4F12CA03DC0010A352 /* NSURLResponse+Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B2112CA03DC0010A352 /* NSURLResponse+Encoding.m */; };
+		DA548B5012CA03DC0010A352 /* NSString+Dropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548B2312CA03DC0010A352 /* NSString+Dropbox.m */; };
+		DA548B5112CA03DC0010A352 /* db_background.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2512CA03DC0010A352 /* db_background.png */; };
+		DA548B5212CA03DC0010A352 /* db_create_account.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2612CA03DC0010A352 /* db_create_account.png */; };
+		DA548B5312CA03DC0010A352 /* db_create_account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2712CA03DC0010A352 /* db_create_account@2x.png */; };
+		DA548B5412CA03DC0010A352 /* db_create_account_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2812CA03DC0010A352 /* db_create_account_button.png */; };
+		DA548B5512CA03DC0010A352 /* db_create_account_button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2912CA03DC0010A352 /* db_create_account_button_down.png */; };
+		DA548B5612CA03DC0010A352 /* db_link_button.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2A12CA03DC0010A352 /* db_link_button.png */; };
+		DA548B5712CA03DC0010A352 /* db_link_button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2B12CA03DC0010A352 /* db_link_button_down.png */; };
+		DA548B5812CA03DC0010A352 /* db_link_header.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2C12CA03DC0010A352 /* db_link_header.png */; };
+		DA548B5912CA03DC0010A352 /* db_link_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2D12CA03DC0010A352 /* db_link_header@2x.png */; };
+		DA548B5A12CA03DC0010A352 /* db_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2E12CA03DC0010A352 /* db_logo.png */; };
+		DA548B5B12CA03DC0010A352 /* db_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA548B2F12CA03DC0010A352 /* db_logo@2x.png */; };
+		DA548B5D12CA03E80010A352 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA548B5C12CA03E80010A352 /* Security.framework */; };
 		DA67304212C82DD400643330 /* Speaker-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67304112C82DD400643330 /* Speaker-icon.png */; };
 		DA67305C12C833C900643330 /* btn_pause_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305812C833C900643330 /* btn_pause_pressed.png */; };
 		DA67305D12C833C900643330 /* btn_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305912C833C900643330 /* btn_pause.png */; };
@@ -51,6 +96,89 @@
 		DA54884112C957660010A352 /* DropboxLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxLoginViewController.m; sourceTree = "<group>"; };
 		DA5489E412C9EECE0010A352 /* UITableViewTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewTextFieldCell.h; sourceTree = "<group>"; };
 		DA5489E512C9EECE0010A352 /* UITableViewTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewTextFieldCell.m; sourceTree = "<group>"; };
+		DA548ADA12CA03DB0010A352 /* DBAccountInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBAccountInfo.h; sourceTree = "<group>"; };
+		DA548ADB12CA03DB0010A352 /* DBAccountInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBAccountInfo.m; sourceTree = "<group>"; };
+		DA548ADC12CA03DB0010A352 /* DBCreateAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCreateAccountController.h; sourceTree = "<group>"; };
+		DA548ADD12CA03DB0010A352 /* DBCreateAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBCreateAccountController.m; sourceTree = "<group>"; };
+		DA548ADE12CA03DB0010A352 /* DBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBError.h; sourceTree = "<group>"; };
+		DA548ADF12CA03DB0010A352 /* DBError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBError.m; sourceTree = "<group>"; };
+		DA548AE012CA03DB0010A352 /* DBLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBLoadingView.h; sourceTree = "<group>"; };
+		DA548AE112CA03DB0010A352 /* DBLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBLoadingView.m; sourceTree = "<group>"; };
+		DA548AE212CA03DB0010A352 /* DBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBLoginController.h; sourceTree = "<group>"; };
+		DA548AE312CA03DB0010A352 /* DBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBLoginController.m; sourceTree = "<group>"; };
+		DA548AE412CA03DB0010A352 /* DBMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMetadata.h; sourceTree = "<group>"; };
+		DA548AE512CA03DB0010A352 /* DBMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMetadata.m; sourceTree = "<group>"; };
+		DA548AE612CA03DB0010A352 /* DBQuota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBQuota.h; sourceTree = "<group>"; };
+		DA548AE712CA03DB0010A352 /* DBQuota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBQuota.m; sourceTree = "<group>"; };
+		DA548AE812CA03DB0010A352 /* DBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBRequest.h; sourceTree = "<group>"; };
+		DA548AE912CA03DB0010A352 /* DBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRequest.m; sourceTree = "<group>"; };
+		DA548AEA12CA03DB0010A352 /* DBRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBRestClient.h; sourceTree = "<group>"; };
+		DA548AEB12CA03DB0010A352 /* DBRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRestClient.m; sourceTree = "<group>"; };
+		DA548AEC12CA03DB0010A352 /* DBSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSession.h; sourceTree = "<group>"; };
+		DA548AED12CA03DB0010A352 /* DBSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSession.m; sourceTree = "<group>"; };
+		DA548AEE12CA03DB0010A352 /* DropboxSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxSDK.h; sourceTree = "<group>"; };
+		DA548AF012CA03DC0010A352 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		DA548AF112CA03DC0010A352 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		DA548AF212CA03DC0010A352 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		DA548AF312CA03DC0010A352 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		DA548AF412CA03DC0010A352 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		DA548AF512CA03DC0010A352 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		DA548AF612CA03DC0010A352 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		DA548AF712CA03DC0010A352 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		DA548AF812CA03DC0010A352 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		DA548AF912CA03DC0010A352 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		DA548AFA12CA03DC0010A352 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		DA548AFB12CA03DC0010A352 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		DA548AFC12CA03DC0010A352 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		DA548AFF12CA03DC0010A352 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		DA548B0012CA03DC0010A352 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		DA548B0112CA03DC0010A352 /* MPDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDebug.h; sourceTree = "<group>"; };
+		DA548B0212CA03DC0010A352 /* MPOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuth.h; sourceTree = "<group>"; };
+		DA548B0312CA03DC0010A352 /* MPOAuthAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAPI.h; sourceTree = "<group>"; };
+		DA548B0412CA03DC0010A352 /* MPOAuthAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAPI.m; sourceTree = "<group>"; };
+		DA548B0512CA03DC0010A352 /* MPOAuthAPIRequestLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAPIRequestLoader.h; sourceTree = "<group>"; };
+		DA548B0612CA03DC0010A352 /* MPOAuthAPIRequestLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAPIRequestLoader.m; sourceTree = "<group>"; };
+		DA548B0712CA03DC0010A352 /* MPOAuthAuthenticationMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethod.h; sourceTree = "<group>"; };
+		DA548B0812CA03DC0010A352 /* MPOAuthAuthenticationMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethod.m; sourceTree = "<group>"; };
+		DA548B0912CA03DC0010A352 /* MPOAuthAuthenticationMethodOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethodOAuth.h; sourceTree = "<group>"; };
+		DA548B0A12CA03DC0010A352 /* MPOAuthAuthenticationMethodOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethodOAuth.m; sourceTree = "<group>"; };
+		DA548B0B12CA03DC0010A352 /* MPOAuthConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthConnection.h; sourceTree = "<group>"; };
+		DA548B0C12CA03DC0010A352 /* MPOAuthConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthConnection.m; sourceTree = "<group>"; };
+		DA548B0D12CA03DC0010A352 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m"; sourceTree = "<group>"; };
+		DA548B0E12CA03DC0010A352 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPOAuthCredentialConcreteStore+KeychainAdditions.h"; sourceTree = "<group>"; };
+		DA548B0F12CA03DC0010A352 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m"; sourceTree = "<group>"; };
+		DA548B1012CA03DC0010A352 /* MPOAuthCredentialConcreteStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthCredentialConcreteStore.h; sourceTree = "<group>"; };
+		DA548B1112CA03DC0010A352 /* MPOAuthCredentialConcreteStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthCredentialConcreteStore.m; sourceTree = "<group>"; };
+		DA548B1212CA03DC0010A352 /* MPOAuthCredentialStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthCredentialStore.h; sourceTree = "<group>"; };
+		DA548B1312CA03DC0010A352 /* MPOAuthParameterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthParameterFactory.h; sourceTree = "<group>"; };
+		DA548B1412CA03DC0010A352 /* MPOAuthSignatureParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthSignatureParameter.h; sourceTree = "<group>"; };
+		DA548B1512CA03DC0010A352 /* MPOAuthSignatureParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthSignatureParameter.m; sourceTree = "<group>"; };
+		DA548B1612CA03DC0010A352 /* MPOAuthURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthURLRequest.h; sourceTree = "<group>"; };
+		DA548B1712CA03DC0010A352 /* MPOAuthURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthURLRequest.m; sourceTree = "<group>"; };
+		DA548B1812CA03DC0010A352 /* MPOAuthURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPOAuthURLResponse.h; sourceTree = "<group>"; };
+		DA548B1912CA03DC0010A352 /* MPOAuthURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPOAuthURLResponse.m; sourceTree = "<group>"; };
+		DA548B1A12CA03DC0010A352 /* MPURLRequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPURLRequestParameter.h; sourceTree = "<group>"; };
+		DA548B1B12CA03DC0010A352 /* MPURLRequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPURLRequestParameter.m; sourceTree = "<group>"; };
+		DA548B1C12CA03DC0010A352 /* NSString+URLEscapingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEscapingAdditions.h"; sourceTree = "<group>"; };
+		DA548B1D12CA03DC0010A352 /* NSString+URLEscapingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEscapingAdditions.m"; sourceTree = "<group>"; };
+		DA548B1E12CA03DC0010A352 /* NSURL+MPURLParameterAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+MPURLParameterAdditions.h"; sourceTree = "<group>"; };
+		DA548B1F12CA03DC0010A352 /* NSURL+MPURLParameterAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MPURLParameterAdditions.m"; sourceTree = "<group>"; };
+		DA548B2012CA03DC0010A352 /* NSURLResponse+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLResponse+Encoding.h"; sourceTree = "<group>"; };
+		DA548B2112CA03DC0010A352 /* NSURLResponse+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLResponse+Encoding.m"; sourceTree = "<group>"; };
+		DA548B2212CA03DC0010A352 /* NSString+Dropbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Dropbox.h"; sourceTree = "<group>"; };
+		DA548B2312CA03DC0010A352 /* NSString+Dropbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Dropbox.m"; sourceTree = "<group>"; };
+		DA548B2512CA03DC0010A352 /* db_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_background.png; sourceTree = "<group>"; };
+		DA548B2612CA03DC0010A352 /* db_create_account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_create_account.png; sourceTree = "<group>"; };
+		DA548B2712CA03DC0010A352 /* db_create_account@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "db_create_account@2x.png"; sourceTree = "<group>"; };
+		DA548B2812CA03DC0010A352 /* db_create_account_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_create_account_button.png; sourceTree = "<group>"; };
+		DA548B2912CA03DC0010A352 /* db_create_account_button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_create_account_button_down.png; sourceTree = "<group>"; };
+		DA548B2A12CA03DC0010A352 /* db_link_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_link_button.png; sourceTree = "<group>"; };
+		DA548B2B12CA03DC0010A352 /* db_link_button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_link_button_down.png; sourceTree = "<group>"; };
+		DA548B2C12CA03DC0010A352 /* db_link_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_link_header.png; sourceTree = "<group>"; };
+		DA548B2D12CA03DC0010A352 /* db_link_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "db_link_header@2x.png"; sourceTree = "<group>"; };
+		DA548B2E12CA03DC0010A352 /* db_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = db_logo.png; sourceTree = "<group>"; };
+		DA548B2F12CA03DC0010A352 /* db_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "db_logo@2x.png"; sourceTree = "<group>"; };
+		DA548B5C12CA03E80010A352 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DA67304112C82DD400643330 /* Speaker-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speaker-icon.png"; path = "resources/Speaker-icon.png"; sourceTree = "<group>"; };
 		DA67305812C833C900643330 /* btn_pause_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pause_pressed.png; path = resources/btn_pause_pressed.png; sourceTree = "<group>"; };
 		DA67305912C833C900643330 /* btn_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pause.png; path = resources/btn_pause.png; sourceTree = "<group>"; };
@@ -88,6 +216,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				DAF54F6512C886AA00BD2060 /* AudioToolbox.framework in Frameworks */,
+				DA548B5D12CA03E80010A352 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +280,7 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 				DAF54F6412C886AA00BD2060 /* AudioToolbox.framework */,
+				DA548B5C12CA03E80010A352 /* Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,9 +292,131 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		DA548AD912CA03DB0010A352 /* DropboxSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DA548ADA12CA03DB0010A352 /* DBAccountInfo.h */,
+				DA548ADB12CA03DB0010A352 /* DBAccountInfo.m */,
+				DA548ADC12CA03DB0010A352 /* DBCreateAccountController.h */,
+				DA548ADD12CA03DB0010A352 /* DBCreateAccountController.m */,
+				DA548ADE12CA03DB0010A352 /* DBError.h */,
+				DA548ADF12CA03DB0010A352 /* DBError.m */,
+				DA548AE012CA03DB0010A352 /* DBLoadingView.h */,
+				DA548AE112CA03DB0010A352 /* DBLoadingView.m */,
+				DA548AE212CA03DB0010A352 /* DBLoginController.h */,
+				DA548AE312CA03DB0010A352 /* DBLoginController.m */,
+				DA548AE412CA03DB0010A352 /* DBMetadata.h */,
+				DA548AE512CA03DB0010A352 /* DBMetadata.m */,
+				DA548AE612CA03DB0010A352 /* DBQuota.h */,
+				DA548AE712CA03DB0010A352 /* DBQuota.m */,
+				DA548AE812CA03DB0010A352 /* DBRequest.h */,
+				DA548AE912CA03DB0010A352 /* DBRequest.m */,
+				DA548AEA12CA03DB0010A352 /* DBRestClient.h */,
+				DA548AEB12CA03DB0010A352 /* DBRestClient.m */,
+				DA548AEC12CA03DB0010A352 /* DBSession.h */,
+				DA548AED12CA03DB0010A352 /* DBSession.m */,
+				DA548AEE12CA03DB0010A352 /* DropboxSDK.h */,
+				DA548AEF12CA03DB0010A352 /* JSON */,
+				DA548AFD12CA03DC0010A352 /* MPOAuth */,
+				DA548B2212CA03DC0010A352 /* NSString+Dropbox.h */,
+				DA548B2312CA03DC0010A352 /* NSString+Dropbox.m */,
+				DA548B2412CA03DC0010A352 /* Resources */,
+			);
+			path = DropboxSDK;
+			sourceTree = "<group>";
+		};
+		DA548AEF12CA03DB0010A352 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				DA548AF012CA03DC0010A352 /* JSON.h */,
+				DA548AF112CA03DC0010A352 /* NSObject+SBJSON.h */,
+				DA548AF212CA03DC0010A352 /* NSObject+SBJSON.m */,
+				DA548AF312CA03DC0010A352 /* NSString+SBJSON.h */,
+				DA548AF412CA03DC0010A352 /* NSString+SBJSON.m */,
+				DA548AF512CA03DC0010A352 /* SBJSON.h */,
+				DA548AF612CA03DC0010A352 /* SBJSON.m */,
+				DA548AF712CA03DC0010A352 /* SBJsonBase.h */,
+				DA548AF812CA03DC0010A352 /* SBJsonBase.m */,
+				DA548AF912CA03DC0010A352 /* SBJsonParser.h */,
+				DA548AFA12CA03DC0010A352 /* SBJsonParser.m */,
+				DA548AFB12CA03DC0010A352 /* SBJsonWriter.h */,
+				DA548AFC12CA03DC0010A352 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		DA548AFD12CA03DC0010A352 /* MPOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				DA548AFE12CA03DC0010A352 /* Crypto */,
+				DA548B0112CA03DC0010A352 /* MPDebug.h */,
+				DA548B0212CA03DC0010A352 /* MPOAuth.h */,
+				DA548B0312CA03DC0010A352 /* MPOAuthAPI.h */,
+				DA548B0412CA03DC0010A352 /* MPOAuthAPI.m */,
+				DA548B0512CA03DC0010A352 /* MPOAuthAPIRequestLoader.h */,
+				DA548B0612CA03DC0010A352 /* MPOAuthAPIRequestLoader.m */,
+				DA548B0712CA03DC0010A352 /* MPOAuthAuthenticationMethod.h */,
+				DA548B0812CA03DC0010A352 /* MPOAuthAuthenticationMethod.m */,
+				DA548B0912CA03DC0010A352 /* MPOAuthAuthenticationMethodOAuth.h */,
+				DA548B0A12CA03DC0010A352 /* MPOAuthAuthenticationMethodOAuth.m */,
+				DA548B0B12CA03DC0010A352 /* MPOAuthConnection.h */,
+				DA548B0C12CA03DC0010A352 /* MPOAuthConnection.m */,
+				DA548B0D12CA03DC0010A352 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m */,
+				DA548B0E12CA03DC0010A352 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */,
+				DA548B0F12CA03DC0010A352 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */,
+				DA548B1012CA03DC0010A352 /* MPOAuthCredentialConcreteStore.h */,
+				DA548B1112CA03DC0010A352 /* MPOAuthCredentialConcreteStore.m */,
+				DA548B1212CA03DC0010A352 /* MPOAuthCredentialStore.h */,
+				DA548B1312CA03DC0010A352 /* MPOAuthParameterFactory.h */,
+				DA548B1412CA03DC0010A352 /* MPOAuthSignatureParameter.h */,
+				DA548B1512CA03DC0010A352 /* MPOAuthSignatureParameter.m */,
+				DA548B1612CA03DC0010A352 /* MPOAuthURLRequest.h */,
+				DA548B1712CA03DC0010A352 /* MPOAuthURLRequest.m */,
+				DA548B1812CA03DC0010A352 /* MPOAuthURLResponse.h */,
+				DA548B1912CA03DC0010A352 /* MPOAuthURLResponse.m */,
+				DA548B1A12CA03DC0010A352 /* MPURLRequestParameter.h */,
+				DA548B1B12CA03DC0010A352 /* MPURLRequestParameter.m */,
+				DA548B1C12CA03DC0010A352 /* NSString+URLEscapingAdditions.h */,
+				DA548B1D12CA03DC0010A352 /* NSString+URLEscapingAdditions.m */,
+				DA548B1E12CA03DC0010A352 /* NSURL+MPURLParameterAdditions.h */,
+				DA548B1F12CA03DC0010A352 /* NSURL+MPURLParameterAdditions.m */,
+				DA548B2012CA03DC0010A352 /* NSURLResponse+Encoding.h */,
+				DA548B2112CA03DC0010A352 /* NSURLResponse+Encoding.m */,
+			);
+			path = MPOAuth;
+			sourceTree = "<group>";
+		};
+		DA548AFE12CA03DC0010A352 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				DA548AFF12CA03DC0010A352 /* Base64Transcoder.c */,
+				DA548B0012CA03DC0010A352 /* Base64Transcoder.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		DA548B2412CA03DC0010A352 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA548B2512CA03DC0010A352 /* db_background.png */,
+				DA548B2612CA03DC0010A352 /* db_create_account.png */,
+				DA548B2712CA03DC0010A352 /* db_create_account@2x.png */,
+				DA548B2812CA03DC0010A352 /* db_create_account_button.png */,
+				DA548B2912CA03DC0010A352 /* db_create_account_button_down.png */,
+				DA548B2A12CA03DC0010A352 /* db_link_button.png */,
+				DA548B2B12CA03DC0010A352 /* db_link_button_down.png */,
+				DA548B2C12CA03DC0010A352 /* db_link_header.png */,
+				DA548B2D12CA03DC0010A352 /* db_link_header@2x.png */,
+				DA548B2E12CA03DC0010A352 /* db_logo.png */,
+				DA548B2F12CA03DC0010A352 /* db_logo@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DA9EAC3F12C8A8640098EFE5 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				DA548AD912CA03DB0010A352 /* DropboxSDK */,
 				DA9EAC4012C8A8640098EFE5 /* Controllers */,
 				DA54877612C9345F0010A352 /* Models */,
 				DA9EAC4A12C8A8640098EFE5 /* Views */,
@@ -269,6 +521,17 @@
 				DAF54EC912C8758900BD2060 /* icon_nowplaying.png in Resources */,
 				DAF54EF712C8780D00BD2060 /* background.png in Resources */,
 				DAF54EF812C8780D00BD2060 /* background@2x.png in Resources */,
+				DA548B5112CA03DC0010A352 /* db_background.png in Resources */,
+				DA548B5212CA03DC0010A352 /* db_create_account.png in Resources */,
+				DA548B5312CA03DC0010A352 /* db_create_account@2x.png in Resources */,
+				DA548B5412CA03DC0010A352 /* db_create_account_button.png in Resources */,
+				DA548B5512CA03DC0010A352 /* db_create_account_button_down.png in Resources */,
+				DA548B5612CA03DC0010A352 /* db_link_button.png in Resources */,
+				DA548B5712CA03DC0010A352 /* db_link_button_down.png in Resources */,
+				DA548B5812CA03DC0010A352 /* db_link_header.png in Resources */,
+				DA548B5912CA03DC0010A352 /* db_link_header@2x.png in Resources */,
+				DA548B5A12CA03DC0010A352 /* db_logo.png in Resources */,
+				DA548B5B12CA03DC0010A352 /* db_logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +551,39 @@
 				DA54883412C955C90010A352 /* DropboxManager.m in Sources */,
 				DA54884212C957660010A352 /* DropboxLoginViewController.m in Sources */,
 				DA5489E612C9EECE0010A352 /* UITableViewTextFieldCell.m in Sources */,
+				DA548B3012CA03DC0010A352 /* DBAccountInfo.m in Sources */,
+				DA548B3112CA03DC0010A352 /* DBCreateAccountController.m in Sources */,
+				DA548B3212CA03DC0010A352 /* DBError.m in Sources */,
+				DA548B3312CA03DC0010A352 /* DBLoadingView.m in Sources */,
+				DA548B3412CA03DC0010A352 /* DBLoginController.m in Sources */,
+				DA548B3512CA03DC0010A352 /* DBMetadata.m in Sources */,
+				DA548B3612CA03DC0010A352 /* DBQuota.m in Sources */,
+				DA548B3712CA03DC0010A352 /* DBRequest.m in Sources */,
+				DA548B3812CA03DC0010A352 /* DBRestClient.m in Sources */,
+				DA548B3912CA03DC0010A352 /* DBSession.m in Sources */,
+				DA548B3A12CA03DC0010A352 /* NSObject+SBJSON.m in Sources */,
+				DA548B3B12CA03DC0010A352 /* NSString+SBJSON.m in Sources */,
+				DA548B3C12CA03DC0010A352 /* SBJSON.m in Sources */,
+				DA548B3D12CA03DC0010A352 /* SBJsonBase.m in Sources */,
+				DA548B3E12CA03DC0010A352 /* SBJsonParser.m in Sources */,
+				DA548B3F12CA03DC0010A352 /* SBJsonWriter.m in Sources */,
+				DA548B4012CA03DC0010A352 /* Base64Transcoder.c in Sources */,
+				DA548B4112CA03DC0010A352 /* MPOAuthAPI.m in Sources */,
+				DA548B4212CA03DC0010A352 /* MPOAuthAPIRequestLoader.m in Sources */,
+				DA548B4312CA03DC0010A352 /* MPOAuthAuthenticationMethod.m in Sources */,
+				DA548B4412CA03DC0010A352 /* MPOAuthAuthenticationMethodOAuth.m in Sources */,
+				DA548B4512CA03DC0010A352 /* MPOAuthConnection.m in Sources */,
+				DA548B4612CA03DC0010A352 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m in Sources */,
+				DA548B4712CA03DC0010A352 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m in Sources */,
+				DA548B4812CA03DC0010A352 /* MPOAuthCredentialConcreteStore.m in Sources */,
+				DA548B4912CA03DC0010A352 /* MPOAuthSignatureParameter.m in Sources */,
+				DA548B4A12CA03DC0010A352 /* MPOAuthURLRequest.m in Sources */,
+				DA548B4B12CA03DC0010A352 /* MPOAuthURLResponse.m in Sources */,
+				DA548B4C12CA03DC0010A352 /* MPURLRequestParameter.m in Sources */,
+				DA548B4D12CA03DC0010A352 /* NSString+URLEscapingAdditions.m in Sources */,
+				DA548B4E12CA03DC0010A352 /* NSURL+MPURLParameterAdditions.m in Sources */,
+				DA548B4F12CA03DC0010A352 /* NSURLResponse+Encoding.m in Sources */,
+				DA548B5012CA03DC0010A352 /* NSString+Dropbox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

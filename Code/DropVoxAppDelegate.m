@@ -11,7 +11,7 @@
 #import "PlayViewController.h"
 #import "DropboxLoginViewController.h"
 #import "PlayerManager.h"
-
+#import "DropboxSDK.h"
 
 @implementation DropVoxAppDelegate
 
@@ -28,7 +28,14 @@
 	playerManager = [[PlayerManager alloc] init];
 	
 	playViewController = [[PlayViewController alloc] initWithPlayerManager:playerManager]; //dependency injection
-    	
+	
+	DBSession* dbSession = 
+	[[[DBSession alloc]
+	  initWithConsumerKey:@"<YOUR CONSUMER KEY>"
+	  consumerSecret:@"<YOUR CONSUMER SECRET>"]
+	 autorelease];
+    [DBSession setSharedSession:dbSession];
+	
 	[window addSubview:playViewController.view];
     [window makeKeyAndVisible];
     return YES;
