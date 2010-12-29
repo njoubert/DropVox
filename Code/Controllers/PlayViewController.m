@@ -10,7 +10,6 @@
 #import "PlayerManager.h"
 #import "PlayViewController.h"
 #import "PlayView.h"
-#import "DropboxLoginViewController.h"
 
 #import "DropboxSDK.h"
 
@@ -41,7 +40,9 @@
 
 - (void) viewDidLoad {
 	NSLog(@"PlayViewController viewDidLoad");
-
+	DBLoginController* controller = [[DBLoginController new] autorelease];
+	controller.delegate = self;
+	[controller presentFromController:self];
 }
 
 #pragma mark -
@@ -50,8 +51,6 @@
 
 -(void)playPauseButtonClicked:(id)sender {
 	[_playerManager pb_togglePlayPause];
-	DBLoginController* controller = [[DBLoginController new] autorelease];
-	[controller presentFromController:self];
 }
 -(void)prevButtonClicked:(id)sender {
 	[_playerManager pb_prev];
@@ -60,6 +59,18 @@
 	[_playerManager pb_next];
 }
 
+
+#pragma mark DBLoginControllerDelegate methods
+
+- (void)loginControllerDidLogin:(DBLoginController*)controller {
+    //[self updateButtons];
+	//[self.navigationController pushViewController:photoViewController animated:YES];
+	
+}
+
+- (void)loginControllerDidCancel:(DBLoginController*)controller {
+	
+}
 
 #pragma mark -
 #pragma mark Built-ins

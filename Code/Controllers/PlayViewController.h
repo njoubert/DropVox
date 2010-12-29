@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DropboxSDK.h"
 
 @class PlayView;
 @class PlayerManager;
 
-@interface PlayViewController : UIViewController {
+@interface PlayViewController : UIViewController <DBLoginControllerDelegate> {
 	PlayView* _playView;
 	
 	PlayerManager* _playerManager;
