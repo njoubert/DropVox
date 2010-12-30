@@ -8,12 +8,23 @@
 
 #import <UIKit/UIKit.h>
 #import "DropboxSDK.h"
+#import "PlayerStateCallbackProtocol.h"
 
 @class PlayView;
 @class PlayerManager;
+@class UIPlayPauseButton;
 
-@interface PlayViewController : UIViewController <DBLoginControllerDelegate> {
-	PlayView* _playView;
+@interface PlayViewController : UIViewController <DBLoginControllerDelegate, PlayerStateCallbackProtocol> {
+	
+	UIView* _playView;
+	UIView* _controlsView;
+	UIPlayPauseButton* _playPauseButton;
+	UIButton* _nextButton;
+	UIButton* _prevButton;
+	UILabel* _trackCount;
+	UILabel* _trackTime;
+	
+	
 	
 	PlayerManager* _playerManager;
 }

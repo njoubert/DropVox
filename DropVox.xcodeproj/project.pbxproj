@@ -66,7 +66,6 @@
 		DA9EAC5012C8A8640098EFE5 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */; };
 		DA9EAC5112C8A8640098EFE5 /* DropVoxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */; };
 		DA9EAC5212C8A8640098EFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9EAC4712C8A8640098EFE5 /* main.m */; };
-		DA9EAC5312C8A8640098EFE5 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9EAC4C12C8A8640098EFE5 /* PlayView.m */; };
 		DA9EAC5412C8A8640098EFE5 /* UIPlayPauseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9EAC4E12C8A8640098EFE5 /* UIPlayPauseButton.m */; };
 		DAF54EC412C8758900BD2060 /* btn_back_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EBD12C8758900BD2060 /* btn_back_pressed.png */; };
 		DAF54EC512C8758900BD2060 /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF54EBE12C8758900BD2060 /* btn_back.png */; };
@@ -186,8 +185,6 @@
 		DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropVoxAppDelegate.m; sourceTree = "<group>"; };
 		DA9EAC4712C8A8640098EFE5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA9EAC4912C8A8640098EFE5 /* PlayerStateCallbackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStateCallbackProtocol.h; sourceTree = "<group>"; };
-		DA9EAC4B12C8A8640098EFE5 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
-		DA9EAC4C12C8A8640098EFE5 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		DA9EAC4D12C8A8640098EFE5 /* UIPlayPauseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlayPauseButton.h; sourceTree = "<group>"; };
 		DA9EAC4E12C8A8640098EFE5 /* UIPlayPauseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlayPauseButton.m; sourceTree = "<group>"; };
 		DAF54EBD12C8758900BD2060 /* btn_back_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_back_pressed.png; path = resources/btn_back_pressed.png; sourceTree = "<group>"; };
@@ -447,8 +444,6 @@
 		DA9EAC4A12C8A8640098EFE5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DA9EAC4B12C8A8640098EFE5 /* PlayView.h */,
-				DA9EAC4C12C8A8640098EFE5 /* PlayView.m */,
 				DA9EAC4D12C8A8640098EFE5 /* UIPlayPauseButton.h */,
 				DA9EAC4E12C8A8640098EFE5 /* UIPlayPauseButton.m */,
 			);
@@ -536,7 +531,6 @@
 				DA9EAC5012C8A8640098EFE5 /* PlayViewController.m in Sources */,
 				DA9EAC5112C8A8640098EFE5 /* DropVoxAppDelegate.m in Sources */,
 				DA9EAC5212C8A8640098EFE5 /* main.m in Sources */,
-				DA9EAC5312C8A8640098EFE5 /* PlayView.m in Sources */,
 				DA9EAC5412C8A8640098EFE5 /* UIPlayPauseButton.m in Sources */,
 				DA54883412C955C90010A352 /* DropboxManager.m in Sources */,
 				DA548B3012CA03DC0010A352 /* DBAccountInfo.m in Sources */,
