@@ -8,10 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import "DropboxSDK.h"
+#import "DropboxModels.h"
 
 @interface MediaManager : NSObject <DBRestClientDelegate> {
 	NSString* currentDir;
 	DBRestClient* restClient;
+	DropboxDirNode* _root;
 }
 
 @property (copy, nonatomic) NSString* currentDir;
