@@ -10,6 +10,7 @@
 
 #import "PlayViewController.h"
 #import "PlayerManager.h"
+#import "MediaManager.h"
 #import "DropboxSDK.h"
 
 @implementation DropVoxAppDelegate
@@ -25,8 +26,9 @@
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
 	playerManager = [[PlayerManager alloc] init];
+	mediaManager = [[MediaManager alloc] init];
 	
-	playViewController = [[PlayViewController alloc] initWithPlayerManager:playerManager]; //dependency injection
+	playViewController = [[PlayViewController alloc] initWithPlayerManager:playerManager andMediaManager:mediaManager]; //dependency injection
 	
 	DBSession* dbSession = 
 	[[[DBSession alloc]

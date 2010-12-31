@@ -10,11 +10,13 @@
 
 @class PlayViewController;
 @class PlayerManager;
+@class MediaManager;
 
 @interface DropVoxAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     PlayViewController *playViewController;
 	PlayerManager *playerManager;
+	MediaManager *mediaManager;
 }
 
 @property (readonly) UIWindow *window;

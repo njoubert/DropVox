@@ -45,7 +45,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					200,
-					754,
+					653,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXFindDataSource_MessageID,
@@ -486,6 +486,81 @@
 			DA548C7012CC364A0010A352 /* PBXTextBookmark */ = DA548C7012CC364A0010A352 /* PBXTextBookmark */;
 			DA548C7412CC36620010A352 /* PBXTextBookmark */ = DA548C7412CC36620010A352 /* PBXTextBookmark */;
 			DA548C7A12CC36770010A352 /* PBXTextBookmark */ = DA548C7A12CC36770010A352 /* PBXTextBookmark */;
+			DA548C8812CC50200010A352 /* PBXTextBookmark */ = DA548C8812CC50200010A352 /* PBXTextBookmark */;
+			DA548C8912CC50200010A352 /* PBXTextBookmark */ = DA548C8912CC50200010A352 /* PBXTextBookmark */;
+			DA548C8A12CC50200010A352 /* PBXTextBookmark */ = DA548C8A12CC50200010A352 /* PBXTextBookmark */;
+			DA548C8B12CC50200010A352 /* PBXTextBookmark */ = DA548C8B12CC50200010A352 /* PBXTextBookmark */;
+			DA548C8C12CC50200010A352 /* PBXTextBookmark */ = DA548C8C12CC50200010A352 /* PBXTextBookmark */;
+			DA548C8D12CC50200010A352 /* PBXTextBookmark */ = DA548C8D12CC50200010A352 /* PBXTextBookmark */;
+			DA548C8E12CC50200010A352 /* PBXTextBookmark */ = DA548C8E12CC50200010A352 /* PBXTextBookmark */;
+			DA548C8F12CC50200010A352 /* PBXTextBookmark */ = DA548C8F12CC50200010A352 /* PBXTextBookmark */;
+			DA548C9512CC50830010A352 /* PBXTextBookmark */ = DA548C9512CC50830010A352 /* PBXTextBookmark */;
+			DA548C9B12CC50C10010A352 /* PBXTextBookmark */ = DA548C9B12CC50C10010A352 /* PBXTextBookmark */;
+			DA548C9F12CC50E60010A352 /* PBXTextBookmark */ = DA548C9F12CC50E60010A352 /* PBXTextBookmark */;
+			DA548CA712CC519B0010A352 /* PBXTextBookmark */ = DA548CA712CC519B0010A352 /* PBXTextBookmark */;
+			DA548CA812CC519B0010A352 /* PBXTextBookmark */ = DA548CA812CC519B0010A352 /* PBXTextBookmark */;
+			DA548CA912CC519B0010A352 /* PBXTextBookmark */ = DA548CA912CC519B0010A352 /* PBXTextBookmark */;
+			DA548CAA12CC519B0010A352 /* PBXTextBookmark */ = DA548CAA12CC519B0010A352 /* PBXTextBookmark */;
+			DA548CAB12CC519B0010A352 /* PBXTextBookmark */ = DA548CAB12CC519B0010A352 /* PBXTextBookmark */;
+			DA548CAF12CC52C70010A352 /* PBXTextBookmark */ = DA548CAF12CC52C70010A352 /* PBXTextBookmark */;
+			DA548CB012CC52C70010A352 /* PBXTextBookmark */ = DA548CB012CC52C70010A352 /* PBXTextBookmark */;
+			DA548CB112CC52C70010A352 /* PBXTextBookmark */ = DA548CB112CC52C70010A352 /* PBXTextBookmark */;
+			DA548CB312CC52D80010A352 /* PBXTextBookmark */ = DA548CB312CC52D80010A352 /* PBXTextBookmark */;
+			DA548CBC12CC532B0010A352 /* PBXTextBookmark */ = DA548CBC12CC532B0010A352 /* PBXTextBookmark */;
+			DA548CBD12CC532B0010A352 /* PBXTextBookmark */ = DA548CBD12CC532B0010A352 /* PBXTextBookmark */;
+			DA548CBE12CC532B0010A352 /* PBXTextBookmark */ = DA548CBE12CC532B0010A352 /* PBXTextBookmark */;
+			DA548CBF12CC532B0010A352 /* PBXTextBookmark */ = DA548CBF12CC532B0010A352 /* PBXTextBookmark */;
+			DA548CC012CC532B0010A352 /* PBXTextBookmark */ = DA548CC012CC532B0010A352 /* PBXTextBookmark */;
+			DA548CC112CC532B0010A352 /* PBXTextBookmark */ = DA548CC112CC532B0010A352 /* PBXTextBookmark */;
+			DA548CC512CC53400010A352 /* PBXTextBookmark */ = DA548CC512CC53400010A352 /* PBXTextBookmark */;
+			DA548CCB12CC5D490010A352 /* PBXTextBookmark */ = DA548CCB12CC5D490010A352 /* PBXTextBookmark */;
+			DA548CCC12CC5D490010A352 /* PBXTextBookmark */ = DA548CCC12CC5D490010A352 /* PBXTextBookmark */;
+			DA548CCD12CC5D490010A352 /* PBXTextBookmark */ = DA548CCD12CC5D490010A352 /* PBXTextBookmark */;
+			DA548CD712CC5DD70010A352 /* PBXTextBookmark */ = DA548CD712CC5DD70010A352 /* PBXTextBookmark */;
+			DA548CD812CC5DD70010A352 /* PBXTextBookmark */ = DA548CD812CC5DD70010A352 /* PBXTextBookmark */;
+			DA548CD912CC5DD70010A352 /* PBXTextBookmark */ = DA548CD912CC5DD70010A352 /* PBXTextBookmark */;
+			DA548CDA12CC5DD70010A352 /* PBXTextBookmark */ = DA548CDA12CC5DD70010A352 /* PBXTextBookmark */;
+			DA548CDB12CC5DD70010A352 /* PBXTextBookmark */ = DA548CDB12CC5DD70010A352 /* PBXTextBookmark */;
+			DA548CDC12CC5DD70010A352 /* PBXTextBookmark */ = DA548CDC12CC5DD70010A352 /* PBXTextBookmark */;
+			DA548CE012CC8EF70010A352 /* PBXTextBookmark */ = DA548CE012CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CE112CC8EF70010A352 /* PBXTextBookmark */ = DA548CE112CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CE212CC8EF70010A352 /* PBXTextBookmark */ = DA548CE212CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CE312CC8EF70010A352 /* PBXTextBookmark */ = DA548CE312CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CE412CC8EF70010A352 /* PBXTextBookmark */ = DA548CE412CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CE512CC8EF70010A352 /* PBXTextBookmark */ = DA548CE512CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CE612CC8EF70010A352 /* PBXTextBookmark */ = DA548CE612CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CE712CC8EF70010A352 /* PBXTextBookmark */ = DA548CE712CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CE812CC8EF70010A352 /* PBXTextBookmark */ = DA548CE812CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CE912CC8EF70010A352 /* PBXTextBookmark */ = DA548CE912CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CEA12CC8EF70010A352 /* PBXTextBookmark */ = DA548CEA12CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CEB12CC8EF70010A352 /* PBXTextBookmark */ = DA548CEB12CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CEC12CC8EF70010A352 /* PBXTextBookmark */ = DA548CEC12CC8EF70010A352 /* PBXTextBookmark */;
+			DA548CEF12CC9F890010A352 /* PBXTextBookmark */ = DA548CEF12CC9F890010A352 /* PBXTextBookmark */;
+			DA548CF012CC9F890010A352 /* PBXTextBookmark */ = DA548CF012CC9F890010A352 /* PBXTextBookmark */;
+			DA548CF112CC9F890010A352 /* PBXTextBookmark */ = DA548CF112CC9F890010A352 /* PBXTextBookmark */;
+			DA548CF212CC9F890010A352 /* PBXTextBookmark */ = DA548CF212CC9F890010A352 /* PBXTextBookmark */;
+			DA548CF312CC9F890010A352 /* PBXTextBookmark */ = DA548CF312CC9F890010A352 /* PBXTextBookmark */;
+			DA548CF412CC9F890010A352 /* PBXTextBookmark */ = DA548CF412CC9F890010A352 /* PBXTextBookmark */;
+			DA548CF512CC9F890010A352 /* PBXTextBookmark */ = DA548CF512CC9F890010A352 /* PBXTextBookmark */;
+			DA548CF612CC9F890010A352 /* PBXTextBookmark */ = DA548CF612CC9F890010A352 /* PBXTextBookmark */;
+			DA548CF712CC9F890010A352 /* PBXTextBookmark */ = DA548CF712CC9F890010A352 /* PBXTextBookmark */;
+			DA548CF812CD4B490010A352 /* PBXTextBookmark */ = DA548CF812CD4B490010A352 /* PBXTextBookmark */;
+			DA548CF912CD4B490010A352 /* PBXTextBookmark */ = DA548CF912CD4B490010A352 /* PBXTextBookmark */;
+			DA548CFA12CD4B490010A352 /* PBXTextBookmark */ = DA548CFA12CD4B490010A352 /* PBXTextBookmark */;
+			DA548CFB12CD4B490010A352 /* XCBuildMessageTextBookmark */ = DA548CFB12CD4B490010A352 /* XCBuildMessageTextBookmark */;
+			DA548CFC12CD4B490010A352 /* PBXTextBookmark */ = DA548CFC12CD4B490010A352 /* PBXTextBookmark */;
+			DA548CFD12CD4B4C0010A352 /* PBXTextBookmark */ = DA548CFD12CD4B4C0010A352 /* PBXTextBookmark */;
+			DA548D0812CE08C70010A352 /* PBXTextBookmark */ = DA548D0812CE08C70010A352 /* PBXTextBookmark */;
+			DA548D0912CE08C70010A352 /* PBXTextBookmark */ = DA548D0912CE08C70010A352 /* PBXTextBookmark */;
+			DA548D0A12CE08C70010A352 /* PBXTextBookmark */ = DA548D0A12CE08C70010A352 /* PBXTextBookmark */;
+			DA548D0B12CE08C70010A352 /* PBXTextBookmark */ = DA548D0B12CE08C70010A352 /* PBXTextBookmark */;
+			DA548D0C12CE08C70010A352 /* PBXTextBookmark */ = DA548D0C12CE08C70010A352 /* PBXTextBookmark */;
+			DA548D0D12CE08C70010A352 /* PBXBookmark */ = DA548D0D12CE08C70010A352 /* PBXBookmark */;
+			DA548D0E12CE08C70010A352 /* PBXTextBookmark */ = DA548D0E12CE08C70010A352 /* PBXTextBookmark */;
+			DA548D1712CE09E50010A352 /* PBXTextBookmark */ = DA548D1712CE09E50010A352 /* PBXTextBookmark */;
+			DA548D1812CE09E50010A352 /* PBXTextBookmark */ = DA548D1812CE09E50010A352 /* PBXTextBookmark */;
+			DA548D1912CE09E50010A352 /* PBXTextBookmark */ = DA548D1912CE09E50010A352 /* PBXTextBookmark */;
+			DA548D1A12CE09E50010A352 /* PBXTextBookmark */ = DA548D1A12CE09E50010A352 /* PBXTextBookmark */;
 			DA67306012C833EB00643330 = DA67306012C833EB00643330 /* PBXBookmark */;
 			DA67306412C833EB00643330 = DA67306412C833EB00643330 /* PlistBookmark */;
 			DA67307212C834A700643330 = DA67307212C834A700643330 /* PBXBookmark */;
@@ -1014,7 +1089,7 @@
 		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
 		name = "DropVoxAppDelegate.h: 20";
 		rLen = 151;
-		rLoc = 390;
+		rLoc = 440;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 0;
@@ -1034,7 +1109,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 19";
 		rLen = 0;
-		rLoc = 361;
+		rLoc = 386;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 0;
@@ -1044,7 +1119,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 15";
 		rLen = 0;
-		rLoc = 280;
+		rLoc = 305;
 		rType = 0;
 		vrLen = 2228;
 		vrLoc = 0;
@@ -1184,7 +1259,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 15";
 		rLen = 0;
-		rLoc = 280;
+		rLoc = 305;
 		rType = 0;
 		vrLen = 2228;
 		vrLoc = 0;
@@ -1194,7 +1269,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 16";
 		rLen = 0;
-		rLoc = 613;
+		rLoc = 659;
 		rType = 0;
 		vrLen = 377;
 		vrLoc = 0;
@@ -1204,7 +1279,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 31";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1511;
 		vrLoc = 0;
@@ -1214,7 +1289,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 31";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1511;
 		vrLoc = 0;
@@ -1224,7 +1299,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 33";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1566;
 		vrLoc = 0;
@@ -1362,7 +1437,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 30";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1504;
 		vrLoc = 0;
@@ -1372,7 +1447,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 29";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1502;
 		vrLoc = 0;
@@ -1382,7 +1457,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 29";
 		rLen = 21;
-		rLoc = 714;
+		rLoc = 784;
 		rType = 0;
 		vrLen = 2198;
 		vrLoc = 0;
@@ -1411,8 +1486,8 @@
 		isa = PBXTextBookmark;
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 18";
-		rLen = 42;
-		rLoc = 652;
+		rLen = 76;
+		rLoc = 728;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 0;
@@ -1422,7 +1497,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 22";
 		rLen = 0;
-		rLoc = 434;
+		rLoc = 493;
 		rType = 0;
 		vrLen = 1302;
 		vrLoc = 0;
@@ -1432,7 +1507,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 23";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1437;
 		vrLoc = 308;
@@ -1442,7 +1517,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 23";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1437;
 		vrLoc = 308;
@@ -1478,15 +1553,27 @@
 		vrLoc = 0;
 	};
 	DA54883212C955C90010A352 /* DropboxManager.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = DropboxManager.h;
+		path = /projects/DropVox/Code/Controllers/DropboxManager.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {918, 806}}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 872}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 228}";
 		};
 	};
 	DA54883312C955C90010A352 /* DropboxManager.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = DropboxManager.m;
+		path = /projects/DropVox/Code/Controllers/DropboxManager.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1013, 783}}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 872}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 210}";
 		};
@@ -1572,7 +1659,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 18";
 		rLen = 0;
-		rLoc = 595;
+		rLoc = 641;
 		rType = 0;
 		vrLen = 458;
 		vrLoc = 0;
@@ -1582,7 +1669,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 23";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1452;
 		vrLoc = 293;
@@ -1592,7 +1679,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 23";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1482;
 		vrLoc = 234;
@@ -1649,7 +1736,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 13";
 		rLen = 0;
-		rLoc = 304;
+		rLoc = 325;
 		rType = 0;
 		vrLen = 396;
 		vrLoc = 0;
@@ -1759,7 +1846,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 23";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 234;
@@ -1769,7 +1856,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 23";
 		rLen = 0;
-		rLoc = 474;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1490;
 		vrLoc = 177;
@@ -1839,7 +1926,7 @@
 		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
 		name = "DropVoxAppDelegate.h: 16";
 		rLen = 0;
-		rLoc = 355;
+		rLoc = 376;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 0;
@@ -1849,7 +1936,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 13";
 		rLen = 0;
-		rLoc = 264;
+		rLoc = 289;
 		rType = 0;
 		vrLen = 1377;
 		vrLoc = 43;
@@ -1860,7 +1947,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 18;
+		rLoc = 19;
 		rType = 1;
 	};
 	DA54886712C97BBA0010A352 /* PBXTextBookmark */ = {
@@ -1868,7 +1955,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 349;
+		rLoc = 374;
 		rType = 0;
 		vrLen = 2167;
 		vrLoc = 3;
@@ -1878,7 +1965,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 349;
+		rLoc = 374;
 		rType = 0;
 		vrLen = 2167;
 		vrLoc = 3;
@@ -1954,7 +2041,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 30";
 		rLen = 109;
-		rLoc = 671;
+		rLoc = 761;
 		rType = 0;
 		vrLen = 1327;
 		vrLoc = 43;
@@ -2034,7 +2121,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 30";
 		rLen = 109;
-		rLoc = 671;
+		rLoc = 761;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 31;
@@ -2044,7 +2131,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 38";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1350;
 		vrLoc = 43;
@@ -2054,7 +2141,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 38";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 147;
@@ -2064,7 +2151,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 38";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 147;
@@ -2124,7 +2211,7 @@
 		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
 		name = "DropVoxAppDelegate.h: 16";
 		rLen = 0;
-		rLoc = 355;
+		rLoc = 376;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 0;
@@ -2134,7 +2221,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 349;
+		rLoc = 374;
 		rType = 0;
 		vrLen = 2165;
 		vrLoc = 3;
@@ -2144,7 +2231,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 30";
 		rLen = 0;
-		rLoc = 630;
+		rLoc = 720;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 147;
@@ -2154,7 +2241,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 41";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1308;
 		vrLoc = 150;
@@ -2164,7 +2251,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 63";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1245;
 		vrLoc = 255;
@@ -2174,7 +2261,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 13";
 		rLen = 0;
-		rLoc = 304;
+		rLoc = 325;
 		rType = 0;
 		vrLen = 396;
 		vrLoc = 0;
@@ -2184,7 +2271,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 20";
 		rLen = 0;
-		rLoc = 695;
+		rLoc = 822;
 		rType = 0;
 		vrLen = 431;
 		vrLoc = 0;
@@ -2194,7 +2281,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 20";
 		rLen = 0;
-		rLoc = 695;
+		rLoc = 822;
 		rType = 0;
 		vrLen = 431;
 		vrLoc = 0;
@@ -2204,7 +2291,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 51";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1452;
 		vrLoc = 374;
@@ -2224,7 +2311,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 349;
+		rLoc = 374;
 		rType = 0;
 		vrLen = 382;
 		vrLoc = 250;
@@ -2253,7 +2340,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 43";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1318;
 		vrLoc = 177;
@@ -2273,7 +2360,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 37";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1261;
 		vrLoc = 234;
@@ -3265,7 +3352,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 349;
+		rLoc = 374;
 		rType = 0;
 		vrLen = 2170;
 		vrLoc = 0;
@@ -3911,6 +3998,27 @@
 			sepNavVisRange = "{0, 1666}";
 		};
 	};
+	DA548ADE12CA03DB0010A352 /* DBError.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 464}";
+		};
+	};
+	DA548AE012CA03DB0010A352 /* DBLoadingView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 588}";
+		};
+	};
+	DA548AE112CA03DB0010A352 /* DBLoadingView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 2171}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 899}";
+		};
+	};
 	DA548AE212CA03DB0010A352 /* DBLoginController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {744, 953}}";
@@ -3920,9 +4028,9 @@
 	};
 	DA548AE312CA03DB0010A352 /* DBLoginController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {744, 5733}}";
-			sepNavSelRange = "{5299, 26}";
-			sepNavVisRange = "{3971, 1801}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 5915}}";
+			sepNavSelRange = "{4941, 416}";
+			sepNavVisRange = "{4317, 1790}";
 		};
 	};
 	DA548AE512CA03DB0010A352 /* DBMetadata.m */ = {
@@ -3932,18 +4040,25 @@
 			sepNavVisRange = "{0, 2414}";
 		};
 	};
+	DA548AE812CA03DB0010A352 /* DBRequest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 936}}";
+			sepNavSelRange = "{1609, 0}";
+			sepNavVisRange = "{970, 1618}";
+		};
+	};
 	DA548AE912CA03DB0010A352 /* DBRequest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1013, 3211}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1051}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 2977}}";
+			sepNavSelRange = "{771, 0}";
+			sepNavVisRange = "{133, 918}";
 		};
 	};
 	DA548AEA12CA03DB0010A352 /* DBRestClient.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {761, 1807}}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 1807}}";
 			sepNavSelRange = "{1885, 0}";
-			sepNavVisRange = "{132, 2581}";
+			sepNavVisRange = "{2462, 2137}";
 		};
 	};
 	DA548AEB12CA03DB0010A352 /* DBRestClient.m */ = {
@@ -3955,9 +4070,9 @@
 	};
 	DA548AEC12CA03DB0010A352 /* DBSession.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {744, 886}}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 585}}";
 			sepNavSelRange = "{715, 0}";
-			sepNavVisRange = "{0, 1209}";
+			sepNavVisRange = "{132, 1077}";
 		};
 	};
 	DA548AED12CA03DB0010A352 /* DBSession.m */ = {
@@ -4010,7 +4125,7 @@
 		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
 		name = "DropVoxAppDelegate.h: 13";
 		rLen = 0;
-		rLoc = 222;
+		rLoc = 243;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 0;
@@ -4020,7 +4135,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 20";
 		rLen = 0;
-		rLoc = 349;
+		rLoc = 374;
 		rType = 0;
 		vrLen = 2170;
 		vrLoc = 0;
@@ -4030,7 +4145,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 14";
 		rLen = 0;
-		rLoc = 259;
+		rLoc = 284;
 		rType = 0;
 		vrLen = 2116;
 		vrLoc = 0;
@@ -4040,7 +4155,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 14";
 		rLen = 0;
-		rLoc = 259;
+		rLoc = 284;
 		rType = 0;
 		vrLen = 2116;
 		vrLoc = 0;
@@ -4070,7 +4185,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 15";
 		rLen = 0;
-		rLoc = 287;
+		rLoc = 312;
 		rType = 0;
 		vrLen = 1542;
 		vrLoc = 151;
@@ -4080,7 +4195,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 20";
 		rLen = 0;
-		rLoc = 695;
+		rLoc = 822;
 		rType = 0;
 		vrLen = 431;
 		vrLoc = 0;
@@ -4090,7 +4205,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 20";
 		rLen = 0;
-		rLoc = 695;
+		rLoc = 822;
 		rType = 0;
 		vrLen = 397;
 		vrLoc = 0;
@@ -4100,7 +4215,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 20";
 		rLen = 0;
-		rLoc = 695;
+		rLoc = 822;
 		rType = 0;
 		vrLen = 397;
 		vrLoc = 0;
@@ -4110,7 +4225,7 @@
 		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
 		name = "DropVoxAppDelegate.h: 13";
 		rLen = 0;
-		rLoc = 222;
+		rLoc = 243;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 0;
@@ -4120,7 +4235,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 35";
 		rLen = 0;
-		rLoc = 900;
+		rLoc = 999;
 		rType = 0;
 		vrLen = 2102;
 		vrLoc = 3;
@@ -4130,7 +4245,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 35";
 		rLen = 15;
-		rLoc = 885;
+		rLoc = 984;
 		rType = 0;
 		vrLen = 2103;
 		vrLoc = 3;
@@ -4344,7 +4459,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 65";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 550;
@@ -4364,7 +4479,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 45";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 88;
@@ -4394,7 +4509,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 20";
 		rLen = 0;
-		rLoc = 695;
+		rLoc = 822;
 		rType = 0;
 		vrLen = 397;
 		vrLoc = 0;
@@ -4454,7 +4569,7 @@
 		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
 		name = "DropVoxAppDelegate.h: 13";
 		rLen = 0;
-		rLoc = 222;
+		rLoc = 243;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 0;
@@ -4464,7 +4579,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 34";
 		rLen = 0;
-		rLoc = 902;
+		rLoc = 1001;
 		rType = 0;
 		vrLen = 2641;
 		vrLoc = 0;
@@ -4514,7 +4629,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 50";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1595;
 		vrLoc = 150;
@@ -4524,7 +4639,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 46";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1609;
 		vrLoc = 150;
@@ -4534,7 +4649,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 42";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1663;
 		vrLoc = 203;
@@ -4544,7 +4659,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 48";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1614;
 		vrLoc = 255;
@@ -4554,7 +4669,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 48";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1607;
 		vrLoc = 279;
@@ -4594,7 +4709,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 15";
 		rLen = 0;
-		rLoc = 304;
+		rLoc = 325;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 0;
@@ -4604,7 +4719,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 106";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 2511;
 		vrLoc = 280;
@@ -4634,7 +4749,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 83";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1882;
 		vrLoc = 2296;
@@ -4644,7 +4759,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 16";
 		rLen = 0;
-		rLoc = 409;
+		rLoc = 430;
 		rType = 0;
 		vrLen = 635;
 		vrLoc = 0;
@@ -4704,7 +4819,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 83";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1788;
 		vrLoc = 2296;
@@ -4714,7 +4829,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 122";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1750;
 		vrLoc = 2864;
@@ -4724,7 +4839,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 20";
 		rLen = 0;
-		rLoc = 480;
+		rLoc = 501;
 		rType = 0;
 		vrLen = 678;
 		vrLoc = 0;
@@ -4734,7 +4849,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 112";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 2071;
 		rType = 0;
 		vrLen = 1750;
 		vrLoc = 2864;
@@ -4744,7 +4859,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 79";
 		rLen = 0;
-		rLoc = 3094;
+		rLoc = 3256;
 		rType = 0;
 		vrLen = 1637;
 		vrLoc = 2998;
@@ -4754,7 +4869,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 83";
 		rLen = 0;
-		rLoc = 3780;
+		rLoc = 4221;
 		rType = 0;
 		vrLen = 1963;
 		vrLoc = 1887;
@@ -4764,7 +4879,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 20";
 		rLen = 0;
-		rLoc = 480;
+		rLoc = 501;
 		rType = 0;
 		vrLen = 678;
 		vrLoc = 0;
@@ -4774,7 +4889,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 87";
 		rLen = 20;
-		rLoc = 3979;
+		rLoc = 4437;
 		rType = 0;
 		vrLen = 2276;
 		vrLoc = 1029;
@@ -4784,7 +4899,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 82";
 		rLen = 0;
-		rLoc = 3706;
+		rLoc = 4147;
 		rType = 0;
 		vrLen = 2496;
 		vrLoc = 522;
@@ -4794,7 +4909,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 90";
 		rLen = 0;
-		rLoc = 3972;
+		rLoc = 4414;
 		rType = 0;
 		vrLen = 2467;
 		vrLoc = 670;
@@ -4804,7 +4919,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 24";
 		rLen = 10;
-		rLoc = 578;
+		rLoc = 599;
 		rType = 0;
 		vrLen = 678;
 		vrLoc = 0;
@@ -4814,7 +4929,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 90";
 		rLen = 0;
-		rLoc = 3701;
+		rLoc = 3863;
 		rType = 0;
 		vrLen = 2632;
 		vrLoc = 522;
@@ -4824,7 +4939,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 82";
 		rLen = 0;
-		rLoc = 3154;
+		rLoc = 3316;
 		rType = 0;
 		vrLen = 2628;
 		vrLoc = 523;
@@ -4834,7 +4949,7 @@
 		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
 		name = "PlayViewController.h: 20";
 		rLen = 13;
-		rLoc = 444;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 0;
@@ -4844,7 +4959,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 82";
 		rLen = 0;
-		rLoc = 3154;
+		rLoc = 3316;
 		rType = 0;
 		vrLen = 2551;
 		vrLoc = 503;
@@ -4854,7 +4969,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 49";
 		rLen = 0;
-		rLoc = 1905;
+		rLoc = 2067;
 		rType = 0;
 		vrLen = 2639;
 		vrLoc = 503;
@@ -4864,7 +4979,7 @@
 		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
 		name = "DropVoxAppDelegate.m: 34";
 		rLen = 0;
-		rLoc = 902;
+		rLoc = 1001;
 		rType = 0;
 		vrLen = 2337;
 		vrLoc = 0;
@@ -4874,7 +4989,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 49";
 		rLen = 0;
-		rLoc = 1905;
+		rLoc = 2067;
 		rType = 0;
 		vrLen = 2511;
 		vrLoc = 203;
@@ -4884,7 +4999,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 39";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 2554;
 		vrLoc = 265;
@@ -4894,7 +5009,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 38";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 2619;
 		vrLoc = 289;
@@ -4904,7 +5019,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 36";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 2565;
 		vrLoc = 325;
@@ -4914,7 +5029,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 42";
 		rLen = 0;
-		rLoc = 1352;
+		rLoc = 1442;
 		rType = 0;
 		vrLen = 2580;
 		vrLoc = 783;
@@ -4924,7 +5039,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 96";
 		rLen = 0;
-		rLoc = 3664;
+		rLoc = 3826;
 		rType = 0;
 		vrLen = 2546;
 		vrLoc = 891;
@@ -4934,7 +5049,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 42";
 		rLen = 0;
-		rLoc = 1332;
+		rLoc = 1422;
 		rType = 0;
 		vrLen = 2605;
 		vrLoc = 757;
@@ -4944,7 +5059,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 98";
 		rLen = 0;
-		rLoc = 3564;
+		rLoc = 3726;
 		rType = 0;
 		vrLen = 2645;
 		vrLoc = 757;
@@ -4954,7 +5069,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 44";
 		rLen = 0;
-		rLoc = 1350;
+		rLoc = 1440;
 		rType = 0;
 		vrLen = 2669;
 		vrLoc = 783;
@@ -4964,7 +5079,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 44";
 		rLen = 0;
-		rLoc = 1319;
+		rLoc = 1409;
 		rType = 0;
 		vrLen = 2615;
 		vrLoc = 893;
@@ -4974,7 +5089,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 43";
 		rLen = 0;
-		rLoc = 1209;
+		rLoc = 1299;
 		rType = 0;
 		vrLen = 2628;
 		vrLoc = 929;
@@ -4984,7 +5099,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 39";
 		rLen = 0;
-		rLoc = 949;
+		rLoc = 1039;
 		rType = 0;
 		vrLen = 2785;
 		vrLoc = 520;
@@ -4994,7 +5109,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 44";
 		rLen = 0;
-		rLoc = 1319;
+		rLoc = 1409;
 		rType = 0;
 		vrLen = 2853;
 		vrLoc = 520;
@@ -5004,7 +5119,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 100";
 		rLen = 0;
-		rLoc = 3664;
+		rLoc = 3826;
 		rType = 0;
 		vrLen = 2761;
 		vrLoc = 927;
@@ -5014,7 +5129,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 101";
 		rLen = 0;
-		rLoc = 3578;
+		rLoc = 3740;
 		rType = 0;
 		vrLen = 2762;
 		vrLoc = 1027;
@@ -5024,7 +5139,7 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 93";
 		rLen = 0;
-		rLoc = 3301;
+		rLoc = 3463;
 		rType = 0;
 		vrLen = 2690;
 		vrLoc = 1099;
@@ -5034,10 +5149,822 @@
 		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
 		name = "PlayViewController.m: 101";
 		rLen = 0;
-		rLoc = 3610;
+		rLoc = 3772;
 		rType = 0;
 		vrLen = 2571;
 		vrLoc = 1262;
+	};
+	DA548C7C12CC47910010A352 /* MediaManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{279, 10}";
+			sepNavVisRange = "{0, 426}";
+		};
+	};
+	DA548C7D12CC47910010A352 /* MediaManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{770, 0}";
+			sepNavVisRange = "{0, 959}";
+		};
+	};
+	DA548C7F12CC4E220010A352 /* MediaBrowserViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 895}}";
+			sepNavSelRange = "{250, 0}";
+			sepNavVisRange = "{0, 250}";
+		};
+	};
+	DA548C8012CC4E220010A352 /* MediaBrowserViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 845}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 983}";
+		};
+	};
+	DA548C8812CC50200010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7C12CC47910010A352 /* MediaManager.h */;
+		name = "MediaManager.h: 15";
+		rLen = 128;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	DA548C8912CC50200010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548AE312CA03DB0010A352 /* DBLoginController.m */;
+		name = "DBLoginController.m: 156";
+		rLen = 416;
+		rLoc = 4941;
+		rType = 0;
+		vrLen = 1790;
+		vrLoc = 4317;
+	};
+	DA548C8A12CC50200010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7F12CC4E220010A352 /* MediaBrowserViewController.h */;
+		name = "MediaBrowserViewController.h: 17";
+		rLen = 0;
+		rLoc = 250;
+		rType = 0;
+		vrLen = 250;
+		vrLoc = 0;
+	};
+	DA548C8B12CC50200010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7D12CC47910010A352 /* MediaManager.m */;
+		name = "MediaManager.m: 16";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 0;
+	};
+	DA548C8C12CC50200010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4212C8A8640098EFE5 /* PlayerManager.m */;
+		name = "PlayerManager.m: 40";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 0;
+	};
+	DA548C8D12CC50200010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
+		name = "PlayViewController.h: 26";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 0;
+	};
+	DA548C8E12CC50200010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 107";
+		rLen = 14;
+		rLoc = 3935;
+		rType = 0;
+		vrLen = 1893;
+		vrLoc = 2923;
+	};
+	DA548C8F12CC50200010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 109";
+		rLen = 0;
+		rLoc = 4145;
+		rType = 0;
+		vrLen = 2169;
+		vrLoc = 2248;
+	};
+	DA548C9512CC50830010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 45";
+		rLen = 0;
+		rLoc = 1514;
+		rType = 0;
+		vrLen = 2959;
+		vrLoc = 783;
+	};
+	DA548C9B12CC50C10010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 107";
+		rLen = 0;
+		rLoc = 3975;
+		rType = 0;
+		vrLen = 2456;
+		vrLoc = 1774;
+	};
+	DA548C9F12CC50E60010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 45";
+		rLen = 0;
+		rLoc = 1507;
+		rType = 0;
+		vrLen = 2833;
+		vrLoc = 506;
+	};
+	DA548CA712CC519B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
+		name = "DropVoxAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 0;
+	};
+	DA548CA812CC519B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
+		name = "DropVoxAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 261;
+		rType = 0;
+		vrLen = 2400;
+		vrLoc = 0;
+	};
+	DA548CA912CC519B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 14";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 2439;
+		vrLoc = 0;
+	};
+	DA548CAA12CC519B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
+		name = "PlayViewController.h: 30";
+		rLen = 0;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 791;
+		vrLoc = 0;
+	};
+	DA548CAB12CC519B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
+		name = "PlayViewController.h: 17";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 0;
+	};
+	DA548CAF12CC52C70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
+		name = "PlayViewController.h: 17";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 0;
+	};
+	DA548CB012CC52C70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7F12CC4E220010A352 /* MediaBrowserViewController.h */;
+		name = "MediaBrowserViewController.h: 17";
+		rLen = 0;
+		rLoc = 250;
+		rType = 0;
+		vrLen = 250;
+		vrLoc = 0;
+	};
+	DA548CB112CC52C70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 175";
+		rLen = 0;
+		rLoc = 5685;
+		rType = 0;
+		vrLen = 1723;
+		vrLoc = 4675;
+	};
+	DA548CB312CC52D80010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 112";
+		rLen = 0;
+		rLoc = 4050;
+		rType = 0;
+		vrLen = 1719;
+		vrLoc = 3729;
+	};
+	DA548CBC12CC532B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4212C8A8640098EFE5 /* PlayerManager.m */;
+		name = "PlayerManager.m: 40";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 0;
+	};
+	DA548CBD12CC532B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4112C8A8640098EFE5 /* PlayerManager.h */;
+		name = "PlayerManager.h: 21";
+		rLen = 0;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 0;
+	};
+	DA548CBE12CC532B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7D12CC47910010A352 /* MediaManager.m */;
+		name = "MediaManager.m: 24";
+		rLen = 66;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 0;
+	};
+	DA548CBF12CC532B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7C12CC47910010A352 /* MediaManager.h */;
+		name = "MediaManager.h: 18";
+		rLen = 28;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 377;
+		vrLoc = 0;
+	};
+	DA548CC012CC532B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 112";
+		rLen = 0;
+		rLoc = 4050;
+		rType = 0;
+		vrLen = 1633;
+		vrLoc = 4156;
+	};
+	DA548CC112CC532B0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 175";
+		rLen = 0;
+		rLoc = 5683;
+		rType = 0;
+		vrLen = 1615;
+		vrLoc = 4196;
+	};
+	DA548CC512CC53400010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 111";
+		rLen = 0;
+		rLoc = 3993;
+		rType = 0;
+		vrLen = 2252;
+		vrLoc = 2338;
+	};
+	DA548CCB12CC5D490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 160";
+		rLen = 0;
+		rLoc = 5220;
+		rType = 0;
+		vrLen = 1564;
+		vrLoc = 3934;
+	};
+	DA548CCC12CC5D490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4212C8A8640098EFE5 /* PlayerManager.m */;
+		name = "PlayerManager.m: 40";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 0;
+	};
+	DA548CCD12CC5D490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7D12CC47910010A352 /* MediaManager.m */;
+		name = "MediaManager.m: 27";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 0;
+	};
+	DA548CD712CC5DD70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7D12CC47910010A352 /* MediaManager.m */;
+		name = "MediaManager.m: 27";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 0;
+	};
+	DA548CD812CC5DD70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7F12CC4E220010A352 /* MediaBrowserViewController.h */;
+		name = "MediaBrowserViewController.h: 17";
+		rLen = 0;
+		rLoc = 250;
+		rType = 0;
+		vrLen = 250;
+		vrLoc = 0;
+	};
+	DA548CD912CC5DD70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C8012CC4E220010A352 /* MediaBrowserViewController.m */;
+		name = "MediaBrowserViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1588;
+		vrLoc = 0;
+	};
+	DA548CDA12CC5DD70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 161";
+		rLen = 17;
+		rLoc = 5118;
+		rType = 0;
+		vrLen = 1793;
+		vrLoc = 3476;
+	};
+	DA548CDB12CC5DD70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
+		name = "PlayViewController.h: 17";
+		rLen = 0;
+		rLoc = 325;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 0;
+	};
+	DA548CDC12CC5DD70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
+		name = "PlayViewController.h: 35";
+		rLen = 0;
+		rLoc = 822;
+		rType = 0;
+		vrLen = 829;
+		vrLoc = 0;
+	};
+	DA548CE012CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
+		name = "PlayViewController.h: 21";
+		rLen = 0;
+		rLoc = 479;
+		rType = 0;
+		vrLen = 829;
+		vrLoc = 0;
+	};
+	DA548CE112CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
+		name = "DropVoxAppDelegate.m: 25";
+		rLen = 706;
+		rLoc = 453;
+		rType = 0;
+		vrLen = 1455;
+		vrLoc = 211;
+	};
+	DA548CE212CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548AEC12CA03DB0010A352 /* DBSession.h */;
+		name = "DBSession.h: 28";
+		rLen = 0;
+		rLoc = 715;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 132;
+	};
+	DA548CE312CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C8012CC4E220010A352 /* MediaBrowserViewController.m */;
+		name = "MediaBrowserViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 0;
+	};
+	DA548CE412CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4112C8A8640098EFE5 /* PlayerManager.h */;
+		name = "PlayerManager.h: 21";
+		rLen = 0;
+		rLoc = 474;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 0;
+	};
+	DA548CE512CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548AE912CA03DB0010A352 /* DBRequest.m */;
+		name = "DBRequest.m: 30";
+		rLen = 0;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 133;
+	};
+	DA548CE612CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548AE812CA03DB0010A352 /* DBRequest.h */;
+		name = "DBRequest.h: 48";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 1687;
+		vrLoc = 796;
+	};
+	DA548CE712CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
+		name = "DropVoxAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 0;
+	};
+	DA548CE812CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4E12C8A8640098EFE5 /* UIPlayPauseButton.m */;
+		name = "UIPlayPauseButton.m: 46";
+		rLen = 3;
+		rLoc = 1344;
+		rType = 0;
+		vrLen = 791;
+		vrLoc = 1104;
+	};
+	DA548CE912CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4D12C8A8640098EFE5 /* UIPlayPauseButton.h */;
+		name = "UIPlayPauseButton.h: 9";
+		rLen = 0;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	DA548CEA12CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 107";
+		rLen = 0;
+		rLoc = 3864;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 4644;
+	};
+	DA548CEB12CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4212C8A8640098EFE5 /* PlayerManager.m */;
+		name = "PlayerManager.m: 37";
+		rLen = 0;
+		rLoc = 760;
+		rType = 0;
+		vrLen = 715;
+		vrLoc = 340;
+	};
+	DA548CEC12CC8EF70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4212C8A8640098EFE5 /* PlayerManager.m */;
+		name = "PlayerManager.m: 26";
+		rLen = 330;
+		rLoc = 430;
+		rType = 0;
+		vrLen = 726;
+		vrLoc = 247;
+	};
+	DA548CEF12CC9F890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4212C8A8640098EFE5 /* PlayerManager.m */;
+		name = "PlayerManager.m: 26";
+		rLen = 330;
+		rLoc = 430;
+		rType = 0;
+		vrLen = 726;
+		vrLoc = 247;
+	};
+	DA548CF012CC9F890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548AE012CA03DB0010A352 /* DBLoadingView.h */;
+		name = "DBLoadingView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 0;
+	};
+	DA548CF112CC9F890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548AE112CA03DB0010A352 /* DBLoadingView.m */;
+		name = "DBLoadingView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 899;
+		vrLoc = 0;
+	};
+	DA548CF212CC9F890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548ADE12CA03DB0010A352 /* DBError.h */;
+		name = "DBError.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	DA548CF312CC9F890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548AE812CA03DB0010A352 /* DBRequest.h */;
+		name = "DBRequest.h: 48";
+		rLen = 0;
+		rLoc = 1609;
+		rType = 0;
+		vrLen = 1618;
+		vrLoc = 970;
+	};
+	DA548CF412CC9F890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548AEA12CA03DB0010A352 /* DBRestClient.h */;
+		name = "DBRestClient.h: 56";
+		rLen = 0;
+		rLoc = 1885;
+		rType = 0;
+		vrLen = 2137;
+		vrLoc = 2462;
+	};
+	DA548CF512CC9F890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7C12CC47910010A352 /* MediaManager.h */;
+		name = "MediaManager.h: 16";
+		rLen = 10;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 0;
+	};
+	DA548CF612CC9F890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7D12CC47910010A352 /* MediaManager.m */;
+		name = "MediaManager.m: 27";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 999;
+		vrLoc = 22;
+	};
+	DA548CF712CC9F890010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7D12CC47910010A352 /* MediaManager.m */;
+		name = "MediaManager.m: 29";
+		rLen = 0;
+		rLoc = 770;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 0;
+	};
+	DA548CF812CD4B490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */;
+		name = "DropVoxAppDelegate.m: 12";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 333;
+		vrLoc = 43;
+	};
+	DA548CF912CD4B490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7D12CC47910010A352 /* MediaManager.m */;
+		name = "MediaManager.m: 10";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 280;
+		vrLoc = 237;
+	};
+	DA548CFA12CD4B490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */;
+		name = "PlayViewController.m: 155";
+		rLen = 0;
+		rLoc = 5223;
+		rType = 0;
+		vrLen = 282;
+		vrLoc = 4928;
+	};
+	DA548CFB12CD4B490010A352 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'MediaManager'";
+		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 30;
+		rType = 1;
+	};
+	DA548CFC12CD4B490010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */;
+		name = "PlayViewController.h: 28";
+		rLen = 0;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 322;
+		vrLoc = 3;
+	};
+	DA548CFD12CD4B4C0010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7D12CC47910010A352 /* MediaManager.m */;
+		name = "MediaManager.m: 29";
+		rLen = 0;
+		rLoc = 770;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 0;
+	};
+	DA548CFE12CE06B20010A352 /* DropboxModels.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{507, 0}";
+			sepNavVisRange = "{0, 681}";
+		};
+	};
+	DA548CFF12CE06B20010A352 /* DropboxModels.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{240, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	DA548D0612CE08B50010A352 /* ModifiedDateTransformer.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ModifiedDateTransformer.m;
+		path = /projects/DropVox/Code/Transformers/ModifiedDateTransformer.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	DA548D0812CE08C70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7D12CC47910010A352 /* MediaManager.m */;
+		name = "MediaManager.m: 29";
+		rLen = 0;
+		rLoc = 770;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 0;
+	};
+	DA548D0912CE08C70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548C7C12CC47910010A352 /* MediaManager.h */;
+		name = "MediaManager.h: 16";
+		rLen = 10;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 0;
+	};
+	DA548D0A12CE08C70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548CFF12CE06B20010A352 /* DropboxModels.m */;
+		name = "DropboxModels.m: 16";
+		rLen = 0;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	DA548D0B12CE08C70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548CFE12CE06B20010A352 /* DropboxModels.h */;
+		name = "DropboxModels.h: 19";
+		rLen = 0;
+		rLoc = 507;
+		rType = 0;
+		vrLen = 681;
+		vrLoc = 0;
+	};
+	DA548D0C12CE08C70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
+		name = "DropVoxAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 0;
+	};
+	DA548D0D12CE08C70010A352 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DA548D0612CE08B50010A352 /* ModifiedDateTransformer.m */;
+	};
+	DA548D0E12CE08C70010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548D0612CE08B50010A352 /* ModifiedDateTransformer.m */;
+		name = "ModifiedDateTransformer.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	DA548D1412CE09350010A352 /* ModifiedDateTransformer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{244, 0}";
+			sepNavVisRange = "{0, 256}";
+		};
+	};
+	DA548D1512CE09350010A352 /* ModifiedDateTransformer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{456, 0}";
+			sepNavVisRange = "{0, 465}";
+		};
+	};
+	DA548D1712CE09E50010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */;
+		name = "DropVoxAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 0;
+	};
+	DA548D1812CE09E50010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548D1412CE09350010A352 /* ModifiedDateTransformer.h */;
+		name = "ModifiedDateTransformer.h: 12";
+		rLen = 0;
+		rLoc = 244;
+		rType = 0;
+		vrLen = 256;
+		vrLoc = 0;
+	};
+	DA548D1912CE09E50010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548D1512CE09350010A352 /* ModifiedDateTransformer.m */;
+		name = "ModifiedDateTransformer.m: 20";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 465;
+		vrLoc = 0;
+	};
+	DA548D1A12CE09E50010A352 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA548D1512CE09350010A352 /* ModifiedDateTransformer.m */;
+		name = "ModifiedDateTransformer.m: 20";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 465;
+		vrLoc = 0;
 	};
 	DA67306012C833EB00643330 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -5060,45 +5987,45 @@
 	};
 	DA9EAC4112C8A8640098EFE5 /* PlayerManager.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1387, 914}}";
-			sepNavSelRange = "{319, 10}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{474, 0}";
 			sepNavVisRange = "{0, 481}";
 		};
 	};
 	DA9EAC4212C8A8640098EFE5 /* PlayerManager.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1387, 914}}";
-			sepNavSelRange = "{821, 0}";
-			sepNavVisRange = "{0, 1081}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 780}}";
+			sepNavSelRange = "{430, 330}";
+			sepNavVisRange = "{247, 726}";
 			sepNavWindowFrame = "{{15, 4}, {906, 774}}";
 		};
 	};
 	DA9EAC4312C8A8640098EFE5 /* PlayViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {817, 872}}";
-			sepNavSelRange = "{444, 13}";
-			sepNavVisRange = "{0, 702}";
+			sepNavIntBoundsRect = "{{0, 0}, {761, 520}}";
+			sepNavSelRange = "{639, 0}";
+			sepNavVisRange = "{3, 322}";
 		};
 	};
 	DA9EAC4412C8A8640098EFE5 /* PlayViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {817, 2509}}";
-			sepNavSelRange = "{3610, 0}";
-			sepNavVisRange = "{1262, 2571}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 2938}}";
+			sepNavSelRange = "{3864, 0}";
+			sepNavVisRange = "{4644, 894}";
 		};
 	};
 	DA9EAC4512C8A8640098EFE5 /* DropVoxAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {744, 976}}";
-			sepNavSelRange = "{222, 0}";
-			sepNavVisRange = "{0, 548}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 482}}";
+			sepNavSelRange = "{243, 0}";
+			sepNavVisRange = "{0, 598}";
 		};
 	};
 	DA9EAC4612C8A8640098EFE5 /* DropVoxAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1274}}";
-			sepNavSelRange = "{902, 0}";
-			sepNavVisRange = "{0, 2337}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1417}}";
+			sepNavSelRange = "{453, 706}";
+			sepNavVisRange = "{211, 1455}";
 		};
 	};
 	DA9EAC4712C8A8640098EFE5 /* main.m */ = {
@@ -5144,16 +6071,16 @@
 	};
 	DA9EAC4D12C8A8640098EFE5 /* UIPlayPauseButton.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1387, 914}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1349, 482}}";
 			sepNavSelRange = "{168, 0}";
 			sepNavVisRange = "{0, 682}";
 		};
 	};
 	DA9EAC4E12C8A8640098EFE5 /* UIPlayPauseButton.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1387, 975}}";
-			sepNavSelRange = "{860, 0}";
-			sepNavVisRange = "{42, 1853}";
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 975}}";
+			sepNavSelRange = "{1344, 3}";
+			sepNavVisRange = "{1104, 791}";
 		};
 	};
 	DA9EAC5712C8A87F0098EFE5 /* PBXBookmark */ = {

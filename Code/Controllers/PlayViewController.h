@@ -13,6 +13,7 @@
 @class PlayView;
 @class PlayerManager;
 @class UIPlayPauseButton;
+@class MediaManager;
 
 @interface PlayViewController : UIViewController <DBLoginControllerDelegate, PlayerStateCallbackProtocol> {
 	
@@ -23,12 +24,14 @@
 	UIButton* _prevButton;
 	UILabel* _trackCount;
 	UILabel* _trackTime;
-	
+	UIButton* _browserButton;
 	
 	
 	PlayerManager* _playerManager;
+	MediaManager* _mediaManager;
 }
--(PlayViewController*) initWithPlayerManager:(PlayerManager*)pm;
+-(PlayViewController*) initWithPlayerManager:(PlayerManager*)pm andMediaManager:(MediaManager*)mm;
+-(void)updateUI;
 
 @end
 

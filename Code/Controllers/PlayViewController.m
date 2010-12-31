@@ -10,6 +10,7 @@
 #import "PlayerManager.h"
 #import "PlayViewController.h"
 #import "UIPlayPauseButton.h"
+#import "MediaManager.h"
 
 #import "DropboxSDK.h"
 
@@ -18,10 +19,11 @@
 #pragma mark -
 #pragma mark Initialization
 
-- (PlayViewController*) initWithPlayerManager:(PlayerManager*)pm {
+- (PlayViewController*) initWithPlayerManager:(PlayerManager*)pm andMediaManager:(MediaManager*)mm {
 	self = [super init];
 	if (self) {
 		_playerManager = [pm retain];
+		_mediaManager = [mm retain];
 	}
 	return self;
 }
@@ -42,6 +44,7 @@
 	CGRect nextRect =		CGRectMake(225.0f, controlsTop+10.0f, 60.0f, 60.0f);
 	CGRect trackCountRect = CGRectMake(35.0f, controlsTop+70.0f, 50.0f, detailedFontHeight);
 	CGRect trackTimeRect =  CGRectMake(225.0f, controlsTop+70.0f, 50.0f, detailedFontHeight);
+	CGRect browserButtonRect =  CGRectMake(35.0f, 200.0f, 200.0f, 50.0f); 
 	
 	UIImage* btn_play =			[UIImage imageNamed:@"btn_play.png"];
 	UIImage* btn_play_pressed = [UIImage imageNamed:@"btn_play_pressed.png"];
@@ -102,7 +105,12 @@
 	_trackTime.backgroundColor = [UIColor clearColor];
 	[_playView addSubview:_trackTime];
 	
-	
+	_browserButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	_browserButton.frame = browserButtonRect;
+	[_browserButton addTarget:self
+					action:@selector(browseButtonClicked:) 
+		  forControlEvents:UIControlEventTouchUpInside];	
+	[_playView addSubview:_browserButton];
 	
 	//register callbacks
 	[_playerManager registerPlayerStateCallback:self];
@@ -114,8 +122,9 @@
 	[btn_next release];
 	[btn_next_p release];
 	[btn_prev release];
-	[btn_prev_p release];	
+	[btn_prev_p release];
 	
+	[self updateUI];
 }
 
 - (void)releaseViews {
@@ -146,19 +155,32 @@
 }
 
 #pragma mark -
+#pragma mark State Handling
+
+-(void)updateUI {
+	[_browserButton setTitle:[_mediaManager currentDir] forState:UIControlStateNormal];
+}
+
+#pragma mark -
 #pragma mark Click Handling
 
 
 -(void)playPauseButtonClicked:(id)sender {
+	NSLog(@"Play/Pause Clicked");
 	[_playerManager pb_togglePlayPause];
 }
 -(void)prevButtonClicked:(id)sender {
+	NSLog(@"Prev Clicked");
 	[_playerManager pb_prev];
 }
 -(void)nextButtonClicked:(id)sender {
+	NSLog(@"Next Clicked");
 	[_playerManager pb_next];
 }
-
+-(void)browseButtonClicked:(id)sender {
+	NSLog(@"Browse Clicked");
+	[_mediaManager presentBrowserFromController:self];
+}
 #pragma mark -
 #pragma mark DBLoginControllerDelegate methods
 
