@@ -13,16 +13,18 @@
 
 // Directory node can store child directory nodes and file nodes.
 @interface DropboxDirNode : NSObject {
-	NSMutableArray *dirChildren;
-	NSMutableArray *fileChildren;
+	DropboxDirNode* _parent; //null means root.
 	NSString* _hash; //if this is different from server, refetch from server, intelligently modify
 	NSDate* _modified;
+	NSMutableArray *dirChildren;
+	NSMutableArray *fileChildren;
 }
 
 @end
 
 // File node is a leaf node, with no children.
 @interface DropboxFileNode : NSObject {
+	DropboxDirNode* _parent;
 	int _bytes;
 	NSDate* _modified;
 	NSString* _path;

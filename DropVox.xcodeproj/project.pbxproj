@@ -59,7 +59,6 @@
 		DA548C7E12CC47910010A352 /* MediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548C7D12CC47910010A352 /* MediaManager.m */; };
 		DA548C8112CC4E220010A352 /* MediaBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548C8012CC4E220010A352 /* MediaBrowserViewController.m */; };
 		DA548D0012CE06B20010A352 /* DropboxModels.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548CFF12CE06B20010A352 /* DropboxModels.m */; };
-		DA548D1612CE09350010A352 /* ModifiedDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA548D1512CE09350010A352 /* ModifiedDateTransformer.m */; };
 		DA67304212C82DD400643330 /* Speaker-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67304112C82DD400643330 /* Speaker-icon.png */; };
 		DA67305C12C833C900643330 /* btn_pause_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305812C833C900643330 /* btn_pause_pressed.png */; };
 		DA67305D12C833C900643330 /* btn_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67305912C833C900643330 /* btn_pause.png */; };
@@ -179,8 +178,6 @@
 		DA548C8012CC4E220010A352 /* MediaBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaBrowserViewController.m; sourceTree = "<group>"; };
 		DA548CFE12CE06B20010A352 /* DropboxModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxModels.h; sourceTree = "<group>"; };
 		DA548CFF12CE06B20010A352 /* DropboxModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropboxModels.m; sourceTree = "<group>"; };
-		DA548D1412CE09350010A352 /* ModifiedDateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifiedDateTransformer.h; sourceTree = "<group>"; };
-		DA548D1512CE09350010A352 /* ModifiedDateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifiedDateTransformer.m; sourceTree = "<group>"; };
 		DA67304112C82DD400643330 /* Speaker-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Speaker-icon.png"; path = "resources/Speaker-icon.png"; sourceTree = "<group>"; };
 		DA67305812C833C900643330 /* btn_pause_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pause_pressed.png; path = resources/btn_pause_pressed.png; sourceTree = "<group>"; };
 		DA67305912C833C900643330 /* btn_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_pause.png; path = resources/btn_pause.png; sourceTree = "<group>"; };
@@ -418,8 +415,6 @@
 		DA548D0512CE08B50010A352 /* Transformers */ = {
 			isa = PBXGroup;
 			children = (
-				DA548D1412CE09350010A352 /* ModifiedDateTransformer.h */,
-				DA548D1512CE09350010A352 /* ModifiedDateTransformer.m */,
 			);
 			path = Transformers;
 			sourceTree = "<group>";
@@ -591,7 +586,6 @@
 				DA548C7E12CC47910010A352 /* MediaManager.m in Sources */,
 				DA548C8112CC4E220010A352 /* MediaBrowserViewController.m in Sources */,
 				DA548D0012CE06B20010A352 /* DropboxModels.m in Sources */,
-				DA548D1612CE09350010A352 /* ModifiedDateTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

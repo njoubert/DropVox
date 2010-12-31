@@ -179,7 +179,8 @@
 }
 -(void)browseButtonClicked:(id)sender {
 	NSLog(@"Browse Clicked");
-	[_mediaManager presentBrowserFromController:self];
+	[_mediaManager buildTreeStructure];
+	//[_mediaManager presentBrowserFromController:self];
 }
 #pragma mark -
 #pragma mark DBLoginControllerDelegate methods

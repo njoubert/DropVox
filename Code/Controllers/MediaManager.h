@@ -7,16 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DropboxSDK.h"
 
-
-@interface MediaManager : NSObject {
+@interface MediaManager : NSObject <DBRestClientDelegate> {
 	NSString* currentDir;
+	DBRestClient* restClient;
 }
 
 @property (copy, nonatomic) NSString* currentDir;
+@property (nonatomic, readonly) DBRestClient* restClient;
 
 -(NSArray *)currentDirMedia;
 -(NSInteger)currentMediaInDir;
 - (void)presentBrowserFromController:(UIViewController*)controller;
+- (void)buildTreeStructure;
 
 @end
