@@ -9,12 +9,21 @@
 #import "MediaBrowserViewController.h"
 #import "MediaManager.h"
 
+@interface MediaBrowserViewController (hidden)
+
+- (void)setupData;
+- (void)createNavigationStack;
+
+@end
+
 @implementation MediaBrowserViewController
+
+@synthesize currentNode;
 
 - (MediaBrowserViewController*) initWithDropboxDir:(DropboxDirNode*)dir {
 	self = [super init];
 	if (self) {
-		_currentNode = [dir retain];
+		self.currentNode = dir;
 	}
 	return self;
 }
@@ -23,7 +32,7 @@
 - (void)loadView {
 	
 	_mainView = [[UIView alloc] initWithFrame:CGRectMake(0.0f,0.0f,320.0f,480.0f)];
-	_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f,44.0f,320.0f,436.0f)];
+	_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f,44.0f,320.0f,416.0f)];
 	_tableView.delegate = self;
 	_tableView.dataSource = self;
 	
@@ -32,9 +41,21 @@
 	
 	_cancelButton = [[UIBarButtonItem alloc] initWithTitle:@"Cancel" style:UIBarButtonItemStylePlain target:self action:@selector(cancelBarButtonClicked:)];
 	
+	[self setupData];
 	
+	[_mainView addSubview:_navBarView];
+	[_mainView addSubview:_tableView];
+	self.view = _mainView;
+}
+
+- (void)setupData {
+	[self createNavigationStack];
+	_currentlyDisplayedData = [self.currentNode getContentsForDisplay];
+}
+
+- (void)createNavigationStack {
 	//create nagivation view hierarchy
-	DropboxDirNode* cur = _currentNode;
+	DropboxDirNode* cur = currentNode;
 	NSMutableArray* stack = [[NSMutableArray alloc] init];
 	while (cur != nil) {
 		UINavigationItem* item;
@@ -48,13 +69,8 @@
 		[stack insertObject:item atIndex:0];
 		cur = cur.parent;
 	}
-	[_navBarView setItems:stack];
-	
-	[_mainView addSubview:_navBarView];
-	[_mainView addSubview:_tableView];
-	self.view = _mainView;
+	[_navBarView setItems:stack];	
 }
-
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -124,6 +140,13 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	NSUInteger row = [indexPath row];
+	NSString* n = [_currentlyDisplayedData objectAtIndex:row];
+	
+	NSLog(@"Selected row %d, object name:{%@}\n", row, n);
+	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	
+	
 	
 }
 
@@ -135,12 +158,19 @@
 }
 
 - (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section {
-	return [_currentNode.dirChildren count] + [_currentNode.fileChildren count];
+	return [_currentlyDisplayedData count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSInteger row = [indexPath row];
-	
+	NSUInteger row = [indexPath row]; 
+
+	static NSString *SimpleTableIdentifier = @"SimpleTableIdentifier";
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: SimpleTableIdentifier];
+	if (cell == nil) { cell = [[[UITableViewCell alloc]
+								initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIdentifier] autorelease];
+	}
+	cell.textLabel.text = [_currentlyDisplayedData objectAtIndex:row];
+	return cell;
 }
 
 @end

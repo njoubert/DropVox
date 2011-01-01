@@ -32,6 +32,9 @@
 -(void)buildTreeStructure {
 	NSLog(@"building tree structure...\n");
 	[self.restClient loadMetadata:@"/"];
+	[self.restClient loadMetadata:@"/Unsorted Music"];
+	[self.restClient loadMetadata:@"/Unsorted Music/Mixes"];
+	
 }
 
 
@@ -40,11 +43,6 @@
 	MediaBrowserViewController* browserController = 
 	[[[MediaBrowserViewController alloc] initWithDropboxDir:_root] autorelease];
 	
-//    UINavigationController* navController = 
-//	[[[UINavigationController alloc] initWithRootViewController:browserController] autorelease];
-//    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-//        navController.modalPresentationStyle = UIModalPresentationFormSheet;
-//    }
     [controller presentModalViewController:browserController animated:YES];
 }
 
@@ -85,23 +83,25 @@
 	DropboxDirNode* cur = _root;
 	DropboxFileNode* f = nil;
 	while (cur != nil && [cur.name isEqualToString:[pathPieces objectAtIndex:index]] && index < ([pathPieces count]-1)) {
-		NSLog(@"Going down one level. Index:{%d}, Path:{%@}", index, [pathPieces objectAtIndex:index]);
+		NSLog(@"Going down one level. Index:{%d}, Path:{%@}, Looking for dir: {%@}", index, [pathPieces objectAtIndex:index], [pathPieces objectAtIndex:index+1]);
 		index += 1;
 		prev = cur;
 		cur = nil;
-		if (!metadata.isDirectory && index == [pathPieces count]) {
-			NSEnumerator* e = [cur.fileChildren objectEnumerator];
+		if ((!metadata.isDirectory) && index == [pathPieces count]) {
+			NSLog(@"LOOKING FOR A FILE");
+			NSEnumerator* e = [prev.fileChildren objectEnumerator];
 			DropboxFileNode* file;
 			while (file = (DropboxFileNode*) [e nextObject]) {
-				if (file.name = [pathPieces objectAtIndex:index]) {
+				if ([file.name isEqualToString:[pathPieces objectAtIndex:index]]) {
 					f = file;
 				}
 			}
 		} else {
-			NSEnumerator* e = [cur.dirChildren objectEnumerator];
+			NSEnumerator* e = [prev.dirChildren objectEnumerator];
 			DropboxDirNode* subdir;
 			while (subdir = (DropboxDirNode*) [e nextObject]) {
-				if (subdir.name = [pathPieces objectAtIndex:index]) {
+				NSLog(@"=== subdir name is: {%@}\n", subdir.name);
+				if ([subdir.name isEqualToString:[pathPieces objectAtIndex:index]]) {
 					cur = subdir;
 				}
 			}
@@ -109,9 +109,9 @@
 	}
 	//create further down as necessaey
 	BOOL found = (!metadata.isDirectory && f != nil) || (metadata.isDirectory && [cur.name isEqualToString:[pathPieces objectAtIndex:[pathPieces count]-1]]);
-	NSLog(@"Traversed as far as we can. Did we find it? %d\n", found);
+	NSLog(@"Traversed as far as we can. Did we find it? %d, is cur nil? %d\n", found, cur == nil);
 	if (!found) {
-		while (index < [pathPieces count]-2) {
+		while (index < [pathPieces count]-1) {
 			DropboxDirNode* newdir = [[DropboxDirNode alloc] init];
 			newdir.name = [pathPieces objectAtIndex:index];
 			NSLog(@"Creating directory name:{%@}", newdir.name);
@@ -139,20 +139,19 @@
 	NSLog(@"Current directory:{%@}\n", cur.name);
 	NSLog(@"We have found and/or created the directory structure up to the current directory and file.\n");
 	
-	//if directory, insert its children
 	if (metadata.isDirectory) {
 		DBMetadata* o;	
 		NSEnumerator* e = [metadata.contents objectEnumerator];
 		while (o = (DBMetadata*) [e nextObject]) {
 			NSArray* subPathPieces = [o.path componentsSeparatedByString:@"/"];
 			NSString* n = [subPathPieces objectAtIndex:[subPathPieces count]-1];
-			if (o.isDirectory) {
+			if (o.isDirectory && ![cur containsDirOfName:n]) {
 				NSLog(@"Inserting directory %@", [o path]);
 				DropboxDirNode* newdir = [[DropboxDirNode alloc] init];
 				newdir.name = n;
 				newdir.parent = cur;
 				[cur.dirChildren addObject:newdir];
-			} else {
+			} else if ((!o.isDirectory) && (![cur containsFileOfName:n])) {
 				NSLog(@"Inserting file %@", [o path]);
 				DropboxFileNode* newf = [[DropboxFileNode alloc] initWithParent:cur];
 				newf.name = n;

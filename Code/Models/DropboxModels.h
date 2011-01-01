@@ -29,7 +29,11 @@
 @property (retain, nonatomic) NSMutableArray *dirChildren;
 @property (retain, nonatomic) NSMutableArray *fileChildren;
 -(DropboxDirNode*) init;
+-(BOOL)containsDirOfName:(NSString*)n;
+-(BOOL)containsFileOfName:(NSString*)n;
+-(NSArray*)getContentsForDisplay;
 -(void)printMe:(int)indent;
+
 @end
 
 // File node is a leaf node, with no children.

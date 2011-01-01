@@ -31,7 +31,42 @@
 	}
 	return self;	
 }
+-(BOOL)containsDirOfName:(NSString*)n {
+	NSEnumerator* e = [self.dirChildren objectEnumerator];
+	DropboxDirNode* subdir;
+	while (subdir = (DropboxDirNode*) [e nextObject]) {
+		if ([subdir.name isEqual:n])
+			return YES;
+	}
+	return NO;
+}
+-(BOOL)containsFileOfName:(NSString*)n {
+	NSEnumerator* e = [self.fileChildren objectEnumerator];
+	DropboxFileNode* subdir;
+	while (subdir = (DropboxFileNode*) [e nextObject]) {
+		if ([subdir.name isEqual:n])
+			return YES;
+	}
+	return NO;	
+}
+-(NSArray*)getContentsForDisplay {
+	NSMutableArray* arr = [[NSMutableArray alloc] initWithCapacity:([self.dirChildren count] + [self.fileChildren count])];
 
+	NSEnumerator* e2 = [self.dirChildren objectEnumerator];
+	DropboxDirNode* subdir;
+	while (subdir = (DropboxDirNode*) [e2 nextObject]) {
+		[arr addObject:[subdir.name copy]];
+	}
+	
+	NSEnumerator* e = [self.fileChildren objectEnumerator];
+	DropboxFileNode* subfile;
+	while (subfile = (DropboxFileNode*) [e nextObject]) {
+		[arr addObject:[subfile.name copy]];
+	}
+		 
+	return arr;
+	
+}
 -(void)dealloc {
 	[hash release];
 	[super dealloc];
@@ -39,19 +74,19 @@
 -(void)printMe:(int)indent {
 	NSString* i = [@"" stringByPaddingToLength:indent withString: @"-" startingAtIndex:0];
 	NSLog(@"%@d:{%@}", i, name);
-	
-	NSEnumerator* e = [self.fileChildren objectEnumerator];
-	DropboxFileNode* subfile;
-	while (subfile = (DropboxFileNode*) [e nextObject]) {
-		[subfile printMe:(indent+1)];
-	}
-	
+		
 	NSEnumerator* e2 = [self.dirChildren objectEnumerator];
 	DropboxDirNode* subdir;
 	while (subdir = (DropboxDirNode*) [e2 nextObject]) {
 		[subdir printMe:(indent+1)];
 	}
 
+	NSEnumerator* e = [self.fileChildren objectEnumerator];
+	DropboxFileNode* subfile;
+	while (subfile = (DropboxFileNode*) [e nextObject]) {
+		[subfile printMe:(indent+1)];
+	}
+	
 	
 	
 }

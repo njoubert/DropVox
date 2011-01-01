@@ -12,11 +12,16 @@
 @class MediaManager;
 
 @interface MediaBrowserViewController : UIViewController <UINavigationBarDelegate, UITableViewDelegate, UITableViewDataSource> {
+	DropboxDirNode* currentNode;
+
 	UIView* _mainView;
 	UINavigationBar* _navBarView;
 	UITableView* _tableView;
 	UIBarButtonItem* _cancelButton;
-	DropboxDirNode* _currentNode;
+	
+	NSArray* _currentlyDisplayedData;
 }
+
+@property (retain, nonatomic) DropboxDirNode* currentNode;
 
 @end
