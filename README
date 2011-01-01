@@ -29,3 +29,10 @@ In general, if a controller needs access to a manager, inject it into the contro
 
 If a view needs to set up callbacks to its controller, pass it the controller:
   [view initWithFrame:... andController:(Controller*)controller];
+
+Controllers that require each other:
+  header: @class otherController
+  code: #include "othercontroller.h"
+
+Controllers that require models:
+  header: #include "model.h"

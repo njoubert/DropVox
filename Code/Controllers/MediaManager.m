@@ -38,14 +38,14 @@
 
 - (void)presentBrowserFromController:(UIViewController*)controller {
 	MediaBrowserViewController* browserController = 
-	[[[MediaBrowserViewController alloc] init] autorelease];
+	[[[MediaBrowserViewController alloc] initWithDropboxDir:_root] autorelease];
 	
-    UINavigationController* navController = 
-	[[[UINavigationController alloc] initWithRootViewController:browserController] autorelease];
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        navController.modalPresentationStyle = UIModalPresentationFormSheet;
-    }
-    [controller presentModalViewController:navController animated:YES];
+//    UINavigationController* navController = 
+//	[[[UINavigationController alloc] initWithRootViewController:browserController] autorelease];
+//    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+//        navController.modalPresentationStyle = UIModalPresentationFormSheet;
+//    }
+    [controller presentModalViewController:browserController animated:YES];
 }
 
 - (DBRestClient*)restClient {
@@ -107,6 +107,7 @@
 			}
 		}
 	}
+	//create further down as necessaey
 	BOOL found = (!metadata.isDirectory && f != nil) || (metadata.isDirectory && [cur.name isEqualToString:[pathPieces objectAtIndex:[pathPieces count]-1]]);
 	NSLog(@"Traversed as far as we can. Did we find it? %d\n", found);
 	if (!found) {
@@ -138,6 +139,7 @@
 	NSLog(@"Current directory:{%@}\n", cur.name);
 	NSLog(@"We have found and/or created the directory structure up to the current directory and file.\n");
 	
+	//if directory, insert its children
 	if (metadata.isDirectory) {
 		DBMetadata* o;	
 		NSEnumerator* e = [metadata.contents objectEnumerator];
@@ -162,7 +164,7 @@
 	}
 	
 	NSLog(@"Printing structure");
-	[_root printMe:1];
+	[_root printMe:0];
 	
 }
 - (void)restClient:(DBRestClient*)client loadMetadataFailedWithError:(NSError*)error {

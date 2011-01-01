@@ -7,25 +7,54 @@
 //
 
 #import "MediaBrowserViewController.h"
-
+#import "MediaManager.h"
 
 @implementation MediaBrowserViewController
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
+- (MediaBrowserViewController*) initWithDropboxDir:(DropboxDirNode*)dir {
+	self = [super init];
+	if (self) {
+		_currentNode = [dir retain];
+	}
+	return self;
 }
-*/
 
-/*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
+	
+	_mainView = [[UIView alloc] initWithFrame:CGRectMake(0.0f,0.0f,320.0f,480.0f)];
+	_tableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f,44.0f,320.0f,436.0f)];
+	_tableView.delegate = self;
+	_tableView.dataSource = self;
+	
+	_navBarView = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0f,0.0f,320.0f,44.0f)];
+	_navBarView.delegate = self;
+	
+	_cancelButton = [[UIBarButtonItem alloc] initWithTitle:@"Cancel" style:UIBarButtonItemStylePlain target:self action:@selector(cancelBarButtonClicked:)];
+	
+	
+	//create nagivation view hierarchy
+	DropboxDirNode* cur = _currentNode;
+	NSMutableArray* stack = [[NSMutableArray alloc] init];
+	while (cur != nil) {
+		UINavigationItem* item;
+		if (cur.parent == nil) {
+			item = [[UINavigationItem alloc] initWithTitle:@"Root"];
+		} else {
+			item = [[UINavigationItem alloc] initWithTitle:[cur name]];			
+		}
+		NSLog(@"Creating navitem for dirnode with name:{%@}\n", [cur name]);
+		item.rightBarButtonItem = _cancelButton;
+		[stack insertObject:item atIndex:0];
+		cur = cur.parent;
+	}
+	[_navBarView setItems:stack];
+	
+	[_mainView addSubview:_navBarView];
+	[_mainView addSubview:_tableView];
+	self.view = _mainView;
 }
-*/
+
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -60,5 +89,58 @@
     [super dealloc];
 }
 
+#pragma mark -
+#pragma mark Click Handling
+
+- (void)cancelBarButtonClicked:(id)sender {
+	NSLog(@"Cancel button clicked. time to unload\n");
+}
+
+
+#pragma mark -
+#pragma mark UINavigationBarDelegate Protocol
+
+- (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPushItem:(UINavigationItem *)item {
+	// called to push. return NO not to.
+	return YES;
+}
+
+- (void)navigationBar:(UINavigationBar *)navigationBar didPushItem:(UINavigationItem *)item {
+	// called at end of animation of push or immediately if not animated
+}
+
+- (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem *)item {
+	return YES;
+}
+- (void)navigationBar:(UINavigationBar *)navigationBar didPopItem:(UINavigationItem *)item {
+	
+}
+
+#pragma mark -
+#pragma mark UITableViewDelegate Protocol
+
+- (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	return indexPath;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+}
+
+#pragma mark -
+#pragma mark UITableViewDataSource Protocol
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section {
+	return [_currentNode.dirChildren count] + [_currentNode.fileChildren count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	NSInteger row = [indexPath row];
+	
+}
 
 @end

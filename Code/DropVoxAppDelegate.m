@@ -37,6 +37,8 @@
 	 autorelease];
     [DBSession setSharedSession:dbSession];
 	
+	[mediaManager buildTreeStructure];
+	
 	[window addSubview:playViewController.view];
     [window makeKeyAndVisible];
     return YES;

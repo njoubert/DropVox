@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DropboxModels.h"
 
+@class MediaManager;
 
-@interface MediaBrowserViewController : UIViewController {
-
+@interface MediaBrowserViewController : UIViewController <UINavigationBarDelegate, UITableViewDelegate, UITableViewDataSource> {
+	UIView* _mainView;
+	UINavigationBar* _navBarView;
+	UITableView* _tableView;
+	UIBarButtonItem* _cancelButton;
+	DropboxDirNode* _currentNode;
 }
 
 @end
