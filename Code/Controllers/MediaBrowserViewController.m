@@ -14,6 +14,10 @@
 - (void)setupData;
 - (void)createNavigationStack;
 
+- (void)updateCurrentDataList;
+- (void)updateDataWithChildDir:(DropboxDirNode*)child; //Navigating DOWN tree
+- (void)updateDataWithParent; //Navigating UP tree
+
 @end
 
 @implementation MediaBrowserViewController
@@ -39,7 +43,7 @@
 	_navBarView = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0f,0.0f,320.0f,44.0f)];
 	_navBarView.delegate = self;
 	
-	_cancelButton = [[UIBarButtonItem alloc] initWithTitle:@"Cancel" style:UIBarButtonItemStylePlain target:self action:@selector(cancelBarButtonClicked:)];
+	_cancelButton = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(doneBarButtonClicked:)];
 	
 	[self setupData];
 	
@@ -50,7 +54,7 @@
 
 - (void)setupData {
 	[self createNavigationStack];
-	_currentlyDisplayedData = [self.currentNode getContentsForDisplay];
+	[self updateCurrentDataList];
 }
 
 - (void)createNavigationStack {
@@ -72,20 +76,28 @@
 	[_navBarView setItems:stack];	
 }
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)updateCurrentDataList {
+	_currentlyDisplayedData = [self.currentNode getContentsForDisplay];
+	[_tableView reloadData];
 }
-*/
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+//Navigating DOWN tree
+- (void)updateDataWithChildDir:(DropboxDirNode*)child {
+	NSLog(@"updateDataWithChildDir, navigating DOWN tree");
+	self.currentNode = child;
+	UINavigationItem* navItem = [[UINavigationItem alloc] initWithTitle:[child name]];
+	[_navBarView pushNavigationItem:navItem animated:YES];
+	[self updateCurrentDataList];
 }
-*/
+
+//Navigating UP tree, called from popping navigationItem.
+- (void)updateDataWithParent {
+	NSLog(@"updateDataWithParent, navigating UP tree");
+	self.currentNode = currentNode.parent;
+	[self updateCurrentDataList];	
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -108,28 +120,22 @@
 #pragma mark -
 #pragma mark Click Handling
 
-- (void)cancelBarButtonClicked:(id)sender {
-	NSLog(@"Cancel button clicked. time to unload\n");
+- (void)doneBarButtonClicked:(id)sender {
+	NSLog(@"Done button clicked. time to unload\n");
+	
 }
 
 
 #pragma mark -
 #pragma mark UINavigationBarDelegate Protocol
 
-- (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPushItem:(UINavigationItem *)item {
-	// called to push. return NO not to.
-	return YES;
-}
-
 - (void)navigationBar:(UINavigationBar *)navigationBar didPushItem:(UINavigationItem *)item {
 	// called at end of animation of push or immediately if not animated
-}
-
-- (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem *)item {
-	return YES;
+	NSLog(@"Pushed item onto navbar, title:{%@}\n", item.title);
 }
 - (void)navigationBar:(UINavigationBar *)navigationBar didPopItem:(UINavigationItem *)item {
-	
+	NSLog(@"Popping item from navbar, title:{%@}\n", item.title);
+	[self updateDataWithParent];
 }
 
 #pragma mark -
@@ -146,7 +152,10 @@
 	NSLog(@"Selected row %d, object name:{%@}\n", row, n);
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
-	
+	DropboxDirNode* newNode;
+	if ((newNode = [currentNode getDirOfName:n]) != nil) {
+		[self updateDataWithChildDir:newNode];
+	}
 	
 }
 

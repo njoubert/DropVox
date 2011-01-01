@@ -28,9 +28,16 @@
 @property (retain, nonatomic) NSDate* modified;
 @property (retain, nonatomic) NSMutableArray *dirChildren;
 @property (retain, nonatomic) NSMutableArray *fileChildren;
+
+//sets up expected initial conditions
 -(DropboxDirNode*) init;
+
+//querying contents
 -(BOOL)containsDirOfName:(NSString*)n;
 -(BOOL)containsFileOfName:(NSString*)n;
+-(DropboxDirNode*)getDirOfName:(NSString*)n;
+
+//pretty strings for output
 -(NSArray*)getContentsForDisplay;
 -(void)printMe:(int)indent;
 

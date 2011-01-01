@@ -49,6 +49,17 @@
 	}
 	return NO;	
 }
+
+-(DropboxDirNode*)getDirOfName:(NSString*)n {
+	NSEnumerator* e = [self.dirChildren objectEnumerator];
+	DropboxDirNode* subdir;
+	while (subdir = (DropboxDirNode*) [e nextObject]) {
+		if ([subdir.name isEqual:n])
+			return subdir;
+	}
+	return nil;
+}	
+
 -(NSArray*)getContentsForDisplay {
 	NSMutableArray* arr = [[NSMutableArray alloc] initWithCapacity:([self.dirChildren count] + [self.fileChildren count])];
 
